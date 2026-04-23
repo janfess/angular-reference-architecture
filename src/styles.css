@@ -1,0 +1,187 @@
+@import "primeflex/primeflex.min.css";
+@import "primeicons/primeicons.css";
+
+@font-face {
+  font-family: "Rethink";
+  src: url("assets/fonts/rethinksans-variablefont_wght-webfont.woff2")
+    format("woff2-variations");
+  font-display: swap;
+  font-weight: 250 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rethink Fallback";
+  src: local("Arial"), local("ArialMT");
+  ascent-override: 96.68%;
+  descent-override: 27.83%;
+  line-gap-override: 0%;
+  size-adjust: 102.44%;
+}
+
+html {
+  height: 100%;
+  overscroll-behavior-x: none;
+  background: #000000;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Rethink", "Rethink Fallback", sans-serif;
+  background-size: cover;
+  background: #000000;
+  color: #ffffff;
+  overscroll-behavior: none;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button {
+  font-family: "Rethink", sans-serif;
+}
+
+.p-accordionheader {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+span {
+  font-family: "Rethink", sans-serif;
+}
+
+div {
+  font-family: "Rethink", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Rethink", sans-serif;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+.p-accordionpanel {
+  border-style: none !important;
+}
+
+.max-w-30rem {
+  max-width: 30rem;
+}
+
+.max-w-40rem {
+  max-width: 40rem;
+}
+
+.max-w-50rem {
+  max-width: 50rem;
+}
+
+.max-w-60rem {
+  max-width: 60rem;
+}
+
+.font-extrabold {
+  font-weight: 800 !important;
+}
+
+:root {
+  color-scheme: dark;
+  --p-accordion-content-background: #000000 !important;
+  --p-accordion-content-color: #ffffff !important;
+  --card-bg: #111111;
+  --card-border: #333333;
+}
+
+header {
+  display: block;
+  background-color: #ffffff !important;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+header a {
+  color: #000000 !important;
+}
+
+header a span {
+  color: #000000 !important;
+}
+
+app-header {
+  display: block;
+  width: 100%;
+}
+
+/* Adjust body padding to account for fixed header */
+body {
+  padding-top: 112px;
+}
+
+.glass-card {
+  background: #111111;
+  border: 2px solid #333333;
+  border-radius: 0px;
+  transition: all 0.2s ease;
+}
+
+.glass-card:hover {
+  border-color: #ffffff;
+}
+
+.text-gradient {
+  color: #ffffff;
+}
+
+.bg-blur {
+  display: none;
+}
+
+/* Fix PrimeNG Timeline for Dark Theme */
+.p-timeline-event-content {
+  color: #ffffff !important;
+}
+
+.p-timeline-event-opposite {
+  display: none !important;
+}
+
+.p-timeline-event-connector {
+  background-color: #ffffff !important;
+  width: 2px !important;
+}
+
+.p-timeline-marker {
+  border: 2px solid #ffffff !important;
+  background-color: #000000 !important;
+  border-radius: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.p-button.p-button-text {
+  color: #ffffff !important;
+}
+
+.p-button.p-button-raised {
+  box-shadow: none !important;
+}
+
+.animated-margin {
+  transition: margin-top 0.3s ease-in-out;
+}

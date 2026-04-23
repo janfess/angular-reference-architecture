@@ -1,0 +1,114 @@
+<div class="mx-auto max-w-60rem">
+  <app-breadcrumb></app-breadcrumb>
+</div>
+
+<div class="relative pb-4 max-w-60rem mx-auto px-4 flex flex-column mt-4">
+  @if (!selectedOption) {
+    <div class="text-center mb-8">
+      <h1 class="text-4xl lg:text-6xl font-bold mb-6 text-white" i18n="@@start-choice-title">Wie möchten Sie starten?</h1>
+      <div class="grid justify-content-center">
+        <!-- FREE CALL -->
+        <div class="col-12 md:col-6 lg:col-3">
+          <div 
+            (click)="selectOption('calendar')"
+            class="glass-card p-4 h-full cursor-pointer hover:border-white transition-all transition-duration-200 border-2 border-white-alpha-10 flex flex-column align-items-center justify-content-center"
+          >
+            <div class="w-4rem h-4rem mb-4 overflow-hidden flex align-items-center justify-content-center text-white-alpha-60">
+              <i class="pi pi-phone text-4xl"></i>
+            </div>
+            <h3 class="text-lg font-bold mb-2 text-white" i18n="@@choice-free-title">Erstgespräch</h3>
+            <p class="text-white-alpha-60 text-center text-xs" i18n="@@choice-free-desc">Kostenlos (15 Min.). Kurze Analyse Ihrer Situation.</p>
+          </div>
+        </div>
+
+        <!-- PAID DEEP-DIVE -->
+        <div class="col-12 md:col-6 lg:col-3">
+          <div 
+            (click)="selectOption('consulting')"
+            class="glass-card p-4 h-full cursor-pointer border-2 border-primary-500 shadow-4 hover:border-primary-300 transition-all transition-duration-200 flex flex-column align-items-center justify-content-center relative overflow-hidden"
+          >
+            <div class="absolute top-0 right-0 bg-primary-500 text-white text-xs font-bold px-2 py-1 border-bottom-left-radius-md">EXPERT</div>
+            <div class="w-4rem h-4rem mb-4 overflow-hidden flex align-items-center justify-content-center text-primary-500">
+              <i class="pi pi-bolt text-4xl"></i>
+            </div>
+            <h3 class="text-lg font-bold mb-2 text-white" i18n="@@choice-paid-title">Expert Deep-Dive</h3>
+            <p class="text-white-alpha-60 text-center text-xs" i18n="@@choice-paid-desc">60 Min. Beratung (200€). Architektur & Code-Check.</p>
+          </div>
+        </div>
+
+        <!-- MENTORING -->
+        <div class="col-12 md:col-6 lg:col-3">
+          <div 
+            (click)="selectOption('mentoring')"
+            class="glass-card p-4 h-full cursor-pointer border-2 border-blue-500 shadow-4 hover:border-blue-300 transition-all transition-duration-200 flex flex-column align-items-center justify-content-center relative overflow-hidden"
+          >
+            <div class="absolute top-0 right-0 bg-blue-500 text-white text-xs font-bold px-2 py-1 border-bottom-left-radius-md">JUNIOR</div>
+            <div class="w-4rem h-4rem mb-4 overflow-hidden flex align-items-center justify-content-center text-blue-500">
+              <i class="pi pi-users text-4xl"></i>
+            </div>
+            <h3 class="text-lg font-bold mb-2 text-white" i18n="@@choice-mentoring-title">Mentoring</h3>
+            <p class="text-white-alpha-60 text-center text-xs" i18n="@@choice-mentoring-desc">60 Min. Session (120€). Karriere & Tech-Check.</p>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="col-12 md:col-6 lg:col-3">
+          <div 
+            (click)="selectOption('form')"
+            class="glass-card p-4 h-full cursor-pointer hover:border-white transition-all transition-duration-200 border-2 border-white-alpha-10 flex flex-column align-items-center justify-content-center"
+          >
+            <div class="w-4rem h-4rem mb-4 overflow-hidden flex align-items-center justify-content-center text-white-alpha-60">
+              <i class="pi pi-envelope text-4xl"></i>
+            </div>
+            <h3 class="text-lg font-bold mb-2 text-white" i18n="@@choice-form-title">Schriftliche Anfrage</h3>
+            <p class="text-white-alpha-60 text-center text-xs" i18n="@@choice-form-desc">Senden Sie mir Ihre Projektdetails per Formular.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  } @else {
+    <div class="mb-4">
+      <button 
+        (click)="selectOption(null)" 
+        class="p-button-text p-button-plain text-white flex align-items-center gap-2 p-0 mb-6 hover:text-white-alpha-70 transition-colors"
+      >
+        <i class="pi pi-arrow-left"></i>
+        <span i18n="@@back-to-choice">Zurück zur Auswahl</span>
+      </button>
+
+      @if (selectedOption === 'form') {
+        <app-kontakt></app-kontakt>
+      } @else if (selectedOption === 'calendar') {
+        <div class="mb-6 p-2 border-2 border-white-alpha-10 glass-card">
+          <h2 class="text-2xl font-bold mb-4 text-white" i18n="@@consultation-title">Kostenloses Erstgespräch (15 Min.)</h2>
+          <p class="text-white-alpha-70 mb-4" i18n="@@consultation-intro">
+            In diesem Call analysieren wir Ihre Herausforderungen und besprechen, wie wir mit pragmatischen Lösungen und einer skalierbaren Architektur echte Ergebnisse erzielen.
+          </p>
+          <app-scheduler [url]="freeConsultingUrl" (success)="selectOption('form')"></app-scheduler>
+        </div>
+      } @else if (selectedOption === 'consulting') {
+        <div class="mb-6 p-2 border-2 border-primary-500 glass-card">
+          <h2 class="text-2xl font-bold mb-4 text-white" i18n="@@paid-consultation-title">Expert Deep-Dive (60 Min.)</h2>
+          <p class="text-white-alpha-70 mb-4" i18n="@@paid-consultation-intro">
+            60 Minuten intensive Beratung für 200€ (zzgl. MwSt.). Ideal für tiefe Architektur-Analysen, Code-Reviews oder akutes Troubleshooting.
+          </p>
+          <app-scheduler [url]="paidConsultingUrl" (success)="selectOption('form')"></app-scheduler>
+          <p class="text-xs text-white-alpha-40 mt-4 text-center italic" i18n="@@choice-cancellation-policy">
+            * Stornierung oder Umbuchung bis zu 24 Stunden vor dem Termin kostenlos möglich.
+          </p>
+        </div>
+      } @else if (selectedOption === 'mentoring') {
+        <div class="mb-6 p-2 border-2 border-blue-500 glass-card">
+          <h2 class="text-2xl font-bold mb-4 text-white" i18n="@@mentoring-consultation-title">Career & Tech Mentoring (60 Min.)</h2>
+          <p class="text-white-alpha-70 mb-4" i18n="@@mentoring-consultation-intro">
+            60 Minuten Mentoring für 120€ (zzgl. MwSt.). Ich helfe Ihnen bei Ihrem Karriere-Einstieg, Portfolio-Checks oder Ihrer Tech-Roadmap als (angehender) Angular-Entwickler.
+          </p>
+          <app-scheduler [url]="mentoringUrl" (success)="selectOption('form')"></app-scheduler>
+          <p class="text-xs text-white-alpha-40 mt-4 text-center italic" i18n="@@choice-cancellation-policy">
+            * Stornierung oder Umbuchung bis zu 24 Stunden vor dem Termin kostenlos möglich.
+          </p>
+        </div>
+      }
+    </div>
+  }
+</div>

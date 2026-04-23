@@ -1,0 +1,108 @@
+<div
+  class="py-3 px-4 bg-white flex align-items-center justify-content-between relative lg:static shadow-2"
+  style="
+    background-color: #ffffff !important;
+    z-index: 1100;
+    position: relative;
+  "
+>
+  <!-- Logo -->
+  <div class="lg:w-4">
+    <a
+      class="no-underline white-space-nowrap"
+      [href]="homeRoute"
+      [routerLink]="homeRoute"
+    >
+      <img 
+        src="https://tricalculator-images.s3.eu-central-1.amazonaws.com/website/esser-web-engineering-logo-text-cropped-transparent.webp" 
+        alt="Esser Web Engineering Logo" 
+        class="h-4rem w-auto block"
+        width="190"
+        height="64"
+        loading="eager"
+        fetchpriority="high"
+      >
+    </a>
+  </div>
+  <!-- Mobile Toggle Button -->
+  <button
+    id="menu-toggle"
+    aria-label="Toggle Menu"
+    class="cursor-pointer bg-transparent border-transparent block lg:hidden text-black w-3rem h-3rem flex align-items-center justify-content-center p-0 m-0"
+    (click)="toggleMenu()"
+  >
+    <i
+      class="pi pi-bars text-4xl text-black-alpha-90"
+      [ngClass]="{ 'pi-bars': !isMenuOpen, 'pi-times': isMenuOpen }"
+    ></i>
+  </button>
+
+  <!-- Add [@.disabled]="animationsDisabled" to disable the initial animation -->
+  <div
+    [attr.data-state]="isMenuOpen ? 'visible' : 'hidden'"
+    [class.menu-initial-load]="isInitialLoad"
+    [ngClass]="{ 'bg-white border-bottom-1 border-gray-200': !isLargeScreen }"
+    id="menu"
+    class="align-items-center flex-grow-1 justify-content-between lg:justify-content-end lg:flex absolute lg:static w-full left-0 top-100 px-6 lg:px-0 z-5 lg:shadow-none"
+  >
+    <!-- Primary Navbar Items -->
+    <ul
+      class="list-none p-0 m-0 flex text-black lg:align-items-center select-none flex-column lg:flex-row cursor-pointer"
+    >
+      <li>
+        <a
+          i18n="@@homeTitle"
+          href="/"
+          routerLink="/"
+          (click)="navigateAndScroll()"
+          class="nav-link flex white-space-nowrap px-0 lg:px-5 py-2 mx-0 lg:mx-4 text-black text-lg font-bold hover:text-black-alpha-70 transition-colors"
+        >
+          <span>Über Mich</span>
+        </a>
+      </li>
+      <li>
+        <a
+          i18n="@@contactHeader"
+          href="/"
+          routerLink="/"
+          (click)="navigateAndScrollKontakt()"
+          class="nav-link flex px-0 lg:px-5 py-2 mx-0 lg:mx-4 text-black text-lg font-bold hover:text-black-alpha-70 transition-colors"
+        >
+          <span>Kontakt</span>
+        </a>
+      </li>
+      <li>
+        <a
+          i18n="@@projectRequestButton"
+          href="/inquiry"
+          routerLink="/inquiry"
+          class="nav-link flex white-space-nowrap px-0 lg:px-5 py-2 mx-0 lg:mx-4 text-black text-lg font-bold hover:text-black-alpha-70 transition-colors"
+        >
+          <span>Jetzt anfragen</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://triathlonpace.com"
+          target="_blank"
+          aria-label="triathlonpace.com"
+          class="nav-link flex white-space-nowrap px-0 lg:px-5 py-2 mx-0 lg:mx-4 text-black text-lg font-bold align-items-center"
+        >
+          Triathlon Pace
+          <i class="pi pi-external-link px-2 text-sm"></i>
+        </a>
+      </li>
+      <li class="flex align-items-center px-0 lg:px-5 py-3">
+        <span id="language-label" class="text-lg font-extrabold text-black mr-3" style="color: black !important;">
+          {{ isEnglish ? 'English' : 'Deutsch' }}
+        </span>
+        <p-toggle-switch
+          ariaLabelledBy="language-label"
+          [(ngModel)]="isEnglish" 
+          (onChange)="onToggleChange()"
+          class="custom-language-switch"
+        ></p-toggle-switch>
+      </li>
+    </ul>
+  </div>
+</div>

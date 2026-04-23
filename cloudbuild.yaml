@@ -1,0 +1,54 @@
+steps:
+  - name: "node:24-alpine"
+    entrypoint: "npm"
+    args: ["ci"]
+
+  # - name: "node:24-alpine"
+  #   entrypoint: "npm"
+  #   args: ["run", "test", "--", "--run"]
+
+  - name: "gcr.io/cloud-builders/docker"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        docker build \
+          -t $_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA \
+          .
+
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - push
+      - $_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk:slim"
+    entrypoint: gcloud
+    args:
+      - run
+      - services
+      - update
+      - $_SERVICE_NAME
+      - --platform=managed
+      - --image=$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA
+      - --region=$_DEPLOY_REGION
+      - --command
+      - ""
+      - --args
+      - ""
+      - --quiet
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk:slim"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        echo "🚀 Purging Cloudflare Cache for Zone: $_CLOUDFLARE_ZONE_ID..."
+        CLEAN_TOKEN=$$(echo -n "$_CLOUDFLARE_API_TOKEN" | tr -d '\n\r ')
+        curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$_CLOUDFLARE_ZONE_ID/purge_cache" \
+          -H "Authorization: Bearer $$CLEAN_TOKEN" \
+          -H "Content-Type: application/json" \
+          --data '{"purge_everything": true}'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  substitutionOption: ALLOW_LOOSE

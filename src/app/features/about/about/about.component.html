@@ -1,0 +1,45 @@
+<div
+  class="text-center px-4 pb-8 text-white-alpha-90 relative"
+  style="background-color: #000000;"
+>
+  <h2
+    i18n="@@homeTitle"
+    #ueberMich
+    id="ueberMich"
+    style="scroll-margin-top: 130px;"
+    class="mb-8 pt-2 text-3xl sm:text-4xl"
+  >
+    Über Mich
+  </h2>
+
+  <div class="max-w-20rem mx-auto mb-8">
+    <img 
+      src="https://tricalculator-images.s3.eu-central-1.amazonaws.com/website/home.webp" 
+      alt="Jan Esser" 
+      class="w-full grayscale"
+      style="max-width: 300px; display: block; margin: 0 auto; background: transparent; border-radius: 50%; border: none; outline: none; box-shadow: none;"
+    />
+  </div>
+
+  <div class="max-w-50rem mx-auto mb-8">
+    <p class="text-xl sm:text-2xl font-light text-white-alpha-80 line-height-3" i18n="@@about-intro">
+      Senior Angular Experte mit Fokus auf pragmatische Umsetzung. Ich entwickle skalierbare Enterprise-Applikationen, die technische Exzellenz mit nachhaltigen Ergebnissen vereinen.
+    </p>
+  </div>
+
+  <div class="max-w-30rem mx-auto">
+    <section>
+      <app-lebenslauf></app-lebenslauf>
+    </section>
+  </div>
+
+  <h2 i18n="@@technologyText" class="mb-8 mt-8 text-2xl sm:text-3xl">
+    Technologien
+  </h2>
+
+  <section>
+    <div class="mb-8 pb-4 max-w-30rem mx-auto">
+      <app-technologien></app-technologien>
+    </div>
+  </section>
+</div>

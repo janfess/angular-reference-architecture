@@ -1,0 +1,32 @@
+# Exclude node_modules (re-installed during build)
+node_modules/
+
+# Exclude build output
+dist/
+.angular/
+.husky
+
+# Exclude git metadata
+.git/
+
+# Exclude log files
+*-dev.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclude editor and OS specific files
+.DS_Store
+.idea/
+.vscode/
+
+# Exclude docker files
+Dockerfile
+.dockerignore
+
+# Exclude environment files if they contain secrets (following security rules)
+# .env.local
+# .env.*.local
+# .env.development.local
+# .env.test.local
+# .env.production.local

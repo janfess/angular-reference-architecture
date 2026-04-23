@@ -1,0 +1,61 @@
+:host ::ng-deep .grey-spinner .p-progress-spinner-circle {
+  animation: geek 3s ease-in-out infinite;
+}
+
+@keyframes geek {
+  0% {
+    stroke: #d3d8dc;
+  }
+  50% {
+    stroke: #d5caca;
+  }
+  80% {
+    stroke: #7e828c;
+  }
+
+  100% {
+    stroke: #444242;
+  }
+}
+
+::ng-deep .p-inputtext:enabled:focus {
+  border-color: white !important;
+}
+
+::ng-deep .p-checkbox-box.p-checkbox-checked.p-highlight {
+  border-color: #1f1e1e !important;
+  color: #d8dae0 !important;
+  background: #1f1e1e !important;
+}
+
+::ng-deep textarea:focus-visible,
+::ng-deep textarea:focus-visible {
+  outline: 0.5px solid white;
+}
+
+::ng-deep .p-checkbox-box {
+  background: white !important;
+  border-color: black !important;
+}
+
+::ng-deep .p-checkbox-icon {
+  color: black;
+  stroke: black !important;
+  stroke-width: 3px !important;
+}
+
+:focus-visible {
+  outline: white auto 0.5px;
+}
+
+::ng-deep input.p-inputtext:-webkit-autofill {
+  background-color: #343232;
+  box-shadow: 0 0 0px 1000px #343232 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.p-button-secondary {
+  padding: 1.25rem 2.5rem !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}

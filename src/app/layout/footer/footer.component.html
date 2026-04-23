@@ -1,0 +1,59 @@
+<div
+  class="text-center relative pt-8 text-white bg-black pb-4 sm:pb-8"
+>
+  <h1
+    i18n="@@contactHeader"
+    #kontakt
+    id="kontakt"
+    style="scroll-margin-top: 100px;"
+    class="p-0 m-0 mb-4 text-3xl font-bold text-white"
+  >
+    Kontakt
+  </h1>
+  <div class="flex justify-content-center gap-4 mb-4">
+    <a
+      href="https://github.com/janfess"
+      class="cursor-pointer transition-colors transition-duration-150 text-white hover:text-white flex align-items-center justify-content-center w-2rem h-2rem no-underline"
+      aria-label="Visit Jan Esser's GitHub profile"
+    >
+      <i
+        class="pi pi-github text-2xl"
+      ></i>
+    </a>
+    <a
+      routerLink="/inquiry"
+      href="/inquiry"
+      class="cursor-pointer transition-colors transition-duration-150 text-white hover:text-white flex align-items-center justify-content-center w-2rem h-2rem no-underline"
+      aria-label="Anfrage stellen"
+    >
+      <i class="pi pi-envelope text-2xl"></i>
+    </a>
+  </div>
+  <p class="mb-4 text-white">Copyright &copy; {{ currentYear }} Esser Web Engineering</p>
+  <div class="flex justify-content-center gap-4">
+    <a
+      i18n="@@imprint"
+      routerLink="/impressum"
+      href="/impressum"
+      class="text-white no-underline cursor-pointer select-none transition-colors transition-duration-150 hover:text-white font-medium"
+      aria-label="Impressum"
+      >Impressum</a
+    >
+    <a
+      i18n="@@agb"
+      class="text-white no-underline cursor-pointer select-none transition-colors transition-duration-150 hover:text-white font-medium"
+      routerLink="/agb"
+      href="/agb"
+      aria-label="agb"
+      >AGB</a
+    >
+    <a
+      i18n="@@privacy"
+      class="text-white no-underline cursor-pointer select-none transition-colors transition-duration-150 hover:text-white font-medium"
+      routerLink="/datenschutz"
+      href="/datenschutz"
+      aria-label="datenschutz"
+      >Datenschutz</a
+    >
+  </div>
+</div>
