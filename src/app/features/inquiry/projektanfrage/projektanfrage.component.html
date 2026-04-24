@@ -94,7 +94,7 @@
           </p>
           <app-scheduler [url]="paidConsultingUrl" (success)="selectOption('form')"></app-scheduler>
           <p class="text-xs text-white-alpha-40 mt-4 text-center italic" i18n="@@choice-cancellation-policy">
-            * Stornierung oder Umbuchung bis zu 24 Stunden vor dem Termin kostenlos möglich.
+            * Stornierung oder Umbuchung bis zu 48 Stunden vor dem Termin kostenlos möglich.
           </p>
         </div>
       } @else if (selectedOption === 'mentoring') {
@@ -105,7 +105,7 @@
           </p>
           <app-scheduler [url]="mentoringUrl" (success)="selectOption('form')"></app-scheduler>
           <p class="text-xs text-white-alpha-40 mt-4 text-center italic" i18n="@@choice-cancellation-policy">
-            * Stornierung oder Umbuchung bis zu 24 Stunden vor dem Termin kostenlos möglich.
+            * Stornierung oder Umbuchung bis zu 48 Stunden vor dem Termin kostenlos möglich.
           </p>
         </div>
       }
