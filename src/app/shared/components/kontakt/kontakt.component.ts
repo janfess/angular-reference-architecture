@@ -1,6 +1,7 @@
 import {
   Component,
   Inject,
+  HostListener,
   OnDestroy,
   OnInit,
   PLATFORM_ID,
@@ -60,9 +61,6 @@ export class KontaktComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.contactForm = this.formService.getForm();
     this.initializeFormControls();
-    if (isPlatformBrowser(this.platformId)) {
-      window.addEventListener('online', this.handleOnline.bind(this));
-    }
   }
 
   ngOnDestroy() {
@@ -73,6 +71,7 @@ export class KontaktComponent implements OnInit, OnDestroy {
     this.destroy$.complete();
   }
 
+  @HostListener('window:online')
   handleOnline(): void {
     const pendingFormData = localStorage.getItem('pendingFormData');
     if (pendingFormData) {

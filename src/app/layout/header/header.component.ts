@@ -70,6 +70,8 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
   homeRoute: string = '/';
   animationsDisabled = true;
   isInitialLoad = true; // New flag to track initial load
+  private scrollTimeout: any;
+  private initialLoadTimeout: any;
 
   constructor(
     private router: Router,
@@ -108,7 +110,7 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
 
     // Mark initial load as complete and enable animations after view is stable
     if (isPlatformBrowser(this.platformId)) {
-      setTimeout(() => {
+      this.initialLoadTimeout = setTimeout(() => {
         this.isInitialLoad = false;
         this.animationsDisabled = false;
       }, 100);
@@ -118,6 +120,8 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnDestroy(): void {
     this.destroy.next();
     this.destroy.complete();
+    if (this.scrollTimeout) clearTimeout(this.scrollTimeout);
+    if (this.initialLoadTimeout) clearTimeout(this.initialLoadTimeout);
   }
 
   updateScreenState(width: number): void {
@@ -230,13 +234,15 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
 
   navigateAndScroll() {
     this.router.navigate(['/']).then(() => {
-      setTimeout(() => this.scrollToElement('ueberMich'), 0);
+      if (this.scrollTimeout) clearTimeout(this.scrollTimeout);
+      this.scrollTimeout = setTimeout(() => this.scrollToElement('ueberMich'), 50);
     });
   }
 
   navigateAndScrollKontakt() {
     this.router.navigate(['/']).then(() => {
-      setTimeout(() => this.scrollToElement('kontakt'), 0);
+      if (this.scrollTimeout) clearTimeout(this.scrollTimeout);
+      this.scrollTimeout = setTimeout(() => this.scrollToElement('kontakt'), 50);
     });
   }
 
