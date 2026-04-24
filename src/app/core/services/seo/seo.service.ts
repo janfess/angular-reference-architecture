@@ -6,16 +6,16 @@ import { environment } from '../../../../environments/environment';
 
 const homepageSeoData = {
   en: {
-    title: 'Esser Web Engineering | Senior Angular Expert',
+    title: 'Esser Web Engineering | Senior Angular Architect',
     description:
-      'Senior Angular Expert & Web Engineering. Specialized in building scalable enterprise applications, optimizing performance bottlenecks, and delivering high-quality Angular solutions.',
+      'Senior Angular Architect & Web Engineering. Specialized in building scalable enterprise applications, optimizing performance bottlenecks, and delivering high-quality Angular solutions.',
     imageUrl:
       'https://tricalculator-images.s3.eu-central-1.amazonaws.com/website/esser-web-engineering-logo-text-og-moz.jpg',
   },
   de: {
-    title: 'Esser Web Engineering | Senior Angular Experte',
+    title: 'Esser Web Engineering | Senior Angular Architekt',
     description:
-      'Senior Angular Experte & Web Engineering. Spezialisiert auf den Aufbau skalierbarer Enterprise-Anwendungen, die Optimierung von Performance-Engpässen und die Lieferung hochkarätiger Angular-Lösungen.',
+      'Senior Angular Architekt & Web Engineering. Spezialisiert auf den Aufbau skalierbarer Enterprise-Anwendungen, die Optimierung von Performance-Engpässen und die Lieferung hochkarätiger Angular-Lösungen.',
     imageUrl:
       'https://tricalculator-images.s3.eu-central-1.amazonaws.com/website/esser-web-engineering-logo-text-og-moz.jpg',
   },

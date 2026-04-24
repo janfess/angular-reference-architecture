@@ -33,6 +33,13 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'privacy-policy',
+    loadComponent: () =>
+      import('./features/legal/datenschutz/datenschutz.component').then(
+        (m) => m.DatenschutzComponent,
+      ),
+  },
+  {
     path: 'discovery-prep',
     loadComponent: () =>
       import('./features/prep/discovery-prep/discovery-prep.component').then(
