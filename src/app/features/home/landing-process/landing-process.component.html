@@ -1,0 +1,77 @@
+<div class="py-8 mt-8 border-none bg-transparent overflow-hidden px-4 lg:px-8">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="text-center mb-8">
+      <h2
+        class="text-4xl lg:text-6xl font-bold mb-3 text-white"
+        i18n="@@home-process-title"
+      >
+        Der Prozess
+      </h2>
+      <p
+        class="text-white-alpha-50 text-lg lg:text-xl"
+        i18n="@@home-process-subtitle"
+      >
+        Wie wir Ihre Vision in eine performante Realität umsetzen.
+      </p>
+    </div>
+    <!-- Custom Process Flow -->
+    <div
+      class="hidden lg:flex justify-content-center align-items-stretch gap-0 relative pt-4"
+    >
+      <!-- Connection Line -->
+      <div
+        class="absolute w-full border-top-1 border-white-alpha-20"
+        style="top: 42px; left: 0; z-index: 1"
+      ></div>
+
+      @for (
+        step of processSteps;
+        track step.status;
+        let first = $first;
+        let last = $last
+      ) {
+        <div
+          class="flex-1 flex flex-column align-items-center relative"
+          style="z-index: 2"
+        >
+          <!-- Marker -->
+          <div
+            class="w-2rem h-2rem border-2 border-white bg-black flex align-items-center justify-content-center mb-4"
+          >
+            <div class="w-1rem h-1rem bg-white"></div>
+          </div>
+
+          <!-- Content -->
+          <div
+            class="glass-card p-4 mx-2 text-center border-2 border-white-alpha-10 hover:border-white transition-all transition-duration-300 w-full max-w-18rem h-full"
+          >
+            <div class="flex align-items-center justify-content-center mb-3">
+              <i [class]="step.icon" class="text-2xl text-white"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2 text-white">{{ step.status }}</h3>
+            <p class="text-white-alpha-50 line-height-3 m-0 text-sm">
+              {{ step.description }}
+            </p>
+          </div>
+        </div>
+      }
+    </div>
+
+    <!-- Mobile Timeline (Simplified) -->
+    <div class="lg:hidden flex flex-column gap-6">
+      @for (step of processSteps; track step.status) {
+        <div class="flex flex-column align-items-center text-center">
+          <div
+            class="w-3rem h-3rem border-2 border-white bg-black flex align-items-center justify-content-center mb-4"
+          >
+            <i [class]="step.icon" class="text-xl text-white"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-2 text-white">{{ step.status }}</h3>
+          <p class="text-white-alpha-50 line-height-3 m-0 max-w-20rem">
+            {{ step.description }}
+          </p>
+        </div>
+      }
+    </div>
+  </div>
+</div>

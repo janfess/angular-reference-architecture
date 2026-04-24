@@ -1,0 +1,193 @@
+<div class="flex grid text-white-alpha-90 w-full px-2 py-2">
+  <div class="col-12">
+    <form
+      [formGroup]="contactForm"
+      (ngSubmit)="onSubmit()"
+      class="grid formgrid p-fluid"
+    >
+      <div class="field mb-2 col-12 md:col-6">
+        <label for="name">Name</label>
+        <input
+          class="bg-black-alpha-20 w-full"
+          id="name"
+          type="text"
+          pInputText
+          formControlName="name"
+        />
+      </div>
+      <div class="field mb-2 col-12 md:col-6">
+        <label i18n="@@company" for="companyName">Firmenname (optional)</label>
+        <input
+          id="companyName"
+          type="text"
+          pInputText
+          formControlName="companyName"
+          class="bg-black-alpha-20 w-full"
+        />
+      </div>
+      <div class="field mb-2 col-12 md:col-6">
+        <label for="email">E-Mail</label>
+        <input
+          class="bg-black-alpha-20 w-full"
+          id="email"
+          type="text"
+          pInputText
+          formControlName="email"
+        />
+      </div>
+      <div class="field mb-2 col-12 md:col-6">
+        <label i18n="@@phone" for="phone">Telefonnummer (optional)</label>
+        <input
+          class="bg-black-alpha-20 w-full"
+          id="phone"
+          type="text"
+          pInputText
+          formControlName="phone"
+        />
+      </div>
+      <div class="field mb-2 col-12">
+        <label for="topics" class="my-2"
+          ><h4 i18n="@@topics" class="p-0 m-0">
+            Für welche Themen interessieren Sie sich?
+          </h4></label
+        >
+        <div class="flex align-items-center mb-1 mt-2">
+          <p-checkbox
+            id="beratungEntwicklung"
+            inputId="beratungEntwicklung"
+            formControlName="beratungEntwicklung"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="beratungEntwicklung" class="ml-2 cursor-pointer">Beratung/Entwicklung</label>
+        </div>
+        <div class="flex align-items-center mb-1">
+          <p-checkbox
+            id="accessibilityConsulting"
+            inputId="accessibilityConsulting"
+            formControlName="accessibilityConsulting"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="accessibilityConsulting" class="ml-2 cursor-pointer">Accessibility Consulting</label>
+        </div>
+        <div class="flex align-items-center mb-1">
+          <p-checkbox
+            id="codeArchitektur"
+            inputId="codeArchitektur"
+            formControlName="codeArchitektur"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="codeArchitektur" class="ml-2 cursor-pointer">Code & Architektur</label>
+        </div>
+        <div class="flex align-items-center mb-1">
+          <p-checkbox
+            id="mvpEntwicklung"
+            inputId="mvpEntwicklung"
+            formControlName="mvpEntwicklung"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="mvpEntwicklung" class="ml-2 cursor-pointer">MVP Entwicklung</label>
+        </div>
+        <div class="flex align-items-center mb-1">
+          <p-checkbox
+            id="appModernisierung"
+            inputId="appModernisierung"
+            formControlName="appModernisierung"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="appModernisierung" class="ml-2 cursor-pointer">App Modernisierung</label>
+        </div>
+        <div class="flex align-items-center mb-1">
+          <p-checkbox
+            id="testStrategie"
+            inputId="testStrategie"
+            formControlName="testStrategie"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="testStrategie" class="ml-2 cursor-pointer">Teststrategie</label>
+        </div>
+        <div class="flex align-items-center mb-1">
+          <p-checkbox
+            id="reaktiveProgrammierung"
+            inputId="reaktiveProgrammierung"
+            formControlName="reaktiveProgrammierung"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="reaktiveProgrammierung" class="ml-2 cursor-pointer">Reaktive Programmierung</label>
+        </div>
+        <div class="flex align-items-center mb-1">
+          <p-checkbox
+            id="sonstigeAnfrage"
+            inputId="sonstigeAnfrage"
+            formControlName="sonstigeAnfrage"
+            [binary]="true"
+          ></p-checkbox>
+          <label for="sonstigeAnfrage" class="ml-2 cursor-pointer">Sonstige Anfrage</label>
+        </div>
+      </div>
+      <div class="field mb-2 mt-2 col-12">
+        <label i18n="@@projectRequestButton" for="inquiry"
+          >Projektanfrage</label
+        >
+        <textarea
+          id="inquiry"
+          formControlName="inquiry"
+          aria-labelledby="inquiry"
+          class="bg-black-alpha-20 w-full"
+          rows="10"
+          cols="53"
+        ></textarea>
+        <div class="mb-2 text-sm text-right">
+          {{ maxLength - contactForm.controls["inquiry"].value.length }}
+          <span i18n="@@remaining-characters">verbleibende Zeichen</span>
+        </div>
+      </div>
+      @if (!isLoading && !successMessage) {
+        <div class="col-12 mt-4 p-0">
+          <button
+            [disabled]="contactForm.invalid"
+            aria-label="Anfrage senden"
+            i18n-aria-label="@@sent-inquiry"
+            type="submit"
+            class="p-button p-component w-auto p-button-secondary border-none cursor-pointer px-6 py-3 font-bold transition-colors"
+            [class.opacity-50]="contactForm.invalid"
+            [class.cursor-not-allowed]="contactForm.invalid"
+          >
+            <span i18n="@@sent-inquiry">Anfrage senden</span>
+          </button>
+          <p class="text-xs text-white-alpha-40 mt-4 max-w-30rem line-height-3">
+            <span i18n="@@form-legal-notice-1">Mit dem Absenden der Anfrage erklären Sie sich mit der Verarbeitung Ihrer Daten gemäß der </span>
+            <a routerLink="/datenschutz" class="text-white-alpha-60 hover:text-white" i18n="@@form-legal-notice-link-privacy">Datenschutzerklärung</a>
+            <span i18n="@@form-legal-notice-2"> und den </span>
+            <a routerLink="/agb" class="text-white-alpha-60 hover:text-white" i18n="@@form-legal-notice-link-agb">AGB</a>
+            <span i18n="@@form-legal-notice-3"> einverstanden. Mein Angebot richtet sich ausschließlich an gewerbliche Kunden.</span>
+          </p>
+        </div>
+      }
+      @if (isLoading) {
+        <div class="col-12 mt-2">
+          <p-progressSpinner
+            class="w-4rem h-4rem grey-spinner mt-8"
+            strokeWidth="8"
+            fill="bg-black-alpha-10"
+            animationDuration=".5s"
+          ></p-progressSpinner>
+        </div>
+      }
+      @if (successMessage) {
+        <div>
+          <p i18n="@@sent-success" class="text-primary">
+            Vielen Dank! Deine Nachricht ist sicher angekommen. Ich melde mich so schnell wie möglich bei dir.
+          </p>
+        </div>
+      }
+      @if (errorMessage) {
+        <div>
+          <p i18n="@@sent-error" class="text-primary">
+            Ein unerwarteter Fehler ist aufgetreten, bitte versuchen Sie es
+            erneut.
+          </p>
+        </div>
+      }
+    </form>
+  </div>
+</div>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home -->
+  <url>
+    <loc>https://janesser.net/de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://janesser.net/de/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://janesser.net/de/"/>
+  </url>
+
+  <!-- Inquiry -->
+  <url>
+    <loc>https://janesser.net/de/inquiry/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/inquiry/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/inquiry/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/inquiry/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/inquiry/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/inquiry/"/>
+  </url>
+
+  <!-- Impressum -->
+  <url>
+    <loc>https://janesser.net/de/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/impressum/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/impressum/"/>
+  </url>
+
+  <!-- AGB -->
+  <url>
+    <loc>https://janesser.net/de/agb/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/agb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/agb/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/agb/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/agb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/agb/"/>
+  </url>
+
+  <!-- Datenschutz -->
+  <url>
+    <loc>https://janesser.net/de/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/datenschutz/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/datenschutz/"/>
+  </url>
+
+  <!-- Discovery Prep -->
+  <url>
+    <loc>https://janesser.net/de/discovery-prep/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/discovery-prep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/discovery-prep/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/discovery-prep/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/discovery-prep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/discovery-prep/"/>
+  </url>
+
+  <!-- Mentoring Prep -->
+  <url>
+    <loc>https://janesser.net/de/mentoring-prep/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/mentoring-prep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/mentoring-prep/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/mentoring-prep/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/mentoring-prep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/mentoring-prep/"/>
+  </url>
+
+  <!-- Deep Dive Prep -->
+  <url>
+    <loc>https://janesser.net/de/deep-dive-prep/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/deep-dive-prep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/deep-dive-prep/"/>
+  </url>
+  <url>
+    <loc>https://janesser.net/en/deep-dive-prep/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://janesser.net/de/deep-dive-prep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://janesser.net/en/deep-dive-prep/"/>
+  </url>
+</urlset>

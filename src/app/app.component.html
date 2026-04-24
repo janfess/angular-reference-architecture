@@ -1,0 +1,29 @@
+<p-toast key="update" position="bottom-center" (click)="reload()"> </p-toast>
+@if (isNavigating()) {
+  <div class="global-overlay flex flex-column align-items-center gap-3">
+    <p-progressSpinner
+      [dt]="loadingSpinner"
+      styleClass="w-4rem h-4rem"
+      strokeWidth="8"
+      animationDuration=".5s"
+      aria-label="Inhalt wird geladen..."
+      role="status"
+    >
+    </p-progressSpinner>
+  </div>
+}
+<header>
+  <app-header></app-header>
+</header>
+<main [style.margin-top]="marginTop" class="animated-margin" style="min-height: 100vh;">
+  <router-outlet></router-outlet>
+</main>
+<footer>
+  <div>
+    @defer (hydrate on viewport; prefetch on idle) {
+      <app-footer></app-footer>
+    } @placeholder {
+      <div style="min-height: 303px"></div>
+    }
+  </div>
+</footer>

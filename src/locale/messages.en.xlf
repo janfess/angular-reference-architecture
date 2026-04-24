@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2">
+  <file source-language="de" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+     <trans-unit id="projectDescription_before_link" datatype="html">
+       <source>Als selbstständiger Webentwickler, spezialisiert auf Angular und Node.js, entwickle ich individuelle </source>
+       <target>Specializing in Angular and Node.js, I empower growth-oriented companies, start-ups, and founders by building custom </target>
+     </trans-unit>
+     <trans-unit id="projectDescription_link_text" datatype="html">
+       <source>Webapplikationen</source>
+       <target>web applications</target>
+     </trans-unit>
+     <trans-unit id="projectDescription_after_link" datatype="html">
+       <source>für Unternehmen, Start-ups und Gründer, die ihre digitale Vision erfolgreich umsetzen möchten.</source>
+       <target> that drive success.</target>
+     </trans-unit>
+      <trans-unit id="projectRequestButton" datatype="html">
+        <source>Projektanfrage</source>
+        <target>Project Inquiry</target>
+      </trans-unit>
+         <trans-unit id="cta" datatype="html">
+              <source>Verfügbarkeit anfragen</source>
+              <target>Inquire About Availability</target>
+            </trans-unit>
+      <trans-unit id="start-choice-title" datatype="html">
+        <source>Wie möchtest du starten?</source>
+        <target>How would you like to start?</target>
+      </trans-unit>
+      <trans-unit id="choice-free-title" datatype="html">
+        <source>Erstgespräch (Kostenlos)</source>
+        <target>Discovery Call (Free)</target>
+      </trans-unit>
+      <trans-unit id="choice-free-desc" datatype="html">
+        <source>15 Min. Kurze Analyse deiner Situation &amp; Projektziele.</source>
+        <target>15 min. brief analysis of your situation &amp; goals.</target>
+      </trans-unit>
+      <trans-unit id="choice-paid-title" datatype="html">
+        <source>Expert Deep-Dive</source>
+        <target>Expert Deep-Dive</target>
+      </trans-unit>
+      <trans-unit id="choice-paid-desc" datatype="html">
+        <source>60 Min. Intensiv-Beratung (200€). Code-Review &amp; Architektur-Check.</source>
+        <target>60 min. intensive consulting (200€). Code-review &amp; architecture-check.</target>
+      </trans-unit>
+      <trans-unit id="choice-form-title" datatype="html">
+        <source>Schriftlich anfragen</source>
+        <target>Send Inquiry</target>
+      </trans-unit>
+      <trans-unit id="choice-form-desc" datatype="html">
+        <source>Sende mir deine Projektdetails direkt per Formular.</source>
+        <target>Send me your project details via contact form.</target>
+      </trans-unit>
+      <trans-unit id="back-to-choice" datatype="html">
+        <source>Zurück zur Auswahl</source>
+        <target>Back to selection</target>
+      </trans-unit>
+      <trans-unit id="paid-consultation-title" datatype="html">
+        <source>Expert Deep-Dive (60 Min.)</source>
+        <target>Expert Deep-Dive (60 min.)</target>
+      </trans-unit>
+      <trans-unit id="paid-consultation-intro" datatype="html">
+        <source>60 Minuten intensive Beratung für 200€ (zzgl. MwSt.). Ideal für tiefe Architektur-Analysen, Code-Reviews oder akutes Troubleshooting.</source>
+        <target>60 minutes of intensive consulting for 200€ (excl. VAT). Ideal for deep architecture analysis, code reviews, or urgent troubleshooting.</target>
+      </trans-unit>
+      <trans-unit id="choice-cancellation-policy" datatype="html">
+        <source>* Stornierung oder Umbuchung bis zu 48 Stunden vor dem Termin kostenlos möglich.</source>
+        <target>* Cancellation or rescheduling possible free of charge up to 48 hours before the appointment.</target>
+      </trans-unit>
+      <trans-unit id="privacy-google-calendar-title" datatype="html">
+        <source>Google Terminbuchung</source>
+        <target>Google Appointment Scheduling</target>
+      </trans-unit>
+      <trans-unit id="privacy-google-calendar-text" datatype="html">
+        <source>Wir nutzen den Dienst Google Terminpläne (Google Calendar) zur Online-Terminbuchung. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Wenn Sie einen Termin buchen, werden die von Ihnen in der Eingabemaske eingegebenen Daten (z. B. Name, E-Mail-Adresse) an Google übertragen und dort gespeichert. Die Nutzung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung bzw. vorvertragliche Maßnahmen). Weitere Informationen finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy.</source>
+        <target>We use the Google Appointment Scheduling service (Google Calendar) for online bookings. The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. When you book an appointment, the data you enter in the input mask (e.g., name, email address) is transmitted to Google and stored there. This use is based on Art. 6 Para. 1 lit. b GDPR (performance of a contract or pre-contractual measures). Further information can be found in Google&apos;s privacy policy: https://policies.google.com/privacy.</target>
+      </trans-unit>
+      <trans-unit id="privacy-stripe-title" datatype="html">
+        <source>Stripe</source>
+        <target>Stripe</target>
+      </trans-unit>
+      <trans-unit id="privacy-stripe-text" datatype="html">
+        <source>Für die Abwicklung von Zahlungen (z. B. bei kostenpflichtigen Beratungen) nutzen wir den Zahlungsdienstleister Stripe. Anbieter für Kunden innerhalb der EU ist die Stripe Payments Europe, Ltd., 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, Irland. Die von Ihnen eingegebenen Zahlungsdaten werden an Stripe übermittelt. Die Weitergabe erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragsabwicklung). Details zum Datenschutz bei Stripe finden Sie hier: https://stripe.com/privacy.</source>
+        <target>For the processing of payments (e.g., for paid consultations), we use the payment service provider Stripe. The provider for customers within the EU is Stripe Payments Europe, Ltd., 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, Ireland. The payment data you enter is transmitted to Stripe. This transfer is based on Art. 6 Para. 1 lit. b GDPR (contract processing). Details on data protection at Stripe can be found here: https://stripe.com/privacy.</target>
+      </trans-unit>
+      <trans-unit id="agb-consulting-title" datatype="html">
+        <source>§15 Besondere Bedingungen für Beratungsleistungen (Consulting)</source>
+        <target>§15 Special Conditions for Consulting Services</target>
+      </trans-unit>
+      <trans-unit id="agb-consulting-1" datatype="html">
+        <source>( 1 ) Die Buchung von Beratungsleistungen (z. B. Expert Deep-Dive) erfolgt über das Online-Terminbuchungstool auf der Website. Ein Vertrag kommt erst mit der Bestätigung des Termins und – bei kostenpflichtigen Leistungen – nach erfolgreicher Zahlung über den angebundenen Zahlungsdienstleister zustande.</source>
+        <target>( 1 ) The booking of consulting services (e.g., Expert Deep-Dive) is done via the online appointment booking tool on the website. A contract is only concluded upon confirmation of the appointment and – in the case of paid services – after successful payment via the connected payment service provider.</target>
+      </trans-unit>
+      <trans-unit id="agb-consulting-2" datatype="html">
+        <source>( 2 ) &lt;strong&gt;Stornierungsregelung:&lt;/strong&gt; Der Kunde kann gebuchte Termine bis zu 48 Stunden vor dem vereinbarten Zeitpunkt kostenlos stornieren oder verschieben. Bei einer Stornierung weniger als 48 Stunden vor dem Termin oder bei Nichterscheinen behalten wir uns vor, die volle Vergütung für den reservierten Zeitraum in Rechnung zu stellen bzw. einzubehalten, da der Termin kurzfristig nicht anderweitig vergeben werden kann.</source>
+        <target>( 2 ) &lt;strong&gt;Cancellation Policy:&lt;/strong&gt; The customer can cancel or reschedule booked appointments free of charge up to 48 hours before the agreed time. In the event of a cancellation less than 48 hours before the appointment or non-appearance, we reserve the right to invoice or retain the full remuneration for the reserved period, as the appointment cannot be reassigned at short notice.</target>
+      </trans-unit>
+      <trans-unit id="agb-consulting-3" datatype="html">
+        <source>( 3 ) Die Beratungsleistungen werden nach bestem Wissen und Gewissen erbracht. Ein konkreter wirtschaftlicher Erfolg oder die Lösung eines spezifischen technischen Problems innerhalb der gebuchten Zeit kann nicht garantiert werden.</source>
+        <target>( 3 ) The consulting services are provided to the best of our knowledge and belief. A specific economic success or the solution of a specific technical problem within the booked time cannot be guaranteed.</target>
+      </trans-unit>
+      <trans-unit id="calendar-iframe-title" datatype="html">
+        <source>Google Calendar Appointment Schedule</source>
+        <target>Google Calendar Appointment Schedule</target>
+      </trans-unit>
+      <trans-unit id="calendar-consent-title" datatype="html">
+        <source>Terminkalender aktivieren</source>
+        <target>Activate Appointment Calendar</target>
+      </trans-unit>
+      <trans-unit id="calendar-consent-text" datatype="html">
+        <source>Um Ihnen eine komfortable Terminbuchung direkt auf der Seite zu ermöglichen, nutze ich Google Calendar. Durch das Laden des Kalenders wird eine Verbindung zu Google-Servern hergestellt. Weitere Infos finden Sie in meiner &lt;a routerLink="/datenschutz" class="text-primary-500 no-underline hover:underline"&gt;Datenschutzerklärung&lt;/a&gt;.</source>
+        <target>I use Google Calendar to provide you with an easy booking experience. Loading the calendar establishes a connection to Google's servers. Further information can be found in my &lt;a routerLink="/privacy-policy" class="text-primary-500 no-underline hover:underline"&gt;Privacy Policy&lt;/a&gt;.</target>
+      </trans-unit>
+      <trans-unit id="calendar-loading" datatype="html">
+        <source>Kalender wird geladen...</source>
+        <target>Loading calendar...</target>
+      </trans-unit>
+      <trans-unit id="calendar-consent-button" datatype="html">
+        <source>Kalender laden &amp; anzeigen</source>
+        <target>Load &amp; Display Calendar</target>
+      </trans-unit>
+      <trans-unit id="choice-mentoring-title" datatype="html">
+        <source>Mentoring</source>
+        <target>Mentoring</target>
+      </trans-unit>
+      <trans-unit id="choice-mentoring-desc" datatype="html">
+        <source>60 Min. Session (120€). Karriere &amp; Tech-Check.</source>
+        <target>60 min. session (120€). Career &amp; tech-check.</target>
+      </trans-unit>
+      <trans-unit id="mentoring-consultation-title" datatype="html">
+        <source>Career &amp; Tech Mentoring (60 Min.)</source>
+        <target>Career &amp; Tech Mentoring (60 min.)</target>
+      </trans-unit>
+      <trans-unit id="mentoring-consultation-intro" datatype="html">
+        <source>60 Minuten Mentoring für 120€ (zzgl. MwSt.). Ich helfe dir bei deinem Karriere-Einstieg, Portfolio-Checks oder deiner Tech-Roadmap als (angehender) Angular-Entwickler.</source>
+        <target>60 minutes of mentoring for 120€ (excl. VAT). I help you with your career entry, portfolio checks, or your tech roadmap as an (aspiring) Angular developer.</target>
+      </trans-unit>
+      <trans-unit id="mentoring-prep-title" datatype="html">
+        <source>Dein Mentoring-Call</source>
+        <target>Your Mentoring Call</target>
+      </trans-unit>
+      <trans-unit id="mentoring-prep-subtitle" datatype="html">
+        <source>So holen wir das Beste aus unseren 60 Minuten heraus.</source>
+        <target>How to get the most out of our 60 minutes.</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step1-title" datatype="html">
+        <source>Ziele definieren</source>
+        <target>Define Goals</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step1-text" datatype="html">
+        <source>Überlege dir vorab: Was ist dein wichtigstes Ziel für diesen Call? Möchtest du Hilfe bei einer konkreten technischen Hürde, ein Feedback zu deinem CV oder eine strategische Einschätzung deiner Karriere-Roadmap?</source>
+        <target>Think ahead: What is your most important goal for this call? Do you want help with a specific technical hurdle, feedback on your CV, or a strategic assessment of your career roadmap?</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step2-title" datatype="html">
+        <source>Links &amp; Material bereitstellen</source>
+        <target>Provide Links &amp; Materials</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step2-text" datatype="html">
+        <source>Halte alle relevanten Links bereit (LinkedIn-Profil, Portfolio-Entwurf, oder dein aktuelles Indie-Projekt). Wenn wir Code anschauen sollen, stelle sicher, dass du das Projekt lokal startklar hast und wir direkt per Screen-Sharing einsteigen können.</source>
+        <target>Have all relevant links ready (LinkedIn profile, portfolio draft, or your current indie project). If we are to look at code, make sure you have the project ready locally so we can dive right in via screen sharing.</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step3-title" datatype="html">
+        <source>Fragenliste schreiben</source>
+        <target>Write a List of Questions</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step3-text" datatype="html">
+        <source>Schreibe dir 3-5 konkrete Fragen auf. 60 Minuten gehen oft schneller vorbei als man denkt. Mit einer Liste stellen wir sicher, dass wir die wichtigsten Punkte zuerst klären.</source>
+        <target>Write down 3-5 specific questions. 60 minutes often pass faster than you think. A list ensures that we clarify the most important points first.</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step4-title" datatype="html">
+        <source>Technik-Check</source>
+        <target>Tech Check</target>
+      </trans-unit>
+      <trans-unit id="mentoring-step4-text" datatype="html">
+        <source>Der Call findet per Google Meet statt. Prüfe kurz vorher dein Mikrofon und deine Kamera. Eine ruhige Umgebung hilft uns beiden, fokussiert zu bleiben.</source>
+        <target>The call will take place via Google Meet. Check your microphone and camera shortly before. A quiet environment helps both of us stay focused.</target>
+      </trans-unit>
+      <trans-unit id="mentoring-prep-footer-title" datatype="html">
+        <source>Ich freue mich auf dich!</source>
+        <target>I'm looking forward to meeting you!</target>
+      </trans-unit>
+      <trans-unit id="mentoring-prep-footer-text" datatype="html">
+        <source>Mentoring ist für mich eine Herzensangelegenheit. Sei offen, sei ehrlich – es gibt keine "dummen" Fragen. Gemeinsam bringen wir dich auf das nächste Level.</source>
+        <target>Mentoring is a matter close to my heart. Be open, be honest – there are no "stupid" questions. Together, we'll take you to the next level.</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-mentoring-prep" datatype="html">
+        <source>Mentoring Vorbereitung</source>
+        <target>Mentoring Preparation</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-deep-dive-prep" datatype="html">
+        <source>Deep-Dive Vorbereitung</source>
+        <target>Deep-Dive Preparation</target>
+      </trans-unit>
+      <trans-unit id="deepdive-prep-title" datatype="html">
+        <source>Expert Deep-Dive Vorbereitung</source>
+        <target>Expert Deep-Dive Preparation</target>
+      </trans-unit>
+      <trans-unit id="deepdive-prep-subtitle" datatype="html">
+        <source>Maximale Effizienz für unsere technische Analyse.</source>
+        <target>Maximum efficiency for our technical analysis.</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step1-title" datatype="html">
+        <source>Code-Zugriff &amp; Kontext</source>
+        <target>Code Access &amp; Context</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step1-text" datatype="html">
+        <source>Stelle sicher, dass ich (falls nötig) vorab Zugriff auf das Repository oder die relevanten Code-Auszüge habe. Auch Architektur-Diagramme oder API-Dokumentationen helfen enorm, um keine Zeit mit Suchen zu verlieren.</source>
+        <target>Ensure that I have access to the repository or relevant code snippets beforehand (if necessary). Architecture diagrams or API documentation also help immensely to avoid losing time searching.</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step2-title" datatype="html">
+        <source>Fokus-Themen festlegen</source>
+        <target>Define Focus Topics</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step2-text" datatype="html">
+        <source>Wo drückt der Schuh am meisten? Geht es um Performance-Probleme (Ladezeiten, Memory Leaks), eine veraltete Architektur oder die Einführung neuer Patterns wie Signals oder Standalone Components?</source>
+        <target>Where does it hurt the most? Is it performance issues (load times, memory leaks), an outdated architecture, or the introduction of new patterns like Signals or Standalone Components?</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step3-title" datatype="html">
+        <source>Lokale Lauffähigkeit</source>
+        <target>Local Runnability</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step3-text" datatype="html">
+        <source>Für Live-Debugging oder Code-Reviews per Screen-Sharing sollte das Projekt lokal bei dir startklar sein. So können wir direkt Änderungen ausprobieren oder Engpässe live in den DevTools analysieren.</source>
+        <target>For live debugging or code reviews via screen sharing, the project should be ready to run locally on your end. This allows us to try out changes directly or analyze bottlenecks live in the DevTools.</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step4-title" datatype="html">
+        <source>Konkrete Zielsetzung</source>
+        <target>Specific Objectives</target>
+      </trans-unit>
+      <trans-unit id="deepdive-step4-text" datatype="html">
+        <source>Was ist das ideale Ergebnis nach unseren 60-90 Minuten? Ein grober Refactoring-Plan, eine gelöste Bug-Liste oder eine Entscheidungshilfe für ein technisches Framework?</source>
+        <target>What is the ideal outcome after our 60-90 minutes? A rough refactoring plan, a resolved bug list, or a decision aid for a technical framework?</target>
+      </trans-unit>
+      <trans-unit id="deepdive-prep-footer-title" datatype="html">
+        <source>Lass uns in die Tiefe gehen!</source>
+        <target>Let's dive deep!</target>
+      </trans-unit>
+      <trans-unit id="deepdive-prep-footer-text" datatype="html">
+        <source>Ich liebe es, komplexe Probleme zu sezieren und nachhaltige Lösungen zu finden. Bereite deine kniffligsten Fragen vor – ich bin bereit.</source>
+        <target>I love dissecting complex problems and finding sustainable solutions. Prepare your trickiest questions – I'm ready.</target>
+      </trans-unit>
+      <trans-unit id="prepPageTitle" datatype="html">
+        <source>Über mich</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="homeTitle" datatype="html">
+        <source>Über mich</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="technologyText" datatype="html">
+        <source>Technologien</source>
+        <target>Technologies</target>
+      </trans-unit>
+      <trans-unit id="resumeHeader" datatype="html">
+        <source>Lebenslauf</source>
+        <target>Resume</target>
+      </trans-unit>
+      <trans-unit id="contactHeader" datatype="html">
+        <source>Kontakt</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="imprint" datatype="html">
+        <source>Impressum</source>
+        <target>Imprint</target>
+      </trans-unit>
+      <trans-unit id="agb" datatype="html">
+        <source>AGB</source>
+        <target>ToS</target>
+      </trans-unit>
+      <trans-unit id="privacy" datatype="html">
+        <source>Datenschutz</source>
+        <target>Privacy</target>
+      </trans-unit>
+      <trans-unit id="company" datatype="html">
+        <source>Firmenname</source>
+        <target>Company</target>
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>Telefonnummer</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="available" datatype="html">
+        <source>Zu welcher Zeit sind Sie gewöhnlich erreichbar?</source>
+        <target>What time are you usually available?</target>
+      </trans-unit>
+      <trans-unit id="available" datatype="html">
+        <source>Zu welcher Zeit sind Sie gewöhnlich erreichbar?</source>
+        <target>What time are you usually available?</target>
+      </trans-unit>
+      <trans-unit id="phone-9-12" datatype="html">
+        <source>Telefonisch (9-12 Uhr)</source>
+        <target>By phone (9 am - 12 pm)</target>
+      </trans-unit>
+      <trans-unit id="phone-13-16" datatype="html">
+        <source>Telefonisch (9-12 Uhr)</source>
+        <target>By phone (1 pm - 4 pm)</target>
+      </trans-unit>
+      <trans-unit id="phone-18" datatype="html">
+        <source>Telefonisch (ab 18 Uhr)</source>
+        <target>By phone (from 6 pm)</target>
+      </trans-unit>
+      <trans-unit id="topics" datatype="html">
+        <source>Für welche Themen interessieren Sie sich?</source>
+        <target>What topics are you interested in?</target>
+      </trans-unit>
+      <trans-unit id="website-relaunch" datatype="html">
+        <source>Webseiten-Relaunch</source>
+        <target>Website-Relaunch</target>
+      </trans-unit>
+      <trans-unit id="single-page-application" datatype="html">
+        <source>Single-Page-Anwendung</source>
+        <target>Single-Page-Application</target>
+      </trans-unit>
+      <trans-unit id="long-term-support" datatype="html">
+        <source>Langzeitbetreuung</source>
+        <target>Long-term Support</target>
+      </trans-unit>
+      <trans-unit id="target-date" datatype="html">
+        <source>Zieltermin</source>
+        <target>Target Date</target>
+      </trans-unit>
+      <trans-unit id="remaining-characters" datatype="html">
+        <source>verbleibende Zeichen</source>
+        <target>remaining characters</target>
+      </trans-unit>
+      <trans-unit id="consent" datatype="html">
+        <source>Ich bin gewerblicher Kunde, akzeptiere die Datenschutzerklärung,
+          akzeptiere die AGB und willige der Verarbeitung meiner Daten
+          ein.</source>
+        <target>I am a commercial customer, accept the privacy policy, accept the terms and conditions, and consent to the processing of my data.</target>
+      </trans-unit>
+      <trans-unit id="sent-inquiry" datatype="html">
+        <source>Anfrage senden</source>
+        <target>Send Inquiry</target>
+      </trans-unit>
+      <trans-unit id="sent-success" datatype="html">
+        <source>Vielen Dank! Deine Nachricht ist sicher angekommen. Ich melde mich so schnell wie möglich bei dir.</source>
+        <target>Thank you! Your message has been received. I'll get back to you as soon as possible.</target>
+      </trans-unit>
+      <trans-unit id="sent-error" datatype="html">
+        <source>Ein unerwarteter Fehler ist aufgetreten, bitte versuchen Sie es
+          erneut.</source>
+        <target>An unexpected error occurred, please try again.</target>
+      </trans-unit>
+      <trans-unit id="sent-error" datatype="html">
+        <source>Ein unerwarteter Fehler ist aufgetreten, bitte versuchen Sie es
+          erneut.</source>
+        <target>An unexpected error occurred, please try again.</target>
+      </trans-unit>
+      <trans-unit id="tmg" datatype="html">
+        <source>Angaben gemäß § 5 TMG</source>
+        <target>Information pursuant to Sect. 5 German Telemedia Act (TMG)</target>
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>Telefon</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="fax" datatype="html">
+        <source>Telefax</source>
+        <target>Fax</target>
+      </trans-unit>
+      <trans-unit id="tax" datatype="html">
+        <source>Umsatzsteuer-ID</source>
+        <target>VAT ID</target>
+      </trans-unit>
+      <trans-unit id="sales-tax" datatype="html">
+        <source>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</source>
+        <target>Sales tax identification number according to Sect. 27 a of the </target>
+      </trans-unit>
+      <trans-unit id="sales-tax-law" datatype="html">
+        <source>Umsatzsteuergesetz</source>
+        <target>Sales Tax Law:</target>
+      </trans-unit>
+      <trans-unit id="insurance" datatype="html">
+        <source>Angaben zur Berufshaftpflichtversicherung</source>
+        <target>Information regarding professional liability insurance</target>
+      </trans-unit>
+      <trans-unit id="insurance-office" datatype="html">
+        <source>Name und Sitz des Versicherers:</source>
+        <target>Name and registered office of the insurer:</target>
+      </trans-unit>
+      <trans-unit id="insurance-office" datatype="html">
+        <source>Redaktionell verantwortlich</source>
+        <target>Person responsible for editorial</target>
+      </trans-unit>
+      <trans-unit id="eu-dispute" datatype="html">
+        <source>EU-Streitschlichtung</source>
+        <target>EU dispute resolution</target>
+      </trans-unit>
+      <trans-unit id="eu-dispute-resolution" datatype="html">
+        <source>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:</source>
+        <target>The European Commission provides a platform for online dispute resolution (ODR):</target>
+      </trans-unit>
+      <trans-unit id="eu-dispute-mail" datatype="html">
+        <source>Unsere E-Mail-Adresse finden Sie oben im Impressum.</source>
+        <target>Our e-mail address can be found above in the site notice.</target>
+      </trans-unit>
+      <trans-unit id="eu-dispute-mail" datatype="html">
+        <source>Verbraucherstreitbeilegung/Universalschlichtungsstelle</source>
+        <target>Dispute resolution proceedings in front of a consumer arbitration board</target>
+      </trans-unit>
+      <trans-unit id="eu-dispute-resolution-text" datatype="html">
+        <source>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</source>
+        <target>We are not willing or obliged to participate in dispute resolution proceedings in front of a consumer arbitration board.</target>
+      </trans-unit>
+      <trans-unit id="eu-dispute-resolution-text" datatype="html">
+        <source>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</source>
+        <target>We are not willing or obliged to participate in dispute resolution proceedings in front of a consumer arbitration board.</target>
+      </trans-unit>
+      <trans-unit id="professional-experience" datatype="html">
+        <source>Berufliche Erfahrung</source>
+        <target>Professional Experience</target>
+      </trans-unit>
+      <trans-unit id="today" datatype="html">
+        <source>2022 - heute</source>
+        <target>2022 - present</target>
+      </trans-unit>
+      <trans-unit id="developer" datatype="html">
+        <source>Selbstständiger Webentwickler</source>
+        <target>Self-employed Web Engineer</target>
+      </trans-unit>
+      <trans-unit id="dusseldorf" datatype="html">
+        <source>Düsseldorf</source>
+        <target>Dusseldorf</target>
+      </trans-unit>
+      <trans-unit id="cologne" datatype="html">
+        <source>Köln</source>
+        <target>Cologne</target>
+      </trans-unit>
+      <trans-unit id="cologne" datatype="html">
+        <source>Köln</source>
+        <target>Cologne</target>
+      </trans-unit>
+      <trans-unit id="auditor" datatype="html">
+        <source>Prüfer</source>
+        <target>Auditor</target>
+      </trans-unit>
+      <trans-unit id="verband-1" datatype="html">
+        <source>Mitwirkung bei Jahres- und Konzernabschlussprüfungen</source>
+        <target>Participated in annual and consolidated financial statement audits</target>
+      </trans-unit>
+      <trans-unit id="verband-2" datatype="html">
+        <source>Validierung des internen Kontrollsystems</source>
+        <target>Validated internal control systems</target>
+      </trans-unit>
+      <trans-unit id="verband-3" datatype="html">
+        <source>Durchführung von Kreditprüfungen und Einzelfallprüfungen</source>
+        <target>Conducted credit and individual case examinations</target>
+      </trans-unit>
+      <trans-unit id="tax-assistant" datatype="html">
+        <source>Steuerassistent</source>
+        <target>Tax Assistant</target>
+      </trans-unit>
+      <trans-unit id="vistra-1" datatype="html">
+        <source>Jahresabschlüsse nach HGB</source>
+        <target>Prepared annual financial statements according to HGB</target>
+      </trans-unit>
+      <trans-unit id="vistra-2" datatype="html">
+        <source>Körperschaftsteuer- und Umsatzsteuererklärungen</source>
+        <target>Filed corporate and sales tax returns</target>
+      </trans-unit>
+      <trans-unit id="vistra-3" datatype="html">
+        <source>Finanzbuchhaltung und Zahlungsverkehr</source>
+        <target>Managed financial accounting and payments</target>
+      </trans-unit>
+      <trans-unit id="vistra-3" datatype="html">
+        <source>Finanzbuchhaltung und Zahlungsverkehr</source>
+        <target>Managed financial accounting and payments</target>
+      </trans-unit>
+      <trans-unit id="intern" datatype="html">
+        <source>Praktikant</source>
+        <target>Intern</target>
+      </trans-unit>
+      <trans-unit id="deloitte-1" datatype="html">
+        <source>Mitarbeit Prüfung von Steuerbescheiden und Verlustvorträgen</source>
+        <target>Assisted in reviewing tax assessments and loss carryforwards</target>
+      </trans-unit>
+      <trans-unit id="deloitte-2" datatype="html">
+        <source>Recherche zu Ertrags- und umsatzsteuerlichen Organschaft</source>
+        <target>Researched earnings and sales tax consolidation</target>
+      </trans-unit>
+      <trans-unit id="working-student-digital" datatype="html">
+        <source>Werkstudent Geschäftsführung Digitale Spartenkanäle</source>
+        <target>Student Assistant – Digital Channel Management</target>
+      </trans-unit>
+      <trans-unit id="working-student-digital-1" datatype="html">
+        <source>Unterstützung bei der Planung und Fertigstellung der
+          Sendeabläufe</source>
+        <target>Supported planning and execution of broadcast schedules</target>
+      </trans-unit>
+      <trans-unit id="working-student-digital-2" datatype="html">
+        <source>Schnittfestsetzung unter Berücksichtigung der narrativen
+          Struktur</source>
+        <target>Edited content considering narrative structure</target>
+      </trans-unit>
+      <trans-unit id="working-student-corporate" datatype="html">
+        <source>Werkstudent Unternehmensplanung &amp; Controlling</source>
+        <target>Student Assistant – Corporate Planning &amp; Controlling</target>
+      </trans-unit>
+      <trans-unit id="working-student-corporate-1" datatype="html">
+        <source>Mitarbeit bei der Erstellung der Jahresplanung und des Jahresabschlusses</source>
+        <target>Contributed to annual planning and financial statement creation</target>
+      </trans-unit>
+      <trans-unit id="working-student-corporate-2" datatype="html">
+        <source>Erlöscontrolling, Kostenstellen-, Kostenträger- und Kostenartencontrolling</source>
+        <target>Oversaw revenue control and cost management</target>
+      </trans-unit>
+      <trans-unit id="abercrombie" datatype="html">
+        <source>Werkstudent Human Resources</source>
+        <target>Student Assistant – Human Resources</target>
+      </trans-unit>
+      <trans-unit id="abercrombie-1" datatype="html">
+        <source>Mitarbeit Personaleinsatzplanung und Einstellung neuer Verkaufsmitarbeiter</source>
+        <target>Assisted in staff scheduling and new employee recruitment</target>
+      </trans-unit>
+      <trans-unit id="abercrombie-2" datatype="html">
+        <source>Durchführung von Telefoninterviews und Recruiting Events</source>
+        <target>Conducted phone interviews and recruiting events</target>
+      </trans-unit>
+      <trans-unit id="education" datatype="html">
+        <source>Ausbildung</source>
+        <target>Education</target>
+      </trans-unit>
+      <trans-unit id="training" datatype="html">
+        <source>Ausbildung zum Kaufmann im Groß- und Außenhandel</source>
+        <target>Apprenticeship – Wholesale and Foreign Trade Clerk</target>
+      </trans-unit>
+      <trans-unit id="school" datatype="html">
+        <source>Berufskolleg</source>
+        <target>Vocational College</target>
+      </trans-unit>
+      <trans-unit id="business-school" datatype="html">
+        <source>Wirtschaftsgymnasium, Fachhochschulreife</source>
+        <target>Business School, Vocational Baccalaureate</target>
+      </trans-unit>
+      <trans-unit id="senior-care" datatype="html">
+        <source>St. Elisabeth Seniorenzentrum, Frechen</source>
+        <target>St. Elisabeth Senior Care Center, Frechen</target>
+      </trans-unit>
+      <trans-unit id="senior-care-assistant" datatype="html">
+        <source>Zivildienstleistender in der Betreuung</source>
+        <target>Service Assistant in Care</target>
+      </trans-unit>
+      <trans-unit id="senior-care-assistant" datatype="html">
+        <source>Zivildienstleistender in der Betreuung</source>
+        <target>Service Assistant in Care</target>
+      </trans-unit>
+      <trans-unit id="privacy-1" datatype="html">
+        <source>Datenschutzerklärung</source>
+        <target>Privacy Policy</target>
+      </trans-unit>
+      <trans-unit id="privacy-2" datatype="html">
+        <source>1. Datenschutz auf einen Blick</source>
+        <target>1. An overview of data protection</target>
+      </trans-unit>
+      <trans-unit id="privacy-3" datatype="html">
+        <source>Allgemeine Hinweise</source>
+        <target>General information</target>
+      </trans-unit>
+      <trans-unit id="privacy-4" datatype="html">
+        <source>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</source>
+        <target>The following information will provide you with an easy to navigate overview of what will happen with your personal data when you visit this website. The term “personal data” comprises all data that can be used to personally identify you. For detailed information about the subject matter of data protection, please consult our Data Protection Declaration, which we have included beneath this copy.
+        </target>
+      </trans-unit>
+      <trans-unit id="privacy-5" datatype="html">
+        <source>Datenerfassung auf dieser Website</source>
+        <target>Data recording on this website</target>
+      </trans-unit>
+      <trans-unit id="privacy-6" datatype="html">
+        <source>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</source>
+        <target>Who is the responsible party for the recording of data on this website (i.e., the “controller”)?</target>
+      </trans-unit>
+      <trans-unit id="privacy-7" datatype="html">
+        <source>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.</source>
+        <target>The data on this website is processed by the operator of the website, whose contact information is available under section “Information about the responsible party (referred to as the “controller” in the GDPR)” in this Privacy Policy.</target>
+      </trans-unit>
+      <trans-unit id="privacy-8" datatype="html">
+        <source>Wie erfassen wir Ihre Daten?</source>
+        <target>How do we record your data?</target>
+      </trans-unit>
+      <trans-unit id="privacy-9" datatype="html">
+        <source>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.</source>
+        <target>We collect your data as a result of your sharing of your data with us. This may, for instance be information you enter into our contact form.</target>
+      </trans-unit>
+      <trans-unit id="privacy-10" datatype="html">
+        <source>Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.</source>
+        <target>Other data shall be recorded by our IT systems automatically or after you consent to its recording during your website visit. This data comprises primarily technical information (e.g., web browser, operating system, or time the site was accessed). This information is recorded automatically when you access this website.</target>
+      </trans-unit>
+      <trans-unit id="privacy-11" datatype="html">
+        <source>Wofür nutzen wir Ihre Daten?</source>
+        <target>What are the purposes we use your data for?</target>
+      </trans-unit>
+      <trans-unit id="privacy-12" datatype="html">
+        <source>Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.</source>
+        <target>A portion of the information is generated to guarantee the error free provision of the website. Other data may be used to analyze your user patterns.</target>
+      </trans-unit>
+      <trans-unit id="privacy-13" datatype="html">
+        <source>Welche Rechte haben Sie bezüglich Ihrer Daten?</source>
+        <target>What rights do you have as far as your information is concerned?</target>
+      </trans-unit>
+      <trans-unit id="privacy-14" datatype="html">
+        <source>Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.</source>
+        <target>You have the right to receive information about the source, recipients, and purposes of your archived personal data at any time without having to pay a fee for such disclosures. You also have the right to demand that your data are rectified or eradicated. If you have consented to data processing, you have the option to revoke this consent at any time, which shall affect all future data processing. Moreover, you have the right to demand that the processing of your data be restricted under certain circumstances. Furthermore, you have the right to log a complaint with the competent supervising agency.</target>
+      </trans-unit>
+      <trans-unit id="privacy-15" datatype="html">
+        <source>Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.</source>
+        <target>Please do not hesitate to contact us at any time if you have questions about this or any other data protection related issues.</target>
+      </trans-unit>
+      <trans-unit id="privacy-16" datatype="html">
+        <source>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</source>
+        <target>We are hosting the content of our website at the following provider:</target>
+      </trans-unit>
+      <trans-unit id="privacy-17" datatype="html">
+        <source>Externes Hosting</source>
+        <target>External Hosting</target>
+      </trans-unit>
+      <trans-unit id="privacy-18" datatype="html">
+        <source>Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters / der Hoster gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln.</source>
+        <target>This website is externally hosted. The personal data collected on this website is stored on the servers of the host(s). This may include IP addresses, contact requests, meta and communication data, contract data, contact information, names, website access, and other data generated via a website.</target>
+      </trans-unit>
+      <trans-unit id="privacy-19" datatype="html">
+        <source>Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.</source>
+        <target>External hosting is carried out for the purpose of fulfilling contracts with our potential and existing customers (Art. 6 para. 1 lit. b GDPR) and in the interest of a secure, fast, and efficient provision of our online offerings by a professional provider (Art. 6 para. 1 lit. f GDPR). If consent has been requested, the processing is carried out exclusively on the basis of Art. 6 para. 1 lit. a GDPR and § 25 para. 1 TTDSG, as far as the consent includes the storage of cookies or access to information in the user's terminal device (e.g., device fingerprinting) within the meaning of the TTDSG. The consent can be revoked at any time.</target>
+      </trans-unit>
+      <trans-unit id="privacy-20" datatype="html">
+        <source>Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.</source>
+        <target>Our host(s) will process your data only to the extent necessary to fulfill their performance obligations and will follow our instructions with respect to this data.</target>
+      </trans-unit>
+      <trans-unit id="privacy-21" datatype="html">
+        <source>Wir setzen folgende(n) Hoster ein:</source>
+        <target>We use the following host(s):</target>
+      </trans-unit>
+      <trans-unit id="privacy-22" datatype="html">
+        <source>Auftragsverarbeitung</source>
+        <target>Data Processing Agreement</target>
+      </trans-unit>
+      <trans-unit id="privacy-23" datatype="html">
+        <source>Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.</source>
+        <target>We have entered into a Data Processing Agreement (DPA) for the use of the above-mentioned service. This is a contract required under data protection law that ensures that the personal data of our website visitors is processed according to our instructions and in compliance with the GDPR.</target>
+      </trans-unit>
+      <trans-unit id="privacy-24" datatype="html">
+        <source>Wir nutzen den Service „Cloudflare“. Anbieter ist die Cloudflare Inc., 101 Townsend St., San Francisco, CA 94107, USA (im Folgenden „Cloudflare”).</source>
+        <target>We use the “Cloudflare” service provided by Cloudflare Inc., 101 Townsend St., San Francisco, CA 94107, USA. (hereinafter referred to as “Cloudflare”).</target>
+      </trans-unit>
+      <trans-unit id="privacy-25" datatype="html">
+        <source>Cloudflare bietet ein weltweit verteiltes Content Delivery Network mit DNS an. Dabei wird technisch der Informationstransfer zwischen Ihrem Browser und unserer Website über das Netzwerk von Cloudflare geleitet. Das versetzt Cloudflare in die Lage, den Datenverkehr zwischen Ihrem Browser und unserer Website zu analysieren und als Filter zwischen unseren Servern und potenziell bösartigem Datenverkehr aus dem Internet zu dienen. Hierbei kann Cloudflare auch Cookies oder sonstige Technologien zur Wiedererkennung von Internetnutzern einsetzen, die jedoch allein zum hier beschriebenen Zweck verwendet werden.</source>
+        <target>Cloudflare offers a content delivery network with DNS that is available worldwide. As a result, the information transfer that occurs between your browser and our website is technically routed via Cloudflare’s network. This enables Cloudflare to analyze data transactions between your browser and our website and to work as a filter between our servers and potentially malicious data traffic from the Internet. In this context, Cloudflare may also use cookies or other technologies deployed to recognize Internet users, which shall, however, only be used for the herein described purpose.</target>
+      </trans-unit>
+      <trans-unit id="privacy-26" datatype="html">
+        <source>Der Einsatz von Cloudflare beruht auf unserem berechtigten Interesse an einer möglichst fehlerfreien und sicheren Bereitstellung unseres Webangebotes (Art. 6 Abs. 1 lit. f DSGVO).</source>
+        <target>The use of Cloudflare is based on our legitimate interest in a provision of our website offerings that is as error free and secure as possible (Art. 6, para. 1(f) GDPR).</target>
+      </trans-unit>
+      <trans-unit id="privacy-27" datatype="html">
+        <source>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier:</source>
+        <target>Data transmission to the US is based on the Standard Contractual Clauses (SCC) of the European Commission. Details can be found here:</target>
+      </trans-unit>
+      <trans-unit id="privacy-28" datatype="html">
+        <source>Weitere Informationen zum Thema Sicherheit und Datenschutz bei Cloudflare finden Sie hier:</source>
+        <target>For more information on Cloudflare’s security precautions and data privacy policies, please follow this link:</target>
+      </trans-unit>
+      <trans-unit id="privacy-29" datatype="html">
+        <source>Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link:</source>
+        <target>The company is certified in accordance with the “EU-US Data Privacy Framework” (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For more information, please contact the provider under the following link:</target>
+      </trans-unit>
+      <trans-unit id="privacy-30" datatype="html">
+        <source>Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.</source>
+        <target>We have entered into a Data Processing Agreement (DPA) for the use of the above-mentioned service. This is a contract required under data protection law that ensures that the personal data of our website visitors is processed according to our instructions and in compliance with the GDPR.</target>
+      </trans-unit>
+      <trans-unit id="privacy-31" datatype="html">
+        <source>3. Allgemeine Hinweise und Pflichtinformationen</source>
+        <target>3. General information and mandatory information</target>
+      </trans-unit>
+      <trans-unit id="privacy-32" datatype="html">
+        <source>Datenschutz</source>
+        <target>Data protection</target>
+      </trans-unit>
+      <trans-unit id="privacy-33" datatype="html">
+        <source>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</source>
+        <target>The operators of this website and its pages take the protection of your personal data very seriously. Hence, we handle your personal data as confidential information and in compliance with the statutory data protection regulations and this Data Protection Declaration.</target>
+      </trans-unit>
+      <trans-unit id="privacy-34" datatype="html">
+        <source>Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.</source>
+        <target>Whenever you use this website, a variety of personal information will be collected. Personal data comprises data that can be used to personally identify you. This Data Protection Declaration explains which data we collect as well as the purposes we use this data for. It also explains how, and for which purpose the information is collected.</target>
+      </trans-unit>
+      <trans-unit id="privacy-35" datatype="html">
+        <source>Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</source>
+        <target>We herewith advise you that the transmission of data via the Internet (i.e., through e-mail communications) may be prone to security gaps. It is not possible to completely protect data against third-party access.</target>
+      </trans-unit>
+      <trans-unit id="privacy-36" datatype="html">
+        <source>Hinweis zur verantwortlichen Stelle</source>
+        <target>Information about the responsible party (referred to as the “controller” in the GDPR)</target>
+      </trans-unit>
+      <trans-unit id="privacy-37" datatype="html">
+        <source>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</source>
+        <target>The data processing controller on this website is:</target>
+      </trans-unit>
+      <trans-unit id="privacy-38" datatype="html">
+        <source>Telefon:</source>
+        <target>Phone:</target>
+      </trans-unit>
+      <trans-unit id="privacy-39" datatype="html">
+        <source>Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.</source>
+        <target>The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g., names, e-mail addresses, etc.).</target>
+      </trans-unit>
+      <trans-unit id="privacy-40" datatype="html">
+        <source>Speicherdauer</source>
+        <target>Storage duration</target>
+      </trans-unit>
+      <trans-unit id="privacy-41" datatype="html">
+        <source>Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.</source>
+        <target>Unless a more specific storage period has been specified in this privacy policy, your personal data will remain with us until the purpose for which it was collected no longer applies. If you assert a justified request for deletion or revoke your consent to data processing, your data will be deleted, unless we have other legally permissible reasons for storing your personal data (e.g., tax or commercial law retention periods); in the latter case, the deletion will take place after these reasons cease to apply.</target>
+      </trans-unit>
+      <trans-unit id="privacy-42" datatype="html">
+        <source>Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website</source>
+        <target>General information on the legal basis for the data processing on this website</target>
+      </trans-unit>
+      <trans-unit id="privacy-43" datatype="html">
+        <source>Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung in die Übertragung personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endgerät (z. B. via Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung einer rechtlichen Verpflichtung erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die jeweils im Einzelfall einschlägigen Rechtsgrundlagen wird in den folgenden Absätzen dieser Datenschutzerklärung informiert.</source>
+        <target>If you have consented to data processing, we process your personal data on the basis of Art. 6, para. 1(a) GDPR or Art. 9 (2)(a) GDPR, if special categories of data are processed according to Art. 9 , para. 1 DSGVO. In the case of explicit consent to the transfer of personal data to third countries, the data processing is also based on Art. 49 , para. 1(a) GDPR. If you have consented to the storage of cookies or to the access to information in your end device (e.g., via device fingerprinting), the data processing is additionally based on § 25 , para. 1 TTDSG. The consent can be revoked at any time. If your data is required for the fulfillment of a contract or for the implementation of pre-contractual measures, we process your data on the basis of Art. 6, para. 1(b) GDPR. Furthermore, if your data is required for the fulfillment of a legal obligation, we process it on the basis of Art. 6, para. 1(c) GDPR. Furthermore, the data processing may be carried out on the basis of our legitimate interest according to Art. 6, para. 1(f) GDPR. Information on the relevant legal basis in each individual case is provided in the following paragraphs of this privacy policy.</target>
+      </trans-unit>
+      <trans-unit id="privacy-44" datatype="html">
+        <source>Empfänger von personenbezogenen Daten</source>
+        <target>Recipients of personal data</target>
+      </trans-unit>
+      <trans-unit id="privacy-45" datatype="html">
+        <source>Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen externen Stellen zusammen. Dabei ist teilweise auch eine Übermittlung von personenbezogenen Daten an diese externen Stellen erforderlich. Wir geben personenbezogene Daten nur dann an externe Stellen weiter, wenn dies im Rahmen einer Vertragserfüllung erforderlich ist, wenn wir gesetzlich hierzu verpflichtet sind (z. B. Weitergabe von Daten an Steuerbehörden), wenn wir ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO an der Weitergabe haben oder wenn eine sonstige Rechtsgrundlage die Datenweitergabe erlaubt. Beim Einsatz von Auftragsverarbeitern geben wir personenbezogene Daten unserer Kunden nur auf Grundlage eines gültigen Vertrags über Auftragsverarbeitung weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag über gemeinsame Verarbeitung geschlossen.</source>
+        <target>In the scope of our business activities, we cooperate with various external parties. In some cases, this also requires the transfer of personal data to these external parties. We only disclose personal data to external parties if this is required as part of the fulfillment of a contract, if we are legally obligated to do so (e.g., disclosure of data to tax authorities), if we have a legitimate interest in the disclosure pursuant to Art. 6 , para. 1(f) GDPR, or if another legal basis permits the disclosure of this data. When using processors, we only disclose personal data of our customers on the basis of a valid contract on data processing. In the case of joint processing, a joint processing agreement is concluded.</target>
+      </trans-unit>
+      <trans-unit id="privacy-46" datatype="html">
+        <source>Widerruf Ihrer Einwilligung zur Datenverarbeitung</source>
+        <target>Revocation of your consent to the processing of data</target>
+      </trans-unit>
+      <trans-unit id="privacy-47" datatype="html">
+        <source>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</source>
+        <target>A wide range of data processing transactions are possible only subject to your express consent. You can also revoke at any time any consent you have already given us. This shall be without prejudice to the lawfulness of any data collection that occurred prior to your revocation.</target>
+      </trans-unit>
+      <trans-unit id="privacy-48" datatype="html">
+        <source>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</source>
+        <target>Right to object to the collection of data in special cases; right to object to direct advertising (Art. 21 GDPR)</target>
+      </trans-unit>
+      <trans-unit id="privacy-49" datatype="html">
+        <source>WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).</source>
+        <target>IN THE EVENT THAT DATA ARE PROCESSED ON THE BASIS OF ART. 6, para. 1(E) OR (F) GDPR, YOU HAVE THE RIGHT TO AT ANY TIME OBJECT TO THE PROCESSING OF YOUR PERSONAL DATA BASED ON GROUNDS ARISING FROM YOUR UNIQUE SITUATION. THIS ALSO APPLIES TO ANY PROFILING BASED ON THESE PROVISIONS. TO DETERMINE THE LEGAL BASIS, ON WHICH ANY PROCESSING OF DATA IS BASED, PLEASE CONSULT THIS DATA PROTECTION DECLARATION. IF YOU LOG AN OBJECTION, WE WILL NO LONGER PROCESS YOUR AFFECTED PERSONAL DATA, UNLESS WE ARE IN A POSITION TO PRESENT COMPELLING PROTECTION WORTHY GROUNDS FOR THE PROCESSING OF YOUR DATA, THAT OUTWEIGH YOUR INTERESTS, RIGHTS AND FREEDOMS OR IF THE PURPOSE OF THE PROCESSING IS THE CLAIMING, EXERCISING OR DEFENCE OF LEGAL ENTITLEMENTS (OBJECTION PURSUANT TO ART. 21, para. 1 GDPR).</target>
+      </trans-unit>
+      <trans-unit id="privacy-50" datatype="html">
+        <source>WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).</source>
+        <target>IF YOUR PERSONAL DATA IS BEING PROCESSED IN ORDER TO ENGAGE IN DIRECT ADVERTISING, YOU HAVE THE RIGHT TO OBJECT TO THE PROCESSING OF YOUR AFFECTED PERSONAL DATA FOR THE PURPOSES OF SUCH ADVERTISING AT ANY TIME. THIS ALSO APPLIES TO PROFILING TO THE EXTENT THAT IT IS AFFILIATED WITH SUCH DIRECT ADVERTISING. IF YOU OBJECT, YOUR PERSONAL DATA WILL SUBSEQUENTLY NO LONGER BE USED FOR DIRECT ADVERTISING PURPOSES (OBJECTION PURSUANT TO ART. 21(2) GDPR).</target>
+      </trans-unit>
+      <trans-unit id="privacy-51" datatype="html">
+        <source>Beschwerderecht bei der zuständigen Aufsichtsbehörde</source>
+        <target>Right to log a complaint with the competent supervisory agency</target>
+      </trans-unit>
+      <trans-unit id="privacy-52" datatype="html">
+        <source>Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.</source>
+        <target>In the event of violations of the GDPR, data subjects are entitled to log a complaint with a supervisory agency, in particular in the member state where they usually maintain their domicile, place of work or at the place where the alleged violation occurred. The right to log a complaint is in effect regardless of any other administrative or court proceedings available as legal recourses.</target>
+      </trans-unit>
+      <trans-unit id="privacy-53" datatype="html">
+        <source>Recht auf Datenübertragbarkeit</source>
+        <target>Right to data portability</target>
+      </trans-unit>
+      <trans-unit id="privacy-54" datatype="html">
+        <source>Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.</source>
+        <target>You have the right to have data that we process automatically on the basis of your consent or in fulfillment of a contract handed over to you or to a third party in a common, machine-readable format. If you should demand the direct transfer of the data to another controller, this will be done only if it is technically feasible.</target>
+      </trans-unit>
+      <trans-unit id="privacy-55" datatype="html">
+        <source>Auskunft, Berichtigung und Löschung</source>
+        <target>Information about, rectification and eradication of data</target>
+      </trans-unit>
+      <trans-unit id="privacy-56" datatype="html">
+        <source>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden.</source>
+        <target>Within the scope of the applicable statutory provisions, you have the right to demand information about your archived personal data, their source and recipients as well as the purpose of the processing of your data at any time. You may also have a right to have your data rectified or eradicated. If you have questions about this subject matter or any other questions about personal data, please do not hesitate to contact us at any time.</target>
+      </trans-unit>
+      <trans-unit id="privacy-57" datatype="html">
+        <source>Recht auf Einschränkung der Verarbeitung</source>
+        <target>Right to demand processing restrictions</target>
+      </trans-unit>
+      <trans-unit id="privacy-58" datatype="html">
+        <source>Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:</source>
+        <target>You have the right to demand the imposition of restrictions as far as the processing of your personal data is concerned. To do so, you may contact us at any time. The right to demand restriction of processing applies in the following cases:</target>
+      </trans-unit>
+      <trans-unit id="privacy-59" datatype="html">
+        <source>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</source>
+        <target>In the event that you should dispute the correctness of your data archived by us, we will usually need some time to verify this claim. During the time that this investigation is ongoing, you have the right to demand that we restrict the processing of your personal data.</target>
+      </trans-unit>
+      <trans-unit id="privacy-60" datatype="html">
+        <source>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.</source>
+        <target>If the processing of your personal data was/is conducted in an unlawful manner, you have the option to demand the restriction of the processing of your data instead of demanding the eradication of this data.</target>
+      </trans-unit>
+      <trans-unit id="privacy-61" datatype="html">
+        <source>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</source>
+        <target>If we do not need your personal data any longer and you need it to exercise, defend or claim legal entitlements, you have the right to demand the restriction of the processing of your personal data instead of its eradication.</target>
+      </trans-unit>
+      <trans-unit id="privacy-62" datatype="html">
+        <source>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</source>
+        <target>If you have raised an objection pursuant to Art. 21, para. 1 GDPR, your rights and our rights will have to be weighed against each other. As long as it has not been determined whose interests prevail, you have the right to demand a restriction of the processing of your personal data.</target>
+      </trans-unit>
+      <trans-unit id="privacy-63" datatype="html">
+        <source>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.</source>
+        <target>If you have restricted the processing of your personal data, these data – with the exception of their archiving – may be processed only subject to your consent or to claim, exercise or defend legal entitlements or to protect the rights of other natural persons or legal entities or for important public interest reasons cited by the European Union or a member state of the EU.</target>
+      </trans-unit>
+      <trans-unit id="privacy-64" datatype="html">
+        <source>SSL- bzw. TLS-Verschlüsselung</source>
+        <target>SSL and/or TLS encryption</target>
+      </trans-unit>
+      <trans-unit id="privacy-65" datatype="html">
+        <source>Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.</source>
+        <target>For security reasons and to protect the transmission of confidential content, such as purchase orders or inquiries you submit to us as the website operator, this website uses either an SSL or a TLS encryption program. You can recognize an encrypted connection by checking whether the address line of the browser switches from “http://” to “https://” and also by the appearance of the lock icon in the browser line.</target>
+      </trans-unit>
+      <trans-unit id="privacy-66" datatype="html">
+        <source>Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</source>
+        <target>If the SSL or TLS encryption is activated, data you transmit to us cannot be read by third parties.</target>
+      </trans-unit>
+      <trans-unit id="privacy-67" datatype="html">
+        <source>4. Datenerfassung auf dieser Website</source>
+        <target>4. Data recording on this website</target>
+      </trans-unit>
+      <trans-unit id="privacy-68" datatype="html">
+        <source>Unsere Website verwendet Plausible, ein Datenaufzeichnungstool, um die Benutzererfahrung zu verbessern und die Leistung der Website zu analysieren. Im Folgenden erläutern wir, welche Daten erhoben werden, zu welchem Zweck sie erhoben werden und wie sie verwendet werden.</source>
+        <target>Our website uses Plausible, a data recording tool, to improve user experience and analyze website performance. Below, we outline the types of data collected, the purpose of data collection, and how it is used.</target>
+      </trans-unit>
+      <trans-unit id="privacy-69" datatype="html">
+        <source>Welche Daten wir erheben</source>
+        <target>What Data We Collect</target>
+      </trans-unit>
+      <trans-unit id="privacy-70" datatype="html">
+        <source>Benutzerinteraktionen: Plausible zeichnet Benutzerinteraktionen auf unserer Website auf, wie z.B. Mausbewegungen, Klicks und Scrollverhalten.</source>
+        <target>User Interactions: Plausible records user interactions on our website, such as mouse movements, clicks, and scrolling behavior.</target>
+      </trans-unit>
+      <trans-unit id="privacy-71" datatype="html">
+        <source>Geräteinformationen: Wir erfassen Informationen über das von Ihnen verwendete Gerät und den Browser, Browsertyp, Betriebssystem und Bildschirmauflösung.</source>
+        <target>Device Information: We collect information about the device and browser you are using, such as browser type, operating system, and screen resolution.</target>
+      </trans-unit>
+      <trans-unit id="privacy-72" datatype="html">
+        <source>Sitzungsdaten: Plausible kann die Dauer Ihres Besuchs, die angesehenen Seiten und die verweisende URL aufzeichnen.</source>
+        <target>Session Data: Plausible may record the duration of your visit, pages viewed, and the referring URL.</target>
+      </trans-unit>
+      <trans-unit id="privacy-73" datatype="html">
+        <source>Zweck der Datenerhebung</source>
+        <target>Purpose of Data Collection</target>
+      </trans-unit>
+      <trans-unit id="privacy-74" datatype="html">
+        <source>Wir verwenden die von Plausible erhobenen Daten, um:</source>
+        <target>We use the data collected by Plausible to:</target>
+      </trans-unit>
+      <trans-unit id="privacy-75" datatype="html">
+        <source>Das Benutzerverhalten zu analysieren und die Funktionalität der Website zu verbessern.</source>
+        <target>Analyze user behavior and improve website functionality.</target>
+      </trans-unit>
+      <trans-unit id="privacy-76" datatype="html">
+        <source>Technische Probleme zu identifizieren und zu beheben.</source>
+        <target>Identify and fix technical issues.</target>
+      </trans-unit>
+      <trans-unit id="privacy-77" datatype="html">
+        <source>Die Benutzererfahrung zu verbessern, indem wir verstehen, wie Nutzer mit unserer Website interagieren.</source>
+        <target>Enhance user experience by understanding how users interact with our website.</target>
+      </trans-unit>
+      <trans-unit id="privacy-78" datatype="html">
+        <source>Wie wir die Daten verwenden</source>
+        <target>How We Use the Data</target>
+      </trans-unit>
+      <trans-unit id="privacy-79" datatype="html">
+        <source>Die von Plausible erhobenen Daten werden intern verwendet, um unsere Dienstleistungen zu verbessern. Wir verkaufen, handeln oder übertragen Ihre persönlichen Informationen nicht an Dritte, außer wie in dieser Datenschutzerklärung beschrieben.</source>
+        <target>The data collected by Plausible is used internally to improve our services. We do not sell, trade, or otherwise transfer your personal information to outside parties except as described in this privacy policy.</target>
+      </trans-unit>
+      <trans-unit id="privacy-80" datatype="html">
+        <source>Datenschutz</source>
+        <target>Data Protection</target>
+      </trans-unit>
+      <trans-unit id="privacy-81" datatype="html">
+        <source>Wir verpflichten uns, die Sicherheit Ihrer Daten zu gewährleisten. Wir setzen eine Vielzahl von Sicherheitsmaßnahmen ein, um die Sicherheit Ihrer persönlichen Informationen zu gewährleisten.</source>
+        <target>We are committed to ensuring the security of your data. We implement a variety of security measures to maintain the safety of your personal information.</target>
+      </trans-unit>
+      <trans-unit id="privacy-82" datatype="html">
+        <source>Datenverschlüsselung: Alle von Plausible aufgezeichneten Daten werden während der Übertragung verschlüsselt.</source>
+        <target>Data Encryption: All data recorded by Plausible is encrypted during transmission.</target>
+      </trans-unit>
+      <trans-unit id="privacy-83" datatype="html">
+        <source>Zugangskontrolle: Der Zugriff auf die erhobenen Daten ist nur autorisiertem Personal gestattet.</source>
+        <target>Access Control: Access to collected data is restricted to authorized personnel only.</target>
+      </trans-unit>
+      <trans-unit id="privacy-84" datatype="html">
+        <source>Datenspeicherung: Wir speichern aufgezeichnete Daten für einen Zeitraum, der erforderlich ist, um die in dieser Datenschutzerklärung beschriebenen Zwecke zu erfüllen.</source>
+        <target>Data Retention: We retain recorded data for a period necessary to fulfill the purposes outlined in this privacy policy.</target>
+      </trans-unit>
+      <trans-unit id="privacy-85" datatype="html">
+        <source>Kontaktformular</source>
+        <target>Contact Form</target>
+      </trans-unit>
+      <trans-unit id="privacy-86" datatype="html">
+        <source>Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</source>
+        <target>When you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provide there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not share this data without your consent.</target>
+      </trans-unit>
+      <trans-unit id="privacy-87" datatype="html">
+        <source>Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar.</source>
+        <target>The processing of this data is based on Art. 6, para. 1(b) GDPR, if your request is related to the fulfillment of a contract or necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the inquiries addressed to us (Art. 6, para. 1(f) GDPR) or on your consent (Art. 6, para. 1(a) GDPR) if this has been requested; consent can be revoked at any time.</target>
+      </trans-unit>
+      <trans-unit id="privacy-88" datatype="html">
+        <source>Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.</source>
+        <target>The data you enter in the contact form will remain with us until you request us to delete it, revoke your consent to storage, or the purpose for data storage no longer applies (e.g., after your request has been processed). Mandatory legal provisions – especially retention periods – remain unaffected.</target>
+      </trans-unit>
+      <trans-unit id="privacy-89" datatype="html">
+        <source>Anfrage per E-Mail, Telefon oder Telefax</source>
+        <target>Inquiry by Email, Phone, or Fax</target>
+      </trans-unit>
+      <trans-unit id="privacy-90" datatype="html">
+        <source>Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</source>
+        <target>If you contact us by email, phone, or fax, your inquiry, including all resulting personal data (name, inquiry), will be stored and processed by us for the purpose of handling your request. We do not share this data without your consent.</target>
+      </trans-unit>
+      <trans-unit id="privacy-91" datatype="html">
+        <source>Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar.</source>
+        <target>The processing of this data is based on Art. 6 para. 1, point (b) of the GDPR, if your request is related to the fulfillment of a contract or necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the inquiries addressed to us (Art. 6, para. 1(f) GDPR) or on your consent (Art. 6, para. 1(a) GDPR) if this has been requested; consent can be revoked at any time.</target>
+      </trans-unit>
+      <trans-unit id="privacy-92" datatype="html">
+        <source>Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.</source>
+        <target>The data you send us via contact inquiries will remain with us until you request us to delete it, revoke your consent to storage, or the purpose for data storage no longer applies (e.g., after your request has been processed). Mandatory legal provisions – especially statutory retention periods – remain unaffected.</target>
+      </trans-unit>
+      <trans-unit id="privacy-93" datatype="html">
+        <source>5. eCommerce und Zahlungsanbieter</source>
+        <target>5. eCommerce and Payment Providers</target>
+      </trans-unit>
+      <trans-unit id="privacy-94" datatype="html">
+        <source>Verarbeiten von Kunden- und Vertragsdaten</source>
+        <target>Processing Customer and Contract Data</target>
+      </trans-unit>
+      <trans-unit id="privacy-95" datatype="html">
+        <source>Wir erheben, verarbeiten und nutzen personenbezogene Kunden- und Vertragsdaten zur Begründung, inhaltlichen Ausgestaltung und Änderung unserer Vertragsbeziehungen. Personenbezogene Daten über die Inanspruchnahme dieser Website (Nutzungsdaten) erheben, verarbeiten und nutzen wir nur, soweit dies erforderlich ist, um dem Nutzer die Inanspruchnahme des Dienstes zu ermöglichen oder abzurechnen. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. b DSGVO.</source>
+        <target>We collect, process, and use personal customer and contract data for the establishment, content arrangement, and modification of our contractual relationships. We collect, process, and use personal data on the use of this website (usage data) only to the extent necessary to enable the user to use the service or to bill the user. The legal basis for this is Art. 6 para. 1, point (b) of the GDPR.</target>
+      </trans-unit>
+      <trans-unit id="privacy-96" datatype="html">
+        <source>Die erhobenen Kundendaten werden nach Abschluss des Auftrags
+          oder Beendigung der Geschäftsbeziehung und Ablauf der ggf.
+          bestehenden gesetzlichen Aufbewahrungsfristen gelöscht.
+          Gesetzliche Aufbewahrungsfristen bleiben unberührt.</source>
+        <target>The collected customer data will be deleted after the completion of the order or termination of the business relationship and expiration of any applicable statutory retention periods. Statutory retention periods remain unaffected.</target>
+      </trans-unit>
+      <trans-unit id="agb-1" datatype="html">
+      <source>Allgemeine Geschäftsbedingungen</source>
+      <target>Terms of Service</target>
+    </trans-unit>
+      <trans-unit id="agb-2" datatype="html">
+        <source>§1 Allgemeines, Geltungsbereich</source>
+        <target>§1 General Provisions, Scope of Application</target>
+      </trans-unit>
+      <trans-unit id="agb-3" datatype="html">
+        <source> ( 1 ) Unsere allgemeinen Geschäftsbedingungen gelten
+          ausschließlich. Sie gelten für alle unsere Angebote, Lieferungen
+          und Leistungen. Soweit der Kunde bei Vertragsschluss keine
+          Möglichkeit zur Kenntnisnahme hatte, finden sie gleichwohl
+          Anwendung, wenn der Kunde die allgemeinen Geschäftsbedingungen
+          aus früheren Geschäften kannte oder kennen musste.</source>
+        <target>( 1 ) Our Terms of Service apply exclusively. They apply to all our offers, deliveries, and services. Even if the customer had no opportunity to review them at the time of contract conclusion, they still apply if the customer knew or should have known the General Terms of Service from previous business dealings.</target>
+      </trans-unit>
+      <trans-unit id="agb-4" datatype="html">
+        <source>( 2 ) Entgegenstehende, von unseren allgemeinen
+          Geschäftsbedingungen abweichende Geschäftsbedingungen des Kunden
+          gelten nicht. Führen wir in Kenntnis solcher
+          Geschäftsbedingungen des Kunden die uns obliegende Lieferung
+          oder Leistung aus, erkennen wir damit auch solche Bedingungen
+          des Kunden nicht an, denen die vorliegenden allgemeinen
+          Geschäftsbedingungen nicht widersprechen.</source>
+        <target>( 2 ) Conflicting terms and conditions of the customer that deviate from our Terms of Service do not apply. If we carry out our delivery or service while being aware of such terms and conditions of the customer, we do not thereby recognize even those conditions of the customer that do not contradict our present Terms of Service.</target>
+      </trans-unit>
+      <trans-unit id="agb-5" datatype="html">
+        <source>( 3 ) Unsere allgemeinen Geschäftsbedingungen gelten nur gegenüber Unternehmen, nicht gegenüber Verbrauchern.</source>
+        <target>( 3 ) Our Terms of Service apply only to businesses, not to consumers.</target>
+      </trans-unit>
+      <trans-unit id="agb-6" datatype="html">
+        <source>§2 Angebot, Vertragsschluss, Informationen</source>
+        <target>§2 Offer, Contract Conclusion, Information</target>
+      </trans-unit>
+      <trans-unit id="agb-7" datatype="html">
+        <source>( 1 ) Die Darstellung des Angebotes auf der Webseite ist nur eine Einladung an den Kunden, ein Angebot abzugeben. Sie enthalten nur eine generelle Darstellung möglicher Leistungsinhalte und sind für Verträge nicht verbindlich.</source>
+        <target>( 1 ) The presentation of the offer on the website is only an invitation for the customer to make an offer. It contains only a general description of possible service contents and is not binding for contracts.</target>
+      </trans-unit>
+      <trans-unit id="agb-8" datatype="html">
+        <source>( 2 ) Der Vertragsinhalt ergibt sich aus unserem Angebot. Hier finden sich die einzelnen Leistungen aufgeführt, gegebenenfalls auch durch Verweis auf ein Lastenheft. Nicht aufgeführte Leistungen erden nicht Vertragsbestandteil.</source>
+        <target>( 2 ) The content of the contract is derived from our offer. Here, the individual services are listed, if applicable also by reference to a specification sheet. Services not listed do not become part of the contract.</target>
+      </trans-unit>
+      <trans-unit id="agb-9" datatype="html">
+        <source>( 3 ) Abweichend von § 312 g Abs. 1 Nr. 1 bis 3 BGB hat der Kunde keinen Anspruch auf die Bereitstellung technischer Mittel zur Korrektur seiner Bestellung, gesonderte Informationen zu den technischen Schritten zum Vertragsschluss, Informationen über die Speicherung des Vertrages, die zur Verfügung stehenden Sprachen und Verhaltenskodizes sowie eine unverzügliche Bestätigung seiner Bestellung.</source>
+        <target>( 3 ) In deviation from § 312 g paragraph 1 numbers 1 to 3 of the German Civil Code (BGB), the customer is not entitled to the provision of technical means to correct their order, separate information on the technical steps for concluding the contract, information on the storage of the contract, available languages and codes of conduct, or immediate confirmation of their order.</target>
+      </trans-unit>
+      <trans-unit id="agb-10" datatype="html">
+        <source>§3 Vertragsinhalt, Leistungen</source>
+        <target>§3 Contract Content, Services</target>
+      </trans-unit>
+      <trans-unit id="agb-11" datatype="html">
+        <source>( 1 ) Wir erstellen die Vertragsleistungen für den Kunden kompatibel zu den jeweils aktuellen Versionen der wesentlichen "Evergreen"-Browser (Chrome, Firefox, Safari, Edge). Eine Unterstützung veralteter Browser (wie z.B. Internet Explorer 11) ist nicht Gegenstand des Vertrages, sofern nicht ausdrücklich vereinbart. Aufgrund der Vielfalt der unterschiedlichen Darstellungen in den verschiedenen Browsern und Systemen ist eine genaue Übereinstimmung der Darstellung und Funktionstüchtigkeit nur mit unvertretbarem Aufwand zu gewährleisten. Soweit sich daraus keine wesentliche Verschlechterung der Funktionsfähigkeit der Website ergibt, ergibt sich aus solchen Abweichungen kein Mangel. Sofern der Kunde eine Optimierung wünscht, kann diese kostenpflichtig dazu gebucht werden.</source>
+        <target>( 1 ) We create the contractual services for the customer compatible with the current versions of the major "Evergreen" browsers (Chrome, Firefox, Safari, Edge). Support for obsolete browsers (such as Internet Explorer 11) is not part of the contract unless explicitly agreed upon. Due to the variety of different displays in various browsers and systems, ensuring exact consistency in display and functionality is only possible with unreasonable effort. As long as this does not result in a significant deterioration of the website's functionality, such deviations do not constitute a defect. If the customer desires optimization, this can be booked for an additional fee.</target>
+      </trans-unit>
+      <trans-unit id="agb-12" datatype="html">
+        <source>( 2 ) Bei älteren und zukünftigen Browser-Versionen sowie zukünftigen oder sonstigen verwendeten Software-Versionen von Drittanbietern kann die einwandfreie Funktionsfähigkeit nicht garantiert werden. Ist eine Optimierung für diese Versionen gewünscht, kann diese kostenpflichtig dazu gebucht werden.</source>
+        <target>( 2 ) For older and future browser versions, as well as future or other software versions from third-party providers, flawless functionality cannot be guaranteed. If optimization for these versions is desired, it can be booked for an additional fee.</target>
+      </trans-unit>
+      <trans-unit id="agb-13" datatype="html">
+        <source>( 3 ) Soweit für das Projekt Beistellungen durch Open-Source Software, dritte Programme oder sonstige Leistungen Dritter (andere Programmierer, Grafiker etc.) erforderlich sind, hat der Kunde diese auf eigene Kosten mit allen erforderlichen Rechten (einschließlich eines eventuellen Bearbeitungsrechts) in einer für das Projekt geeigneten Quantität und Qualität beizustellen. Das gleiche gilt für die vom Kunden bereit zu stellende Hardware.</source>
+        <target>( 3 ) If the project requires contributions from open-source software, third-party programs, or other services from third parties (other programmers, graphic designers, etc.), the customer must provide these at their own expense with all necessary rights (including any right to modification) in a quantity and quality suitable for the project. The same applies to the hardware to be provided by the customer.</target>
+      </trans-unit>
+      <trans-unit id="agb-14" datatype="html">
+        <source>( 4 ) Kosten für dritte Software-Produkte, die für die Realisierung des Projekts erforderlich sind, sind, sofern nicht anders vereinbart, nicht im Preis inbegriffen. Funktionalitäten können nur im Rahmen der Voraussetzungen des dritten Software-Produkts gewährt werden.</source>
+        <target>( 4 ) Costs for third-party software products that are necessary for the realization of the project are not included in the price, unless otherwise agreed. Functionalities can only be guaranteed within the limitations of the third-party software product.</target>
+      </trans-unit>
+      <trans-unit id="agb-15" datatype="html">
+        <source>( 5 ) Bei unvorhergesehenen Schwierigkeiten, die von Dritten verschuldet sind (Hardware, Provider, externer Software- oder Plugin-Anbieter etc.) und die zu Mehrarbeit führen, ist der Kunde verpflichtet, den Mehraufwand nach Stunden anhand der vertraglich vereinbarten oder ortsüblichen, angemessenen Vergütung zu zahlen.</source>
+        <target>( 5 ) In case of unforeseen difficulties caused by third parties (hardware, provider, external software or plugin provider, etc.) that lead to additional work, the customer is obligated to pay for the extra effort on an hourly basis according to the contractually agreed or locally customary, reasonable compensation.</target>
+      </trans-unit>
+      <trans-unit id="agb-16" datatype="html">
+        <source>( 6 ) Der Kunde wird darauf hingewiesen, dass Inhalte, die von Dritten stammen (insbesondere Programme, Fotos, Texte, Pläne, Grafiken, Karten, Tonaufnahmen, Videos, Animationen und Zeichnungen) urheberrechtlich geschützt sein können. Stellt der Kunde solche Materialien bei, muss der Kunde selbst sicher stellen, dass er dafür sämtliche erforderlichen Rechte, gegebenenfalls kostenpflichtig, erworben hat. Eine Recherche unsererseits wegen entgegenstehender Marken-, Urheber- oder sonstiger gewerblicher Schutzrechte ist nicht Gegenstand des Vertrages und kann nur von einem Rechtsanwalt vorgenommen werden.</source>
+        <target>( 6 ) The customer is advised that content originating from third parties (especially programs, photos, texts, plans, graphics, maps, audio recordings, videos, animations, and drawings) may be protected by copyright. If the customer provides such materials, the customer must ensure that they have acquired all necessary rights, possibly for a fee. Research on our part regarding conflicting trademark, copyright, or other industrial property rights is not part of the contract and can only be carried out by a lawyer.</target>
+      </trans-unit>
+      <trans-unit id="agb-17" datatype="html">
+        <source>( 7 ) Wir sind nach freiem Ermessen berechtigt, die Leistung selbst auszuführen oder diese durch sachkundige Dritte als Subunternehmer zu erbringen.</source>
+        <target>( 7 ) We are entitled, at our discretion, to perform the service ourselves or to have it performed by knowledgeable third parties as subcontractors.</target>
+      </trans-unit>
+      <trans-unit id="agb-18" datatype="html">
+        <source>§4 Preise, Zahlungsbedingungen, Aufrechnung, Zurückbehaltung</source>
+        <target>§4 Prices, Payment Terms, Offsetting, Right of Retention</target>
+      </trans-unit>
+      <trans-unit id="agb-19" datatype="html">
+        <source>( 1 ) Alle Preise gegenüber Unternehmern sind Nettopreise zuzüglich der jeweils gültigen gesetzlichen Mehrwertsteuer, soweit diese anfällt und nicht ein anderes vereinbart ist.</source>
+        <target>( 1 ) All prices for businesses are net prices plus the applicable statutory value-added tax, if applicable and unless otherwise agreed.</target>
+      </trans-unit>
+      <trans-unit id="agb-20" datatype="html">
+        <source>( 2 ) Wir sind berechtigt, bei Auftragserteilung eine Anzahlung in angemessener Höhe zu verlangen. Wir sind weiter berechtigt, angemessene Abschlagszahlungen für bereits an den Kunden ausgelieferte Projektteile zu verlangen und insoweit Teilrechnungen nach Projektfortschritt auszustellen.</source>
+        <target>( 2 ) We are entitled to require a reasonable down payment when the order is placed. We are further entitled to demand appropriate progress payments for project parts already delivered to the customer and to issue partial invoices accordingly based on project progress.</target>
+      </trans-unit>
+      <trans-unit id="agb-21" datatype="html">
+        <source>( 3 ) Die vertragliche Vergütung gilt nur, soweit vertragliche Leistungen auch vereinbart sind. Zusatzleistungen sind nach den vertraglichen Sätzen entsprechend des Angebots, ersatzweise nach Maßgabe der ortsüblichen, angemessenen Vergütung zu vergüten. Begleitende Leistungen wie Benutzereinführungen, Dokumentationen, Schulungen, Support oder ähnliches sind nicht standardmäßig im Auftrag enthalten, sondern nur dann Vertragsinhalt, wenn dies ausdrücklich vereinbart wurde.</source>
+        <target>( 3 ) The contractual remuneration applies only to the extent that contractual services have been agreed upon. Additional services are to be remunerated according to the contractual rates as per the offer, or alternatively, according to customary local, reasonable compensation. Accompanying services such as user introductions, documentation, training, support, or similar are not included in the order as standard, but are only part of the contract if explicitly agreed upon.</target>
+      </trans-unit>
+      <trans-unit id="agb-22" datatype="html">
+        <source>( 4 ) Die Zahlung des Kunden ist sofort fällig. Der Kunde wird darauf hingewiesen, dass er spätestens 30 Tage nach Zugang der Rechnung in Verzug gerät. Sofern der Kunde mit der Zahlung in Verzug ist, ist er nach § 288 BGB verpflichtet, Verzugszinsen und den dort geregelten pauschalen Schadensersatz zu leisten.</source>
+        <target>( 4 ) The customer's payment is due immediately. The customer is advised that they will be in default at the latest 30 days after receipt of the invoice. If the customer is in default of payment, they are obligated to pay default interest and the lump-sum compensation regulated in § 288 of the German Civil Code (BGB).</target>
+      </trans-unit>
+      <trans-unit id="agb-23" datatype="html">
+        <source>( 5 ) Der Kunde kann nur aufrechnen, wenn seine Gegenansprüche rechtskräftig festgestellt, unbestritten oder von der Auftragnehmerin anerkannt sind oder das Aufrechnungsrecht auf Rechten des Kunden wegen nicht vollständiger oder mangelhafter Leistung aus dem selben Vertragsverhältnis beruht.</source>
+        <target>( 5 ) The customer may only offset if their counterclaims have been legally established, are undisputed, or have been recognized by the contractor, or if the right to offset is based on the customer's rights due to incomplete or defective performance from the same contractual relationship.</target>
+      </trans-unit>
+      <trans-unit id="agb-24" datatype="html">
+        <source>( 6 ) Zur Ausübung eines Zurückbehaltungsrechts sind wir wegen sämtlicher Forderungen aus der Geschäftsverbindung zu dem Kunden befugt.</source>
+        <target>( 6 ) We are authorized to exercise a right of retention for all claims arising from the business relationship with the customer.</target>
+      </trans-unit>
+      <trans-unit id="agb-25" datatype="html">
+        <source>§5 Leistungszeit</source>
+        <target>§5 Performance Time</target>
+      </trans-unit>
+      <trans-unit id="agb-26" datatype="html">
+        <source>( 1 ) Der Beginn einer eventuell angegebenen Leistungszeit setzt die Abklärung aller technischen, rechtlichen und gestalterischen Fragen und die rechtzeitige und ordnungsgemäße Erfüllung der Verpflichtungen des Kunden voraus. Die Einrede des nicht erfüllten Vertrages für uns bleibt vorbehalten.</source>
+        <target>( 1 ) The start of any specified performance time presupposes the clarification of all technical, legal, and design questions and the timely and proper fulfillment of the customer's obligations. We reserve the right to plea non-performance of contract.</target>
+      </trans-unit>
+      <trans-unit id="agb-27" datatype="html">
+        <source>( 2 ) Höhere Gewalt oder bei uns oder unseren Subunternehmern eintretende Betriebsstörungen, z.B. durch Aufruhr, Streik, Aussperrung, die die Auftragnehmerin ohne eigenes Verschulden vorübergehend daran hindert, die Leistung zu einem eventuell vereinbarten Termin oder innerhalb einer eventuell vereinbarten Frist zu liefern, verändern die Leistungszeiten um die Dauer der durch die Umstände bedingten Leistungsstörung. Führt eine entsprechende Störung zu einem Leistungsaufschub von mehr als einem Monat oder fällt schon vorher das Interesse des Kunden an der Vertragserfüllung objektiv weg, ist der Kunde berechtigt, vom Vertrag zurückzutreten.</source>
+        <target>( 2 ) Force majeure or operational disruptions occurring at our company or our subcontractors, e.g., due to riots, strikes, lockouts, which temporarily prevent the contractor from delivering the service on a possibly agreed date or within a possibly agreed period through no fault of their own, change the performance times by the duration of the performance disruption caused by these circumstances. If such a disruption leads to a postponement of performance of more than one month, or if the customer's interest in the fulfillment of the contract objectively ceases even before that, the customer is entitled to withdraw from the contract.</target>
+      </trans-unit>
+      <trans-unit id="agb-28" datatype="html">
+        <source>§6 Gefährdung der Leistung, Insolvenz</source>
+        <target>§6 Jeopardy to Performance, Insolvency</target>
+      </trans-unit>
+      <trans-unit id="agb-29" datatype="html">
+        <source>( 1 ) Wird nach Abschluss des Vertrages für uns erkennbar, dass die (weitere) Erfüllung des Vertrages durch mangelnde Leistungsfähigkeit des Kunden gefährdet wird, sind wir berechtigt, die Erbringung von Vorleistungen aus diesem Vertrag zu verweigern, bis die entsprechende Gegenleistung von dem Kunden bewirkt oder Sicherheit für diese geleistet ist.</source>
+        <target>( 1 ) If, after conclusion of the contract, it becomes apparent to us that the (further) fulfillment of the contract is endangered by the customer's lack of capacity to perform, we are entitled to refuse to provide advance performance under this contract until the corresponding consideration has been effected by the customer or security for it has been provided.</target>
+      </trans-unit>
+      <trans-unit id="agb-30" datatype="html">
+        <source>( 2 ) Wir sind berechtigt, von dem Vertrag zurückzutreten oder diesen fristlos zu kündigen, wenn der Kunde trotz angemessener Nachfrist zur Erbringung der entsprechenden Gegenleistung Zug um Zug oder Leistung der Sicherheit nicht nachkommt.</source>
+        <target>( 2 ) We are entitled to withdraw from the contract or terminate it without notice if the customer, despite being given a reasonable grace period, fails to provide the corresponding consideration step by step or to provide security.</target>
+      </trans-unit>
+      <trans-unit id="agb-31" datatype="html">
+        <source>( 3 ) Ist der Kunde zahlungsunfähig oder überschuldet, wird über sein Vermögen die Eröffnung des Insolvenz- oder Vergleichsverfahrens beantragt oder ein solches eröffnet, sind wir ohne Setzung einer Nachfrist berechtigt, von dem Vertrag zurückzutreten oder fristlos zu kündigen.</source>
+        <target>( 3 ) If the customer is insolvent or over-indebted, if insolvency or composition proceedings are applied for or opened against their assets, we are entitled to withdraw from the contract or terminate it without notice, without setting a grace period.</target>
+      </trans-unit>
+      <trans-unit id="agb-32" datatype="html">
+        <source>( 4 ) Kündigen wir oder treten wir nach Absatz 2 oder 3 zurück, können wir von dem Kunden Schadensersatz statt der Leistung oder Aufwendungsersatz fordern.</source>
+        <target>( 4 ) If we terminate or withdraw from the contract according to paragraphs 2 or 3, we can demand compensation for damages instead of performance or reimbursement of expenses from the customer.</target>
+      </trans-unit>
+      <trans-unit id="agb-33" datatype="html">
+        <source>§7 Mitwirkungspflichten des Kunden, Haftung</source>
+        <target>§7 Customer's Cooperation Obligations, Liability</target>
+      </trans-unit>
+      <trans-unit id="agb-34" datatype="html">
+        <source>( 1 ) Der Kunde stellt sicher, dass wir für die Dauer des Projektes zu üblichen Arbeitszeiten einen Ansprechpartner für alle projektrelevanten Fragen haben, der die Vollmacht hat, Zusatzleistungen im Rahmen des Projektes kostenpflichtig mit Wirkung für den Kunden zu beauftragen.</source>
+        <target>( 1 ) The customer ensures that for the duration of the project, during normal working hours, we have a contact person for all project-relevant questions who has the authority to commission additional services within the scope of the project at a cost, with effect for the customer.</target>
+      </trans-unit>
+      <trans-unit id="agb-35" datatype="html">
+        <source>( 2 ) Der Kunde ist verpflichtet, uns sämtliche erforderlichen Informationen und Daten (z. B. Hard- und Softwareumgebung mit allen erforderlichen Parametern) rechtzeitig zur Verfügung zu stellen.</source>
+        <target>( 2 ) The customer is obligated to provide us with all necessary information and data (e.g., hardware and software environment with all required parameters) in a timely manner.</target>
+      </trans-unit>
+      <trans-unit id="agb-36" datatype="html">
+        <source>( 3 ) Sind Hardware, Software, Daten, Schnittstellen und sonstige Beistellungen nicht rechtzeitig und vollständig vorhanden, sind wir berechtigt, mit der Leistung nach § 4 Abs. 1 dieser Bedingungen nicht zu beginnen oder behelfsmäßig zu arbeiten. Das nachträgliche Anpassen an die verspätet gelieferten Beistellungen zählt als Änderung des Auftrages und ist zusätzlich nach Maßgabe der vertraglich vereinbarten, ersatzweise der ortsüblichen, angemessenen Vergütung, zu vergüten.</source>
+        <target>( 3 ) If hardware, software, data, interfaces, and other provisions are not available in a timely and complete manner, we are entitled not to begin the service according to § 4 paragraph 1 of these terms or to work provisionally. Subsequent adaptation to the late-delivered provisions counts as a change to the order and is to be remunerated additionally according to the contractually agreed, or alternatively, the locally customary, reasonable compensation.</target>
+      </trans-unit>
+      <trans-unit id="agb-37" datatype="html">
+        <source>( 4 ) Der Kunde ist verpflichtet, erforderliche Hard- und Software sowie sonstige Beistellungen in einem gängigen, unmittelbar verwertbaren digitalen Format zu übergeben. Der Kunde stellt sicher, dass die erforderlichen Nutzungsrechte eingeräumt werden, insbesondere auch Vervielfältigungs-, Verbreitungs- und Bearbeitungsrechte im für die Realisierung des Projekts und die Arbeit der Auftragnehmerin erforderlichen Umfang. Die Überprüfung der rechtlichen Zulässigkeit im Hinblick auf Immaterialgüter- und Urheberrecht kann nur von einem Rechtsanwalt vorgenommen werden und ist nicht Gegenstand des Auftrages.</source>
+        <target>( 4 ) The customer is obligated to provide required hardware and software as well as other provisions in a common, immediately usable digital format. The customer ensures that the necessary usage rights are granted, especially reproduction, distribution, and editing rights to the extent required for the realization of the project and the work of the contractor. The review of legal admissibility with regard to intellectual property and copyright can only be carried out by a lawyer and is not part of the contract.</target>
+      </trans-unit>
+      <trans-unit id="agb-38" datatype="html">
+        <source>( 5 ) Der Kunde stellt sicher, dass die von ihm zur Verfügung gestellte Hardware-, Server- und Software-Umgebung den erforderlichen technischen Mindestanforderungen für das Projekt mit den zu verwendenden Softwareumgebungen entspricht.</source>
+        <target>( 5 ) The customer ensures that the hardware, server, and software environment provided by them meets the necessary minimum technical requirements for the project with the software environments to be used.</target>
+      </trans-unit>
+      <trans-unit id="agb-39" datatype="html">
+        <source>( 6 ) Sofern der Kunde uns körperliche oder nicht körperliche Gegenstände, insbesondere Programme oder Medien, zur Verfügung stellt, welche die Rechte Dritter verletzen, ist der Kunde verpflichtet, die Auftragnehmerin auf erstes Anfordern von jeglicher Inanspruchnahme Dritter frei zu halten. Dies umfasst insbesondere auch die Kosten der Rechtsverfolgung.
+        </source>
+        <target>( 6 ) If the customer provides us with tangible or intangible items, particularly programs or media, which infringe upon the rights of third parties, the customer is obligated to indemnify the contractor against any claims by third parties upon first request. This specifically includes the costs of legal prosecution.</target>
+      </trans-unit>
+      <trans-unit id="agb-40" datatype="html">
+        <source>( 7 ) Der Kunde ist verpflichtet, im Rahmen der Eigensicherung erforderliche Datensicherungen selbständig durchzuführen, insbesondere auch vor Auftragsbeginn. Eine Haftung der Auftragnehmerin für verlorene Daten besteht insoweit nicht, als sie bei ordnungsgemäßer Datensicherung durch den Kunden noch verfügbar wären.</source>
+        <target>( 7 ) The customer is obligated to independently perform necessary data backups as part of their own security measures, particularly before the start of the project. The contractor is not liable for lost data to the extent that it would still be available if the customer had properly backed up the data.</target>
+      </trans-unit>
+      <trans-unit id="agb-41" datatype="html">
+        <source>( 8 ) Der Kunde ist damit einverstanden, dass wir die Leistung für den Kunden als Referenz benennen.</source>
+        <target>( 8 ) The customer agrees that we may name the service provided for the customer as a reference.</target>
+      </trans-unit>
+      <trans-unit id="agb-42" datatype="html">
+        <source>( 9 ) Der Kunde ist verpflichtet, bezüglich Vergütung, Details der Leistungsbeschreibung und der internen Kommunikation gegenüber Dritten Stillschweigen zu bewahren.</source>
+        <target>( 9 ) The customer is obligated to maintain confidentiality towards third parties regarding remuneration, details of the service description, and internal communication.</target>
+      </trans-unit>
+      <trans-unit id="agb-43" datatype="html">
+        <source>§8 Verzug des Kunden, Annahmeverzug, Rücktritt</source>
+        <target>§8 Customer Default, Default of Acceptance, Withdrawal</target>
+      </trans-unit>
+      <trans-unit id="agb-44" datatype="html">
+        <source>( 1 ) Erbringt der Kunde eine seiner Mitwirkungspflichten nicht vereinbarungsgemäß, so gehen die daraus entstehenden Folgen, wie zusätzliche Leistungen und Verzögerungen, zu Lasten des Kunden. Wir können den erbrachten Mehraufwand dem Auftraggeber in Rechnung stellen.</source>
+        <target>( 1 ) If the customer fails to perform one of their cooperation obligations as agreed, the resulting consequences, such as additional services and delays, shall be at the customer's expense. We can bill the customer for the additional effort incurred.</target>
+      </trans-unit>
+      <trans-unit id="agb-45" datatype="html">
+        <source>( 2 ) Der Kunde wird darauf hingewiesen, dass wir projektbezogen arbeiten und nicht mehr als eine bestimmte Anzahl von Projekten gleichzeitig wahrnehmen. Kommt der Kunde mit seinen Beibringungs-, Mitwirkungs- oder Annahmepflichten in (Annahme-)Verzug, sind wir berechtigt, die Leistungszeit zu verschieben. Dies gilt insbesondere, wenn dadurch ein Konflikt mit anderen, bereits terminierten Projekten von uns eintritt.</source>
+        <target>( 2 ) The customer is advised that we work on a project-by-project basis and do not handle more than a certain number of projects simultaneously. If the customer defaults on their obligations to provide, cooperate, or accept (default of acceptance), we are entitled to postpone the performance time. This applies in particular if this results in a conflict with other projects we have already scheduled.</target>
+      </trans-unit>
+      <trans-unit id="agb-46" datatype="html">
+        <source>( 3 ) Sollte eine durch den Kunden verursachte Verzögerung bei der Realisierung des Auftrages von mehr als drei Wochen entstehen, ist der Kunde verpflichtet, die bis dahin erbrachten Leistungen von uns zu zahlen und die bei Wiederaufnahme des Projektes erforderliche zusätzliche Zeit zur Einarbeitung auf Seiten von uns nach Maßgabe der vertraglich vereinbarten, ersatzweise der ortsüblichen, angemessenen Vergütung, zusätzlich zu vergüten.</source>
+        <target>( 3 ) Should a delay in the realization of the order caused by the customer exceed three weeks, the customer is obligated to pay for the services we have provided up to that point and to additionally compensate for the extra time required on our side for re-familiarization when the project is resumed, according to the contractually agreed compensation, or alternatively, the locally customary, reasonable compensation.</target>
+      </trans-unit>
+      <trans-unit id="agb-47" datatype="html">
+        <source>( 4 ) Kommt der Kunde auch nach fruchtlosem Ablauf einer Nachfrist seinen Mitwirkungspflichten, insbesondere aus § 7 nicht nach, können wir von dem Vertrag zurücktreten und Schadensersatz statt der Leistung fordern. Diese umfasst insbesondere die bereits verdiente Vergütung und den entgangenen Gewinn (oder den nicht verdienten Gemeinkostenbeitrag) abzüglich ersparter Aufwendungen von uns.</source>
+        <target>( 4 ) If the customer fails to fulfill their cooperation obligations, especially those from §7, even after the fruitless expiry of a grace period, we can withdraw from the contract and demand compensation for damages instead of performance. This includes, in particular, the already earned remuneration and the lost profit (or the unearned overhead contribution) minus expenses saved by us.</target>
+      </trans-unit>
+      <trans-unit id="agb-48" datatype="html">
+        <source>( 5 ) Kündigt der Kunde den Vertrag, ohne dass ein wichtiger Grund vorliegt, ist der Kunde verpflichtet, die vereinbarte Vergütung abzüglich dessen zu zahlen, was wir an Aufwendungen erspart und durch anderweitige Verwendung unserer Arbeitskraft erwerben oder böswillig zu erwerben unterlassen haben. Aufgrund der projektbezogenen Terminierung durch uns kann ein anderweitiger Erwerb möglicherweise nicht kurzfristig realisiert werden. Alternativ steht uns ein Anspruch von 5 % des Teils der Vergütung zu, der auf die noch nicht erbrachte Leistung entfällt.</source>
+        <target>( 5 ) If the customer terminates the contract without good cause, the customer is obligated to pay the agreed remuneration minus what we have saved in expenses and what we have acquired or maliciously failed to acquire through other use of our workforce. Due to our project-based scheduling, alternative acquisition may not be possible at short notice. Alternatively, we are entitled to a claim of 5% of the portion of the remuneration that relates to the services not yet provided.</target>
+      </trans-unit>
+      <trans-unit id="agb-49" datatype="html">
+        <source>§9 Projekt, Abnahme</source>
+        <target>§9 Project, Acceptance</target>
+      </trans-unit>
+      <trans-unit id="agb-50" datatype="html">
+        <source>( 1 ) Das Projekt wird in Projektphasen hergestellt. Nach jeder Projektphase wird der Kunde zur Abnahme aufgefordert werden, nach Abnahme durch den Kunden beginnt die nächste Projektphase.</source>
+        <target>( 1 ) The project will be produced in project phases. After each project phase, the customer will be requested to accept the work, and after acceptance by the customer, the next project phase begins.</target>
+      </trans-unit>
+      <trans-unit id="agb-51" datatype="html">
+        <source>( 2 ) Wir werden jedes (Teil-)Gewerk dem Kunden liefern oder vorführen und ihn nach jeder damit abgeschlossenen Projektphase mit einer Frist von einer Woche auffordern (bei eiligen Aufträgen können kürzere Fristen gewählt werden), das Teilgewerk oder das Gesamtwerk abzunehmen. Äußert der Kunde keine Änderungswünsche oder Vorbehalte innerhalb dieser Frist, gilt das Teilgewerk (Gesamtwerk) als abgenommen, sofern es abnahmefähig war, also keine wesentlichen Mängel an der Teil- oder Gesamtleistung vorlagen.</source>
+        <target>( 2 ) We will deliver or demonstrate each (partial) work to the customer and, after each completed project phase, request the customer to accept the partial work or the complete work within a period of one week (shorter periods may be chosen for urgent orders). If the customer does not express any change requests or reservations within this period, the partial work (complete work) is considered accepted, provided it was capable of being accepted, i.e., there were no significant defects in the partial or complete performance.</target>
+      </trans-unit>
+      <trans-unit id="agb-52" datatype="html">
+        <source>( 3 ) Der Kunde ist verpflichtet, innerhalb der Frist von einer Woche nach Zugang der Abnahmeaufforderung die Abnahme vorzunehmen, soweit das Werk abnahmereif ist oder Vorbehalte mitzuteilen. Kommt der Kunde mit dieser Verpflichtung in Verzug, gelten die Regelungen dieses Vertrages zu den Mitwirkungspflichten und dem Annahmeverzug des Kunden entsprechend.</source>
+        <target>( 3 ) The customer is obligated to perform the acceptance within the period of one week after receiving the acceptance request, provided the work is ready for acceptance, or to communicate any reservations. If the customer defaults on this obligation, the provisions of this contract regarding the customer's cooperation obligations and default of acceptance apply accordingly.</target>
+      </trans-unit>
+      <trans-unit id="agb-53" datatype="html">
+        <source>( 4 ) Erklärt der Kunde die Abnahme nicht zeitgerecht, werden wir den Kunden nochmals eine Frist zur Abnahme setzen. Wir weisen darauf hin, es einer Abnahme gleich steht und die Vergütung fällig wird, wenn der Kunde nicht innerhalb der Frist die Abnahme erklärt oder ohne Angabe von Mängeln verweigert. Diesen Hinweis werden wir auch noch mal bei der Fristsetzung erteilen.</source>
+        <target>( 4 ) If the customer does not declare acceptance in a timely manner, we will set another deadline for acceptance. We point out that it is equivalent to acceptance and the remuneration becomes due if the customer does not declare acceptance within the deadline or refuses without specifying defects. We will provide this notice again when setting the deadline.</target>
+      </trans-unit>
+      <trans-unit id="agb-54" datatype="html">
+        <source>§10 Nutzungsrechte</source>
+        <target>§10 Usage Rights</target>
+      </trans-unit>
+      <trans-unit id="agb-55" datatype="html">
+        <source>( 1 ) Nach Abnahme und vollständiger Zahlung erwirbt der Kunde an unserer Leistung das einfache, nicht ausschließliche Nutzungsrecht. Für Teilwerke, die vor der Abnahme erstellt wurden, bleiben sämtliche Rechte bei uns, wir sind nicht verpflichtet, Entwürfe, die auf dem Computer erstellt wurden, an den Kunden herauszugeben.</source>
+        <target>( 1 ) After acceptance and full payment, the customer acquires the simple, non-exclusive right of use to our service. For partial works created before acceptance, all rights remain with us, and we are not obligated to hand over to the customer drafts that were created on the computer.</target>
+      </trans-unit>
+      <trans-unit id="agb-56" datatype="html">
+        <source>( 2 ) Soweit Werke verwendet werden, welche unter einer CC-Lizenz oder einer Open-Source-Lizenz verwendet werden, gelten diese Lizenzbestimmungen. Insofern stellen wir abweichend von der im Projektauftrag oder in den AGB geregelten Rechteeinräumung nur die Voraussetzungen dafür her, dass der Kunde die Nutzungsrechte im Umfang der jeweils einschlägigen Open-Source-Lizenzbedingungen vom Urheber/Entwickler der Open-Source-Komponente erwerben kann. Eine Einräumung von Nutzungsrechten von uns an den Kunden findet in diesem Fall nicht statt.</source>
+        <target>( 2 ) If works are used which are subject to a CC license or an open-source license, these license terms apply. In this respect, deviating from the granting of rights regulated in the project order or in the Terms and Conditions, we only create the conditions for the customer to acquire the usage rights from the author/developer of the open-source component to the extent of the respective applicable open-source license terms. In this case, we do not grant any usage rights to the customer.</target>
+      </trans-unit>
+      <trans-unit id="agb-57" datatype="html">
+        <source>Der Kunde wird darauf hingewiesen, dass die Weitergabe – auch innerhalb eines Konzerns – von Open-Source-Komponenten die Pflicht auslöst, die Lizenzbedingungen der jeweils einschlägigen Open-Source-Komponente einzuhalten. Dies kann die Mitlieferung von Lizenztexten, Copyright- und Änderungsvermerken sowie ggf. auch die Bereitstellung von Sourcecodes beinhalten, sofern die Lizenzbedingungen der betroffenen Open-Source-Komponente dies vorsehen.</source>
+        <target>The customer is advised that the distribution - even within a corporate group - of open-source components triggers the obligation to comply with the license terms of the respective relevant open-source component. This may include the provision of license texts, copyright and modification notices, and possibly also the provision of source codes, if the license terms of the affected open-source component stipulate this.</target>
+      </trans-unit>
+      <trans-unit id="agb-58" datatype="html">
+        <source>( 3 ) Die Übergabe des Source Codes ist nur Vertragsgegenstand, soweit das explizit vereinbart ist.</source>
+        <target>( 3 ) The transfer of the source code is only part of the contract if explicitly agreed upon.</target>
+      </trans-unit>
+      <trans-unit id="agb-59" datatype="html">
+        <source>( 4 ) Der Kunde wird uns als Urheber nennen und den Urheberhinweis soweit möglich mit einem Link zu unserer Webseite versehen.</source>
+        <target>( 4 ) The customer will name us as the author and, where possible, provide the copyright notice with a link to our website.</target>
+      </trans-unit>
+      <trans-unit id="agb-63" datatype="html">
+        <source>§11 Haftungsbeschränkung, Mängelrechte, Verjährung</source>
+        <target>§11 Limitation of Liability, Warranty Rights, Limitation Periods</target>
+      </trans-unit>
+      <trans-unit id="agb-63-1" datatype="html">
+        <source>( 1 ) Unsere Haftung für einfache Fahrlässigkeit ist, gleich aus welchem Rechtsgrund, auf den bei Vertragsschluss vorhersehbaren, vertragstypischen Schaden begrenzt. Soweit der Kunde Unternehmer ist, ist die Haftung für einfache Fahrlässigkeit zudem auf die Höhe der für das jeweilige Projekt vereinbarten Vergütung begrenzt.</source>
+        <target>( 1 ) Our liability for simple negligence is, regardless of the legal grounds, limited to the foreseeable damage typical for the contract at the time of the conclusion of the contract. Insofar as the customer is an entrepreneur, liability for simple negligence is also limited to the amount of the remuneration agreed for the respective project.</target>
+      </trans-unit>
+      <trans-unit id="agb-63-2" datatype="html">
+        <source>( 2 ) Die vorstehenden Haftungsbeschränkungen gelten nicht bei Verletzung von Leben, Körper oder Gesundheit, bei Vorsatz oder grober Fahrlässigkeit sowie bei Ansprüchen nach dem Produkthaftungsgesetz.</source>
+        <target>( 2 ) The above limitations of liability do not apply in the event of injury to life, limb, or health, in the event of intent or gross negligence, or in the case of claims under the Product Liability Act.</target>
+      </trans-unit>
+      <trans-unit id="agb-61" datatype="html">
+        <source>( 3 ) Werden durch den Kunden Veränderungen an der Leistung vorgenommen, so entfällt die Gewährleistung, wenn der Kunde eine entsprechende substantiierte Behauptung der Auftragnehmerin, dass erst eine solche Veränderung den Mangel herbeigeführt hat, nicht widerlegt.</source>
+        <target>( 3 ) If changes to the service are made by the customer, the warranty lapses unless the customer disproves a corresponding substantiated assertion by the contractor that only such a change caused the defect.</target>
+      </trans-unit>
+      <trans-unit id="agb-62" datatype="html">
+        <source>( 4 ) Werbeangaben Dritter, insbesondere von Herstellern der von uns für die Leistungserbringung verwendeten Software, sind für uns nicht verbindlich.</source>
+        <target>( 4 ) Advertising statements by third parties, in particular by manufacturers of the software used by us to provide the service, are not binding on us.</target>
+      </trans-unit>
+      <trans-unit id="agb-63-old" datatype="html">
+        <source>( 5 ) Soweit der Kunde Kaufmann ist, verjähren die Rechte des Kunden wegen Mängeln der Leistung in einem Jahr ab der Übergabe oder Abnahme der Leistung. Dies gilt auch für die Rechte des Kunden auf Schadensersatz oder Schadensersatz statt der Leistung, auch wegen sämtlicher Schäden an anderen Rechtsgütern des Kunden, die durch den Mangel entstanden sind, es sei denn, es handelt sich um Schäden an Leben, Körper oder Gesundheit des Kunden oder wir haben den Mangel aufgrund Vorsatzes oder grober Fahrlässigkeit zu vertreten.</source>
+        <target>( 5 ) Insofar as the customer is a merchant, the customer's rights due to defects in the service expire in one year from the handover or acceptance of the service. This also applies to the customer's rights to compensation for damages or compensation for damages instead of performance, also for all damage to other legal assets of the customer caused by the defect, unless it concerns damage to life, body or health of the customer or we are responsible for the defect due to intent or gross negligence.</target>
+      </trans-unit>
+      <trans-unit id="agb-64" datatype="html">
+        <source>§12 Vertragsunterlagen, Pfandrecht</source>
+        <target>§12 Contract Documents, Right of Lien</target>
+      </trans-unit>
+      <trans-unit id="agb-65" datatype="html">
+        <source>( 1 ) An Skizzen, Programmteilen, Entwürfen und sonstigen Unterlagen behalten wir uns sämtliche Eigentums- und Urheberrechte vor. Sie sind nicht Gegenstand des Vertrages, der Kunde kann sie nicht herausverlangen.</source>
+        <target>( 1 ) We reserve all property rights and copyrights to sketches, program parts, drafts, and other documents. They are not part of the contract, and the customer cannot demand their release.</target>
+      </trans-unit>
+      <trans-unit id="agb-66" datatype="html">
+        <source>( 2 ) Für die Ansprüche von uns gegen den Kunden aus diesem Vertrag stellt der Kunde ein vertragliches Pfandrecht an den von dem Kunden an uns zur Bearbeitung gegebenen Software und sonstigen urheber- und immaterialgüterrechtlich geschützten Gegenständen und Rechten. Dieses vertragliche Pfandrecht sichert auch unsere sonstigen Forderungen gegen den Kunden, die nicht direkt aus dem Auftrag stammen, ab.</source>
+        <target>( 2 ) For our claims against the customer from this contract, the customer grants a contractual right of lien on the software and other copyright and intellectual property protected objects and rights given to us for processing by the customer. This contractual right of lien also secures our other claims against the customer that do not directly arise from the order.</target>
+      </trans-unit>
+      <trans-unit id="agb-67" datatype="html">
+        <source>( 3 ) Der Kunde ist verpflichtet uns seine jeweils aktuelle Anschrift zu übermitteln, soweit und so lange das Pfandrecht besteht. Ansonsten kann der Kunde keine Rechte daraus herleiten, wenn wir die Sache oder das Recht für den Fall des – berechtigten – Pfandverkaufes veräußert und die Pfandverkaufsandrohung nur an die letzte, uns bekannte Anschrift, gesendet hat, sofern eine neue Anschrift für uns nicht durch Einwohnermeldeauskunft ohne weiteres ermittelbar war.</source>
+        <target>( 3 ) The customer is obligated to provide us with their current address as long as the right of lien exists. Otherwise, the customer cannot derive any rights if we sell the item or right in the case of a justified lien sale and have sent the threat of lien sale only to the last address known to us, provided that a new address was not readily obtainable by us through resident registration information.</target>
+      </trans-unit>
+      <trans-unit id="agb-68" datatype="html">
+        <source>§13 Mediation</source>
+        <target>§13 Mediation</target>
+      </trans-unit>
+      <trans-unit id="agb-69" datatype="html">
+        <source>( 1 ) Bei Streitigkeiten aus der Geschäftsbeziehung zwischen uns und dem Kunden, sind die Parteien verpflichtet, eine gütliche Lösung anzustreben. Kommt eine Einigung nicht zustande, verpflichten sie sich, vor der Inanspruchnahme des Rechtsweges, ihre Differenzen in einer Mediation zu schlichten. Unberührt bleibt die Möglichkeit eines Eilverfahrens im Wege des einstweiligen Rechtsschutzes.</source>
+        <target>( 1 ) In case of disputes arising from the business relationship between us and the customer, the parties are obligated to seek an amicable solution. If an agreement is not reached, they commit themselves to settle their differences in mediation before resorting to legal action. This does not affect the possibility of an urgent procedure by way of interim legal protection.</target>
+      </trans-unit>
+      <trans-unit id="agb-70" datatype="html">
+        <source>( 2 ) Beantragt eine Partei eine Mediation bei der anderen Partei, sind beide Parteien verpflichtet, sich innerhalb von acht Tagen auf einen Mediator zu einigen. Kommt diese Einigung nicht fristgerecht zustande, ist ein anwaltlicher Mediator – wobei primär solche Mediatoren gewählt werden sollen, die eine Online-Mediation anbieten - bindend für die Parteien auf Antrag einer der Parteien von dem Präsidenten der Rechtsanwaltskammer oder einem Vertreter am Sitz der Auftragnehmerin zu bestimmen. Dies ist auch der Ort der Mediation, sofern das Kammerpräsidium keinen Vorschlag für eine Online-Mediation macht. Die Mediationssprache ist Deutsch, es sei denn, alle Beteiligten einigen sich auf eine andere Sprache.</source>
+        <target>( 2 ) If one party requests mediation from the other party, both parties are obligated to agree on a mediator within eight days. If this agreement is not reached within the deadline, a lawyer-mediator - whereby primarily those mediators who offer online mediation should be chosen - is to be bindingly determined for the parties upon request of one of the parties by the President of the Bar Association or a representative at the contractor's registered office. This is also the location of the mediation, unless the Chamber Presidency makes a suggestion for online mediation. The mediation language is German, unless all participants agree on another language.</target>
+      </trans-unit>
+      <trans-unit id="agb-71" datatype="html">
+        <source>( 3 ) Der Rechtsweg (oder ein alternativ vereinbartes Schiedsverfahren, soweit zutreffend) ist erst zulässig, wenn die Mediation gescheitert ist, weil (a) die Parteien einvernehmlich die Mediation für beendet erklären, (b) nach der ersten Mediationssitzung weitere Verhandlungen von einer Partei verweigert werden, (c) der Mediator die Mediation für gescheitert erklärt oder (d) eine Einigung nicht binnen 3 Monaten nach Beginn der ersten Mediationssitzung zustande kommt, soweit die Parteien die Frist nicht einvernehmlich verlängern.</source>
+        <target>( 3 ) The legal process (or an alternatively agreed arbitration procedure, where applicable) is only permissible after mediation has failed because (a) the parties mutually declare the end of mediation, (b) one party refuses further negotiations after the initial mediation session, (c) the mediator declares the mediation as failed, or (d) an agreement is not reached within 3 months from the start of the first mediation session, unless the parties mutually extend the deadline.</target>
+      </trans-unit>
+      <trans-unit id="agb-72" datatype="html">
+        <source>( 4 ) Die Kosten einer erfolglosen Mediation sind von den Parteien gegenüber dem Mediator intern hälftig zu tragen. Ungeachtet dieser Regelung im Verhältnis zum Mediator bleibt es den Parteien unbenommen, diese Kosten und die einer eventuell begleitenden Rechtsberatung als Rechtsverfolgungskosten in einem anschließenden Verfahren erstattet zu verlangen, es gilt dann die jeweilige Streitentscheidung. Kommt eine Einigung zustande, gilt die dabei vereinbarte Kostenregelung.</source>
+        <target>( 4 ) The costs of an unsuccessful mediation are to be shared equally by the parties in relation to the mediator. Regardless of this regulation in relation to the mediator, the parties are free to claim reimbursement of these costs and those of any accompanying legal advice as legal pursuit costs in a subsequent procedure, in which case the respective dispute decision applies. If an agreement is reached, the agreed cost regulation at that time applies.</target>
+      </trans-unit>
+      <trans-unit id="agb-73" datatype="html">
+        <source>§14 Datenschutz, Gerichtsstand, Erfüllungsort</source>
+        <target>§14 Data Protection, Jurisdiction, Place of Performance</target>
+      </trans-unit>
+      <trans-unit id="agb-74" datatype="html">
+        <source>( 1 ) Wir erheben Bestandsdaten (z.B. Name, Anschrift und Mail-Adresse, ggf. in Anspruch genommene Leistungen und alle anderen elektronisch oder zur Speicherung übermittelte Daten des Kunden, die für die Durchführung des Vertrages erforderlich sind) soweit sie für die Begründung, inhaltliche Ausgestaltung oder Änderung eines Vertragsverhältnisses zwischen uns und dem Kunden erforderlich sind.</source>
+        <target>( 1 ) We collect inventory data (e.g., name, address, and email address, services used if applicable, and all other electronically transmitted or stored customer data necessary for the execution of the contract) to the extent that it is required for the establishment, content arrangement, or modification of a contractual relationship between us and the customer.</target>
+      </trans-unit>
+      <trans-unit id="agb-75" datatype="html">
+        <source>Eine Weitergabe der Kundendaten kann entweder:</source>
+        <target>Customer data may be disclosed either:</target>
+      </trans-unit>
+      <trans-unit id="agb-76" datatype="html">
+        <source>für die Erfüllung eines Vertrages erforderlich und dann nach Art. 6 Abs. 1 lit. b DSGVO erlaubt sein oder</source>
+        <target>necessary for the fulfillment of a contract and then permitted under Art. 6(1)(b) GDPR, or</target>
+      </trans-unit>
+      <trans-unit id="agb-77" datatype="html">
+        <source>auf Grundlage unseres berechtigten Interesses an einer effektiven Leistungsgestaltung gem. Art. 6 Abs. 1 lit. f DSGVO erlaubt sein,</source>
+        <target>permitted on the basis of our legitimate interest in effective service design in accordance with Art. 6(1)(f) GDPR,</target>
+      </trans-unit>
+      <trans-unit id="agb-78" datatype="html">
+        <source>von einer Einwilligung des Kunden gem. Art. 6 Abs. 1 lit. a DSGVO gedeckt sein oder</source>
+        <target>covered by the customer's consent in accordance with Art. 6(1)(a) GDPR, or</target>
+      </trans-unit>
+      <trans-unit id="agb-79" datatype="html">
+        <source>notwendig werden, wenn wir gem. Art. 6 Abs. 1 lit. c DSGVO von einem Staat oder einer Behörde rechtmäßig auf Herausgabe Ihrer Daten in Anspruch genommen werden.</source>
+        <target>become necessary if we are lawfully required to disclose your data by a state or authority in accordance with Art. 6(1)(c) GDPR.</target>
+      </trans-unit>
+      <trans-unit id="agb-80" datatype="html">
+        <source>Eine Weitergabe der personenbezogenen Daten des Kunden an Dritte erfolgt ausschließlich an die im Rahmen der Vertragsabwicklung beteiligten Dienstleistungspartner, wie z.B. Subunternehmen, Hoster und sonstige Dritte. Soweit erforderlich, haben wir mit den Dritten Verträge geschlossen, die eine Verarbeitung der Daten in unserem Auftrag vorsehen. Soweit Daten außerhalb der EU weitergegeben werden, ist für eine Gleichwertigkeit des Datenschutzes gesorgt, bei einer Weitergabe in die USA erfolgt diese nur an Unternehmen, die unter dem EU-U.S. Data Privacy Framework zertifiziert sind oder durch Standardvertragsklauseln abgesichert sind. In den Fällen der Weitergabe von personenbezogenen Daten des Kunden an Dritte beschränkt sich der Umfang der übermittelten Daten auf das erforderliche Minimum.</source>
+        <target>The disclosure of the customer's personal data to third parties is limited to the service partners involved in the execution of the contract, such as subcontractors, hosting providers, and other third parties. Where necessary, we have entered into agreements with these third parties that provide for the processing of data on our behalf. If data is transferred outside the EU, we ensure an equivalent level of data protection. In the case of transfers to the USA, this is done only to companies certified under the EU-U.S. Data Privacy Framework or secured by standard contractual clauses. In instances of disclosing the customer's personal data to third parties, the extent of the transmitted data is limited to the necessary minimum.</target>
+      </trans-unit>
+      <trans-unit id="agb-81" datatype="html">
+        <source>( 2 ) Der Kunde kann von uns jederzeit kostenfrei Auskunft über die von dem Programmierer über den Kunden gespeicherten personenbezogenen Daten verlangen. Hierbei wird zur Verhinderung von Missbrauch eine Identifikation des Kunden erforderlich. Der Kunde kann von uns jederzeit Berichtigung unrichtiger Daten verlangen sowie eine Einschränkung ihrer Verarbeitung oder auch ihre Löschung. Wir werden die personenbezogenen Daten des Kunden dann unverzüglich berichtigen, sperren oder gar löschen, sofern dem nicht gesetzliche Gründe entgegenstehen. Der Kunde kann von uns die Übertragung der zu seiner Person gespeicherten Daten in maschinenlesbarer Form verlangen.</source>
+        <target>( 2 ) The customer can request information from us at any time, free of charge, about the personal data stored by the programmer about the customer. To prevent misuse, customer identification will be required. The customer can request the correction of incorrect data, restriction of data processing, or deletion of their data at any time. We will promptly correct, block, or delete the customer's personal data unless legal reasons prevent this. The customer can also request the transfer of their stored data in a machine-readable format.</target>
+      </trans-unit>
+      <trans-unit id="agb-82" datatype="html">
+        <source>Soweit sich der Kunde durch unsere Datenverarbeitung in seinen Rechten verletzt fühlt, kann er bei der zuständigen Aufsichtsbehörde (hier findet sich eine Liste der Behörden) eine Beschwerde einreichen. Der Kunde hat ferner das Recht, seine Einwilligung in die Speicherung seiner personenbezogenen Daten jederzeit mit Wirkung für die Zukunft formlos zu widerrufen, z.B. durch E-Mail an uns, hierdurch wird die Rechtmäßigkeit der bisherigen Datenverarbeitung nicht berührt. Im Falle einer entsprechenden Mitteilung werden die zu der Person des Kunden gespeicherten personenbezogenen Daten gelöscht, es sei denn, die betreffenden Daten werden im Rahmen des geschlossenen Vertragsverhältnisses noch benötigt oder gesetzliche Regelungen stehen einer Löschung entgegen. In diesem Fall tritt an die Stelle einer Löschung eine Sperrung der betreffenden personenbezogenen Daten.</source>
+        <target>If the customer feels that our data processing has violated their rights, they can file a complaint with the competent supervisory authority (a list of authorities can be found here). Furthermore, the customer has the right to revoke their consent to the storage of their personal data at any time with effect for the future, informally, for example, by email to us. This revocation does not affect the lawfulness of the processing carried out before the revocation. Upon receipt of such notification, the personal data stored about the customer will be deleted, unless the data is still needed for the purposes of the contractual relationship or legal regulations prevent deletion. In such cases, the relevant personal data will be blocked instead of deleted.</target>
+      </trans-unit>
+      <trans-unit id="agb-83" datatype="html">
+        <source>( 3 ) Die Daten des Kunden bleiben grundsätzlich nur so lange gespeichert, wie es der Zweck der jeweiligen Datenverarbeitung erfordert. Eine weitergehende Speicherung kommt vor allem in Betracht, wenn dies zur Rechtsverfolgung durch uns oder aus unseren sonstigen berechtigten Interessen noch erforderlich ist oder wir gesetzlich gehalten sind, die Daten des Kunden noch aufzubewahren (zB. im Rahmen steuerlicher Aufbewahrungsfristen, die grundsätzlich 6 oder gar 10 Jahre betragen).</source>
+        <target>( 3 ) The customer's data is generally only stored for as long as necessary for the purpose of the respective data processing. Extended storage may be considered, especially if it is necessary for legal prosecution by us or for our other legitimate interests, or if we are legally obligated to retain the customer's data (e.g., within tax retention periods, which are generally 6 or even 10 years).</target>
+      </trans-unit>
+      <trans-unit id="agb-84" datatype="html">
+        <source>( 4 ) Sofern der Kunde Kaufmann ist, ist unser Geschäftssitz Gerichtsstand, wir sind jedoch berechtigt, den Kunden auch an seinem Wohn- oder Geschäftssitz zu verklagen.</source>
+        <target>( 4 ) If the customer is a merchant, our place of business shall be the place of jurisdiction. However, we reserve the right to sue the customer at their place of residence or business as well.</target>
+      </trans-unit>
+      <trans-unit id="agb-85" datatype="html">
+        <source>( 5 ) Sofern sich aus der Auftragsbestätigung oder dem Vertrag nicht ein Anderes ergibt, ist unser Geschäftssitz Erfüllungsort.</source>
+        <target>( 5 ) Unless otherwise specified in the order confirmation or contract, our place of business shall be the place of performance.</target>
+      </trans-unit>
+      <trans-unit id="5093825420187528031" datatype="html">
+        <source>Neue Version verfügbar. Neue Version laden?</source>
+        <target>New version available. Load new version?</target>
+      </trans-unit>
+      <trans-unit id="9206568974466489576" datatype="html">
+        <source>Sie sind derzeit offline. Das Formular wird übermittelt, sobald Sie wieder online sind.</source>
+        <target>You are currently offline. The form will be submitted once you are online.</target>
+      </trans-unit>
+      <trans-unit id="about-intro" datatype="html">
+        <source>Senior Angular Architekt mit Fokus auf pragmatische Umsetzung. Ich entwickle skalierbare Enterprise-Applikationen, die technische Exzellenz mit nachhaltigen Ergebnissen vereinen.</source>
+        <target>Senior Angular Architect with a focus on pragmatic implementation. I develop scalable enterprise applications that combine technical excellence with sustainable results.</target>
+      </trans-unit>
+      <trans-unit id="home-services-title" datatype="html">
+        <source>Expertise &amp; Leistungen</source>
+        <target>Expertise &amp; Services</target>
+      </trans-unit>
+      <trans-unit id="home-services-subtitle" datatype="html">
+        <source>Fokussierte Lösungen für moderne Web-Herausforderungen.</source>
+        <target>Focused solutions for modern web challenges.</target>
+      </trans-unit>
+      <trans-unit id="service-1-title" datatype="html">
+        <source>Angular Engineering</source>
+        <target>Angular Engineering</target>
+      </trans-unit>
+      <trans-unit id="service-1-desc" datatype="html">
+        <source>Skalierbare, wartbare Enterprise-Anwendungen, entwickelt mit den neuesten Angular-Versionen und Best Practices.</source>
+        <target>Scalable, maintainable enterprise applications, developed with the latest Angular versions and best practices.</target>
+      </trans-unit>
+      <trans-unit id="service-2-title" datatype="html">
+        <source>Performance Optimierung</source>
+        <target>Performance Optimization</target>
+      </trans-unit>
+      <trans-unit id="service-2-desc" datatype="html">
+        <source>Identifizierung von Engpässen, Optimierung der Change Detection und Sicherstellung blitzschneller Ladezeiten.</source>
+        <target>Identification of bottlenecks, optimization of change detection, and ensuring lightning-fast load times.</target>
+      </trans-unit>
+      <trans-unit id="service-3-title" datatype="html">
+        <source>Architektur &amp; Code-Review</source>
+        <target>Architecture &amp; Code Review</target>
+      </trans-unit>
+      <trans-unit id="service-3-desc" datatype="html">
+        <source>Tiefgehende Analyse Ihrer Codebasis zur Verbesserung der Wartbarkeit, Sicherheit und Skalierbarkeit.</source>
+        <target>Deep analysis of your codebase to improve maintainability, security, and scalability.</target>
+      </trans-unit>
+      <trans-unit id="service-4-title" datatype="html">
+        <source>Barrierefreiheit (A11Y)</source>
+        <target>Accessibility (A11Y)</target>
+      </trans-unit>
+      <trans-unit id="service-4-desc" datatype="html">
+        <source>Sicherstellung, dass Ihre Anwendungen inklusiv sind und modernen Barrierefreiheitsstandards entsprechen.</source>
+        <target>Ensuring your applications are inclusive and meet modern accessibility standards.</target>
+      </trans-unit>
+      <trans-unit id="service-5-title" datatype="html">
+        <source>Career &amp; Tech Mentoring</source>
+        <target>Career &amp; Tech Mentoring</target>
+      </trans-unit>
+      <trans-unit id="service-5-desc" datatype="html">
+        <source>Indie-Hacker Coaching &amp; technische Roadmap. Ich helfe dir, deine eigenen Produkte zu bauen und deine Karriere zu beschleunigen.</source>
+        <target>Indie Hacker Coaching &amp; technical roadmap. I help you build your own products and accelerate your career.</target>
+      </trans-unit>
+      <trans-unit id="home-process-title" datatype="html">
+        <source>Der Prozess</source>
+        <target>The Process</target>
+      </trans-unit>
+      <trans-unit id="home-process-subtitle" datatype="html">
+        <source>Wie wir Ihre Vision in eine performante Realität umsetzen.</source>
+        <target>How we turn your vision into high-performance reality.</target>
+      </trans-unit>
+      <trans-unit id="process-1-status" datatype="html">
+        <source>Analyse</source>
+        <target>Analysis</target>
+      </trans-unit>
+      <trans-unit id="process-1-desc" datatype="html">
+        <source>Erstberatung, um Ihre Projektanforderungen und Ziele zu verstehen.</source>
+        <target>Initial consultation to understand your project requirements and goals.</target>
+      </trans-unit>
+      <trans-unit id="process-2-status" datatype="html">
+        <source>Strategie</source>
+        <target>Strategy</target>
+      </trans-unit>
+      <trans-unit id="process-2-desc" datatype="html">
+        <source>Entwicklung eines maßgeschneiderten Aktionsplans und Definition der technischen Architektur.</source>
+        <target>Development of a tailored action plan and definition of the technical architecture.</target>
+      </trans-unit>
+      <trans-unit id="process-3-status" datatype="html">
+        <source>Umsetzung</source>
+        <target>Implementation</target>
+      </trans-unit>
+      <trans-unit id="process-3-desc" datatype="html">
+        <source>Agile Entwicklung mit regelmäßigen Updates und Feedback-Loops.</source>
+        <target>Agile development with regular updates and feedback loops.</target>
+      </trans-unit>
+      <trans-unit id="process-4-status" datatype="html">
+        <source>Abschluss</source>
+        <target>Completion</target>
+      </trans-unit>
+      <trans-unit id="process-4-desc" datatype="html">
+        <source>Abschließende Tests, Optimierung und erfolgreiches Deployment Ihrer Lösung.</source>
+        <target>Final testing, optimization, and successful deployment of your solution.</target>
+      </trans-unit>
+      <trans-unit id="home-success-title" datatype="html">
+        <source>Erfolgsgeschichten</source>
+        <target>Success Stories</target>
+      </trans-unit>
+      <trans-unit id="home-success-subtitle" datatype="html">
+        <source>Praxisbeispiele für skalierbare Web-Lösungen.</source>
+        <target>Real-world examples of scalable web solutions.</target>
+      </trans-unit>
+      <trans-unit id="home-case-tag" datatype="html">
+        <source>Case Study</source>
+        <target>Case Study</target>
+      </trans-unit>
+      <trans-unit id="home-case-title" datatype="html">
+        <source>Skalierbare Plattform für Ausdauersportler</source>
+        <target>Scalable Platform for Endurance Athletes</target>
+      </trans-unit>
+      <trans-unit id="home-case-description" datatype="html">
+        <source>Solo-Bootstrapping einer komplexen Trainings-Plattform mit Echtzeit-Datenverarbeitung und tiefer Strava-Integration. 
+            Dieses Projekt demonstriert die Leistungsfähigkeit moderner Angular-Architekturen unter Volllast.</source>
+        <target>Solo-bootstrapped a complex training platform with real-time data processing and deep Strava integration. This project demonstrates the power of modern Angular architectures under heavy load.</target>
+      </trans-unit>
+      <trans-unit id="home-case-feat-1" datatype="html">
+        <source>Offizielle Strava API Partner Integration</source>
+        <target>Official Strava API Partner Integration</target>
+      </trans-unit>
+      <trans-unit id="home-case-feat-2-new" datatype="html">
+        <source>Reaktiver Pace Rechner &amp; Rennverzeichnis</source>
+        <target>Reactive Pace Calculator &amp; Race Directory</target>
+      </trans-unit>
+      <trans-unit id="home-case-feat-3" datatype="html">
+        <source>Enterprise Angular Architektur</source>
+        <target>Enterprise Angular Architecture</target>
+      </trans-unit>
+      <trans-unit id="home-case-link" datatype="html">
+        <source>Projekt live ansehen</source>
+        <target>View Project Live</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-home" datatype="html">
+        <source>Home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-imprint" datatype="html">
+        <source>Impressum</source>
+        <target>Imprint</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-agb" datatype="html">
+        <source>AGB</source>
+        <target>T&amp;C</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-privacy" datatype="html">
+        <source>Datenschutz</source>
+        <target>Privacy Policy</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-inquiry" datatype="html">
+        <source>Projektanfrage</source>
+        <target>Project Inquiry</target>
+      </trans-unit>
+      <trans-unit id="consultation-title" datatype="html">
+        <source>Ihr Erstgespräch</source>
+        <target>Your Initial Consultation</target>
+      </trans-unit>
+      <trans-unit id="consultation-intro" datatype="html">
+        <source>In diesem Call analysieren wir deine Herausforderungen und besprechen, wie wir mit pragmatischen Lösungen und einer skalierbaren Architektur echte Ergebnisse erzielen.</source>
+        <target>In this call, we analyze your challenges and discuss how to achieve real results with pragmatic solutions and a scalable architecture.</target>
+      </trans-unit>
+      <trans-unit id="consultation-topics-title" datatype="html">
+        <source>Was wir im Call machen:</source>
+        <target>What we do in the call:</target>
+      </trans-unit>
+      <trans-unit id="consultation-topic-1" datatype="html">
+        <source>Kurze Analyse Ihrer aktuellen Situation / Architektur.</source>
+        <target>Short analysis of your current situation / architecture.</target>
+      </trans-unit>
+      <trans-unit id="consultation-topic-2" datatype="html">
+        <source>Ermittlung des Optimierungspotenzials (Performance, Scalability, DX).</source>
+        <target>Identification of optimization potential (performance, scalability, DX).</target>
+      </trans-unit>
+      <trans-unit id="consultation-topic-3" datatype="html">
+        <source>Besprechung der nächsten Schritte für eine Zusammenarbeit.</source>
+        <target>Discussion of next steps for collaboration.</target>
+      </trans-unit>
+      <trans-unit id="consultation-note" datatype="html">
+        <source>Der Termin findet per Google Meet statt. Falls Sie ein reines Telefonat bevorzugen, hinterlassen Sie bitte eine kurze Notiz bei der Buchung.</source>
+        <target>The meeting will take place via Google Meet. If you prefer a phone call, please leave a short note when booking.</target>
+      </trans-unit>
+      <trans-unit id="booking-success-title" datatype="html">
+        <source>Termin bestätigt!</source>
+        <target>Booking Confirmed!</target>
+      </trans-unit>
+      <trans-unit id="booking-success-message" datatype="html">
+        <source>Vielen Dank für Ihre Buchung. Ich freue mich auf unser Gespräch!</source>
+        <target>Thank you for your booking. I look forward to our conversation!</target>
+      </trans-unit>
+      <trans-unit id="booking-success-details" datatype="html">
+        <source>Eine Bestätigung wurde an Ihre E-Mail gesendet. Den Link zum Google Meet Raum finden Sie direkt in der Kalendereinladung.</source>
+        <target>A confirmation has been sent to your email. You will find the link to the Google Meet room directly in the calendar invitation.</target>
+      </trans-unit>
+      <trans-unit id="booking-success-back-btn" datatype="html">
+        <source>Zurück zur Startseite</source>
+        <target>Back to Home</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-success" datatype="html">
+        <source>Erfolg</source>
+        <target>Success</target>
+      </trans-unit>
+      <trans-unit id="breadcrumb-discovery-prep" datatype="html">
+        <source>Erstgespräch Vorbereitung</source>
+        <target>Discovery Call Preparation</target>
+      </trans-unit>
+      <trans-unit id="discovery-prep-title" datatype="html">
+        <source>Dein Discovery-Call</source>
+        <target>Your Discovery Call</target>
+      </trans-unit>
+      <trans-unit id="discovery-prep-subtitle" datatype="html">
+        <source>Lass uns gemeinsam herausfinden, wie ich dein Projekt voranbringen kann.</source>
+        <target>Let's find out together how I can move your project forward.</target>
+      </trans-unit>
+      <trans-unit id="discovery-step1-title" datatype="html">
+        <source>Projektvision</source>
+        <target>Project Vision</target>
+      </trans-unit>
+      <trans-unit id="discovery-step1-text" datatype="html">
+        <source>Was ist die Kern-Idee deines Projekts? Welches Problem löst es für deine Nutzer? Ein grober Überblick hilft mir, mich in deine Welt hineinzudenken.</source>
+        <target>What is the core idea of your project? What problem does it solve for your users? A rough overview helps me to think my way into your world.</target>
+      </trans-unit>
+      <trans-unit id="discovery-step2-title" datatype="html">
+        <source>Aktueller Stand</source>
+        <target>Current Status</target>
+      </trans-unit>
+      <trans-unit id="discovery-step2-text" datatype="html">
+        <source>Wo stehst du gerade? Hast du eine erste Skizze, ein fertiges Design oder bereits eine bestehende Anwendung, die skaliert werden muss?</source>
+        <target>Where are you right now? Do you have an initial sketch, a finished design, or an existing application that needs to be scaled?</target>
+      </trans-unit>
+      <trans-unit id="discovery-step3-title" datatype="html">
+        <source>Rahmenbedingungen</source>
+        <target>General Conditions</target>
+      </trans-unit>
+      <trans-unit id="discovery-step3-text" datatype="html">
+        <source>Hast du bereits Vorstellungen zum Zeitplan oder zum Budget? Diese Informationen helfen uns, das Projekt direkt realistisch einzuschätzen.</source>
+        <target>Do you already have ideas about the timeline or the budget? This information helps us to realistically assess the project right from the start.</target>
+      </trans-unit>
+      <trans-unit id="discovery-step4-title" datatype="html">
+        <source>Fragen an mich</source>
+        <target>Questions for Me</target>
+      </trans-unit>
+      <trans-unit id="discovery-step4-text" datatype="html">
+        <source>Was ist dir bei einer Zusammenarbeit wichtig? Überlege dir gerne Fragen zu meinem Prozess, meinen Technologien oder meiner Arbeitsweise.</source>
+        <target>What is important to you in a collaboration? Feel free to think about questions regarding my process, technologies, or way of working.</target>
+      </trans-unit>
+      <trans-unit id="discovery-prep-footer-title" datatype="html">
+        <source>Ich freue mich auf unser Kennenlernen!</source>
+        <target>I look forward to meeting you!</target>
+      </trans-unit>
+      <trans-unit id="discovery-prep-footer-text" datatype="html">
+        <source>Ein Erstgespräch ist für beide Seiten unverbindlich. Mein Ziel ist es, dir echten Mehrwert zu bieten – egal ob wir danach zusammenarbeiten oder nicht.</source>
+        <target>An initial consultation is non-binding for both sides. My goal is to offer you real value – whether we work together afterward or not.</target>
+      </trans-unit>
+      <trans-unit id="home-hero-badge" datatype="html">
+        <source>10+ Jahre Enterprise Erfahrung</source>
+        <target>10+ Years of Enterprise Experience</target>
+      </trans-unit>
+      <trans-unit id="home-hero-title" datatype="html">
+        <source>
+        Freelance Senior<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+        Angular Architekt
+      </source>
+        <target>
+        Freelance Senior<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+        Angular Architect
+      </target>
+      </trans-unit>
+      <trans-unit id="home-hero-description" datatype="html">
+        <source>Spezialisiert auf High-Performance Architekturen und die Rettung komplexer Legacy-Codebases. Ich liefere technische Exzellenz mit klarem Fokus auf Ihren ROI.</source>
+        <target>Specialized in high-performance architectures and rescuing complex legacy codebases. I deliver technical excellence with a clear focus on your ROI.</target>
+      </trans-unit>
+      <trans-unit id="home-hero-btn-1" datatype="html">
+        <source>Kostenloses Erstgespräch</source>
+        <target>Free Discovery Call</target>
+      </trans-unit>
+      <trans-unit id="home-hero-btn-2" datatype="html">
+        <source>Leistungen ansehen</source>
+        <target>View Services</target>
+      </trans-unit>
+      <trans-unit id="home-cta-title" datatype="html">
+        <source>Bereit für das nächste Level?</source>
+        <target>Ready for the Next Level?</target>
+      </trans-unit>
+      <trans-unit id="home-cta-description" datatype="html">
+        <source>
+      Lassen Sie uns gemeinsam Ihr Angular-Projekt skalieren. Egal ob Architektur-Review, Performance-Optimierung oder die Entwicklung komplexer Enterprise-Lösungen – ich unterstütze Sie bei jedem Schritt.
+    </source>
+        <target>
+      Let's scale your Angular project together. Whether it's an architecture review, performance optimization, or developing complex enterprise solutions – I support you every step of the way.
+    </target>
+      </trans-unit>
+      <trans-unit id="home-cta-btn" datatype="html">
+        <source>Erstgespräch vereinbaren</source>
+        <target>Schedule Discovery Call</target>
+      </trans-unit>
+      <trans-unit id="home-case-feat-4" datatype="html">
+        <source>3D Strecken-Simulation</source>
+        <target>3D Course Simulation</target>
+      </trans-unit>
+      <trans-unit id="home-case-feat-5" datatype="html">
+        <source>Individuelle KI-Integration</source>
+        <target>Custom AI Integration</target>
+      </trans-unit>
+      <trans-unit id="home-case-metric-1" datatype="html">
+        <source>Verfügbarkeit</source>
+        <target>Uptime</target>
+      </trans-unit>
+      <trans-unit id="home-case-metric-2" datatype="html">
+        <source>Test-Abdeckung</source>
+        <target>Test Coverage</target>
+      </trans-unit>
+      <trans-unit id="home-case-metric-3" datatype="html">
+        <source>Latenz</source>
+        <target>Latency</target>
+      </trans-unit>
+      <trans-unit id="home-testimonials-title" datatype="html">
+        <source>Stimmen von Partnern</source>
+        <target>Voice of Partners</target>
+      </trans-unit>
+      <trans-unit id="home-testimonials-subtitle" datatype="html">
+        <source>Was Kunden über die Zusammenarbeit sagen.</source>
+        <target>What clients say about the collaboration.</target>
+      </trans-unit>
+      <trans-unit id="home-testimonial-1-text" datatype="html">
+        <source>"Jan hat unsere Angular-Architektur auf ein neues Level gehoben. Seine Enterprise-Erfahrung war entscheidend für die Skalierbarkeit unseres Produkts."</source>
+        <target>"Jan took our Angular architecture to the next level. His enterprise experience was crucial for the scalability of our product."</target>
+      </trans-unit>
+      <trans-unit id="home-testimonial-2-text" datatype="html">
+        <source>"Die Zusammenarbeit war hochprofessionell. Besonders die Performance-Optimierung hat unsere Conversion-Rate messbar gesteigert."</source>
+        <target>"The collaboration was highly professional. Especially the performance optimization measurably increased our conversion rate."</target>
+      </trans-unit>
+      <trans-unit id="form-legal-notice-1" datatype="html">
+        <source>Mit dem Absenden der Anfrage erklärst du dich mit der Verarbeitung deiner Daten gemäß der </source>
+        <target>By submitting this inquiry, you agree to the processing of your data in accordance with our </target>
+      </trans-unit>
+      <trans-unit id="form-legal-notice-link-privacy" datatype="html">
+        <source>Datenschutzerklärung</source>
+        <target>Privacy Policy</target>
+      </trans-unit>
+      <trans-unit id="form-legal-notice-2" datatype="html">
+        <source> und den </source>
+        <target> and </target>
+      </trans-unit>
+      <trans-unit id="form-legal-notice-link-agb" datatype="html">
+        <source>AGB</source>
+        <target>Terms and Conditions</target>
+      </trans-unit>
+      <trans-unit id="form-legal-notice-3" datatype="html">
+        <source> einverstanden. Mein Angebot richtet sich ausschließlich an gewerbliche Kunden.</source>
+        <target>. My offer is intended exclusively for business customers.</target>
+      </trans-unit>
+      <trans-unit id="agb-59-new" datatype="html">
+        <source>( 5 ) &lt;strong&gt;Background IP:&lt;/strong&gt; Wir behalten uns sämtliche Rechte an vorbestehenden Methoden, Architektur-Patterns, Code-Bibliotheken und Tools vor, die wir in das Projekt einbringen ("Background IP"). Der Kunde erhält an dieser Background IP ein nicht-exklusives, zeitlich unbegrenztes Nutzungsrecht im Rahmen des konkreten Projektergebnisses.</source>
+        <target>( 5 ) &lt;strong&gt;Background IP:&lt;/strong&gt; We reserve all rights to pre-existing methods, architecture patterns, code libraries, and tools that we bring into the project ("Background IP"). The customer receives a non-exclusive, perpetual right of use for this Background IP within the scope of the specific project outcome.</target>
+      </trans-unit>
+      <trans-unit id="agb-ai-title" datatype="html">
+        <source>§16 Einsatz von KI-Technologien</source>
+        <target>§16 Use of AI Technologies</target>
+      </trans-unit>
+      <trans-unit id="agb-ai-1" datatype="html">
+        <source>( 1 ) Wir setzen im Rahmen der Leistungserbringung moderne KI-gestützte Entwicklungswerkzeuge (z. B. Large Language Models) ein, um die Effizienz und Qualität der Ergebnisse zu steigern.</source>
+        <target>( 1 ) We use modern AI-supported development tools (e.g., Large Language Models) in the context of service provision to increase the efficiency and quality of the results.</target>
+      </trans-unit>
+      <trans-unit id="agb-ai-2" datatype="html">
+        <source>( 2 ) Wir stellen sicher, dass durch den Einsatz dieser Werkzeuge keine vertraulichen Daten des Kunden in öffentliche Trainingsdatenbestände gelangen. Es werden ausschließlich Tools mit entsprechenden Datenschutz-Garantien (Enterprise-Lizenzen, Zero-Retention-Policies) oder lokale Instanzen verwendet.</source>
+        <target>( 2 ) We ensure that no confidential data of the customer enters public training data sets through the use of these tools. Only tools with corresponding data protection guarantees (Enterprise licenses, zero-retention policies) or local instances are used.</target>
+      </trans-unit>
+      <trans-unit id="agb-final-title" datatype="html">
+        <source>§17 Schlussbestimmungen, Salvatorische Klausel</source>
+        <target>§17 Final Provisions, Severability Clause</target>
+      </trans-unit>
+      <trans-unit id="agb-final-1" datatype="html">
+        <source>( 1 ) Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts.</source>
+        <target>( 1 ) The law of the Federal Republic of Germany applies, excluding the UN Convention on Contracts for the International Sale of Goods.</target>
+      </trans-unit>
+      <trans-unit id="agb-final-2" datatype="html">
+        <source>( 2 ) Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, so wird die Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt. Anstelle der unwirksamen Bestimmung tritt eine Regelung, die dem wirtschaftlichen Zweck der unwirksamen Bestimmung am nächsten kommt.</source>
+        <target>( 2 ) Should individual provisions of these GTC be or become invalid, the validity of the remaining provisions shall not be affected. In place of the invalid provision, a regulation shall apply that comes closest to the economic purpose of the invalid provision.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

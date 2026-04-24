@@ -1,0 +1,163 @@
+<div class="px-4 pb-8 overflow-hidden relative">
+  <!-- Decorative Blurs -->
+  <div
+    class="bg-blur"
+    style="
+      top: 10%;
+      left: -10%;
+      width: 500px;
+      height: 500px;
+      background: #7c3aed;
+    "
+  ></div>
+  <div
+    class="bg-blur"
+    style="
+      top: 60%;
+      right: -10%;
+      width: 600px;
+      height: 600px;
+      background: #3b82f6;
+    "
+  ></div>
+
+  <!-- Hero Section -->
+  <div class="hero-container flex align-items-center justify-content-center">
+    <div class="text-center max-w-50rem mx-auto px-2">
+      <!-- Trust Badge -->
+      <div
+        class="inline-flex align-items-center gap-2 px-3 py-2 border-1 border-white-alpha-30 mb-4 mt-4 lg:mt-5 bg-white-alpha-10 backdrop-blur-sm"
+      >
+        <span
+          class="inline-flex align-items-center justify-content-center"
+          style="width: 1rem; height: 1rem"
+        >
+          <i class="pi pi-verified text-white"></i>
+        </span>
+        <span
+          class="text-white text-xs sm:text-sm font-bold uppercase tracking-wider"
+          i18n="@@home-hero-badge"
+          >10+ Jahre Enterprise Erfahrung</span
+        >
+      </div>
+
+      <h1
+        class="text-5xl sm:text-7xl lg:text-8xl font-bold line-height-1 mb-4 mt-4 text-white"
+        i18n="@@home-hero-title"
+      >
+        Freelance Senior<br />
+        Angular Architekt
+      </h1>
+      <p
+        class="text-lg lg:text-2xl text-white-alpha-80 line-height-3 mb-6 max-w-40rem mx-auto"
+        i18n="@@home-hero-description"
+      >
+        Spezialisiert auf High-Performance Architekturen und die Rettung komplexer Legacy-Codebases. Ich liefere technische Exzellenz mit klarem Fokus auf Ihren ROI.
+      </p>
+      <div class="flex flex-column sm:flex-row gap-4 justify-content-center">
+        <button
+          routerLink="/inquiry"
+          aria-label="Kostenloses Erstgespräch"
+          i18n-aria-label="@@home-hero-btn-1"
+          class="p-button p-component p-button-lg p-button-raised border-round-none px-6 py-3 text-xl bg-white text-black border-none font-bold w-full sm:w-auto cursor-pointer shadow-2 hover:bg-white-alpha-90 transition-colors"
+          style="color: #000000 !important; white-space: nowrap"
+        >
+          <span i18n="@@home-hero-btn-1">Kostenloses Erstgespräch</span>
+        </button>
+        <button
+          aria-label="Leistungen ansehen"
+          i18n-aria-label="@@home-hero-btn-2"
+          class="p-button p-component p-button-lg p-button-text border-round-none px-6 py-3 text-xl text-white font-bold hover:bg-white-alpha-10 w-full sm:w-auto cursor-pointer border-none bg-transparent transition-colors"
+          (click)="scrollToServices()"
+        >
+          <span i18n="@@home-hero-btn-2">Leistungen ansehen</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technical Authority / Social Proof Section -->
+
+  <div class="py-6 border-y-1 border-white-alpha-10 mt-4 overflow-hidden">
+    <div
+      class="flex flex-wrap align-items-center justify-content-center gap-6 opacity-80 hover:opacity-100 transition-all transition-duration-500"
+    >
+      <span class="text-xl font-bold text-white flex align-items-center gap-2">
+        <span
+          class="inline-flex align-items-center justify-content-center"
+          style="width: 1.25rem; height: 1.25rem"
+          ><i class="pi pi-search"></i
+        ></span>
+        Architecture Audits
+      </span>
+
+      <span class="text-xl font-bold text-white flex align-items-center gap-2">
+        <span
+          class="inline-flex align-items-center justify-content-center"
+          style="width: 1.25rem; height: 1.25rem"
+          ><i class="pi pi-bolt"></i
+        ></span>
+        Lighthouse 90+
+      </span>
+      <span class="text-xl font-bold text-white flex align-items-center gap-2">
+        <span
+          class="inline-flex align-items-center justify-content-center"
+          style="width: 1.25rem; height: 1.25rem"
+          ><i class="pi pi-lock"></i
+        ></span>
+        OWASP Security
+      </span>
+      <span class="text-xl font-bold text-white flex align-items-center gap-2">
+        <span
+          class="inline-flex align-items-center justify-content-center"
+          style="width: 1.25rem; height: 1.25rem"
+          ><i class="pi pi-server"></i
+        ></span>
+        Scalable Systems
+      </span>
+    </div>
+  </div>
+
+</div>
+
+@defer (hydrate on viewport; prefetch on idle) {
+  <app-landing-services></app-landing-services>
+} @placeholder {
+  <div style="min-height: 600px"></div>
+}
+
+@defer (hydrate on viewport; prefetch on idle) {
+  <app-landing-process></app-landing-process>
+} @placeholder {
+  <div style="min-height: 500px"></div>
+}
+
+@defer (hydrate on viewport; prefetch on idle) {
+  <app-landing-success-stories></app-landing-success-stories>
+} @placeholder {
+  <div style="min-height: 800px"></div>
+}
+
+@defer (hydrate on viewport; prefetch on idle) {
+  <app-landing-testimonials></app-landing-testimonials>
+} @placeholder {
+  <div style="min-height: 500px"></div>
+}
+
+@defer (hydrate on viewport; prefetch on idle) {
+  <app-landing-cta></app-landing-cta>
+} @placeholder {
+  <div style="min-height: 400px"></div>
+}
+
+<div class="relative">
+  <div class="text-center relative">
+    <div id="ueberMich" style="scroll-margin-top: 130px;">
+      @defer (hydrate on viewport; prefetch on idle) {
+        <app-about></app-about>
+      } @placeholder {
+        <div></div>
+      }
+    </div>
+  </div>
+</div>

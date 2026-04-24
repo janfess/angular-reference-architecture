@@ -1,0 +1,41 @@
+<div class="scheduler-container relative min-h-30rem flex flex-column">
+  @if (consentGiven) {
+    @if (iframeLoading) {
+      <div class="flex flex-column align-items-center justify-content-center py-8 min-h-30rem">
+        <i class="pi pi-spin pi-spinner text-4xl text-primary-500 mb-3"></i>
+        <p class="text-white-alpha-60" i18n="@@calendar-loading">Kalender wird geladen...</p>
+      </div>
+    }
+    <iframe 
+      [src]="sanitizedUrl" 
+      width="100%" 
+      height="800" 
+      frameborder="0" 
+      scrolling="yes"
+      class="border-none w-full animate-fadein shadow-4"
+      [class.hidden]="iframeLoading"
+      (load)="onIframeLoad()"
+      title="Google Calendar Appointment Schedule"
+      i18n-title="@@calendar-iframe-title"
+    ></iframe>
+  } @else {
+    <div class="consent-overlay glass-card p-6 flex flex-column align-items-center justify-content-center text-center border-1 border-white-alpha-10 animate-fadein">
+      <div class="w-4rem h-4rem bg-white-alpha-10 border-circle flex align-items-center justify-content-center mb-4">
+        <i class="pi pi-lock text-3xl text-primary-500"></i>
+      </div>
+      <h3 class="text-xl font-bold mb-3 text-white" i18n="@@calendar-consent-title">Terminkalender aktivieren</h3>
+      <p class="text-white-alpha-60 mb-5 max-w-30rem" i18n="@@calendar-consent-text">
+        Um Ihnen eine komfortable Terminbuchung direkt auf der Seite zu ermöglichen, nutze ich Google Calendar. 
+        Durch das Laden des Kalenders wird eine Verbindung zu Google-Servern hergestellt. 
+        Weitere Infos finden Sie in meiner <a routerLink="/datenschutz" class="text-primary-500 no-underline hover:underline">Datenschutzerklärung</a>.
+      </p>
+      <button 
+        (click)="acceptConsent()" 
+        class="p-button p-button-primary p-px-6 font-bold"
+        i18n="@@calendar-consent-button"
+      >
+        Kalender laden & anzeigen
+      </button>
+    </div>
+  }
+</div>

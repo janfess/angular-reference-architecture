@@ -1,0 +1,111 @@
+:host {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+#menu {
+  display: grid !important;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  overflow: hidden;
+  transition: grid-template-rows 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#menu[data-state="visible"] {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+#menu > ul {
+  min-height: 0;
+}
+
+@media screen and (min-width: 992px) {
+  #menu {
+    display: flex !important;
+    grid-template-rows: none !important;
+    opacity: 1 !important;
+    overflow: visible !important;
+  }
+}
+
+.menu-initial-load {
+  transition: none !important;
+}
+
+.language-select,
+.language-select ::ng-deep .p-select,
+.language-select ::ng-deep .p-select-label,
+.language-select ::ng-deep .p-select-dropdown,
+.language-select ::ng-deep .p-select-overlay,
+.language-select ::ng-deep .p-select:not(.p-disabled).p-focus,
+.language-select ::ng-deep .p-select:hover {
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  background: transparent !important;
+  --p-primary-color: #000000 !important;
+  --p-primary-contrast-color: #ffffff !important;
+  --p-select-option-selected-background: rgba(0, 0, 0, 0.05) !important;
+  --p-select-option-selected-color: #000000 !important;
+  --p-select-option-selected-focus-background: rgba(0, 0, 0, 0.08) !important;
+  --p-select-option-selected-focus-color: #000000 !important;
+}
+
+.language-select ::ng-deep .p-select-label {
+  padding: 0 !important;
+  color: #000000 !important;
+  text-shadow: 0 0 1px white;
+}
+
+.language-select ::ng-deep .p-select-option.p-highlight {
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: black !important;
+}
+
+.language-select ::ng-deep .p-select-option:not(.p-highlight):not(.p-disabled):hover {
+  background: rgba(0, 0, 0, 0.03) !important;
+}
+
+.language-select ::ng-deep .p-select-option.p-select-option-selected.p-focus {
+  background: rgba(0, 0, 0, 0.08) !important;
+  color: black !important;
+}
+.custom-language-switch ::ng-deep .p-toggleswitch.p-toggleswitch-checked .p-toggleswitch-slider {
+  background: #000000 !important;
+}
+
+.custom-language-switch ::ng-deep .p-toggleswitch.p-toggleswitch-checked:not(.p-disabled):hover .p-toggleswitch-slider {
+  background: #333333 !important;
+}
+
+.custom-language-switch ::ng-deep .p-toggleswitch .p-toggleswitch-slider {
+  border-color: #000000 !important;
+}
+
+.custom-language-switch ::ng-deep .p-toggleswitch.p-focus .p-toggleswitch-slider {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1) !important;
+}
+
+/* PrimeNG 21+ specific variables */
+.custom-language-switch {
+  --p-toggleswitch-checked-background: #000000 !important;
+  --p-toggleswitch-hover-checked-background: #333333 !important;
+  --p-toggleswitch-handle-background: #ffffff !important;
+  --p-toggleswitch-handle-checked-background: #ffffff !important;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out !important;
+}
+
+.nav-link:hover {
+  opacity: 0.7 !important;
+}
+

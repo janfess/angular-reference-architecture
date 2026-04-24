@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="projectDescription" datatype="html">
+        <source>Als selbstständiger Webentwickler unterstütze ich Agenturen und Unternehmen bei der Umsetzung von Projekten. Dabei liegt mein Fokus auf einer pragmatischen und zielgerichteten Realisierung Ihres Projekts unter Verwendung modernster Technologien.</source>
+        <target>Als selbstständiger Webentwickler unterstütze ich Agenturen und Unternehmen bei der Umsetzung von Projekten. Dabei liegt mein Fokus auf einer pragmatischen und zielgerichteten Realisierung Ihres Projekts unter Verwendung modernster Technologien.</target>
+      </trans-unit>
+      <trans-unit id="projectRequestButton" datatype="html">
+        <source>Projektanfrage</source>
+        <target>Projektanfrage</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
