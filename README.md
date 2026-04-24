@@ -2,7 +2,7 @@
 
 > **A production-ready, highly optimized Angular architecture designed for scale, performance, and maintainability.**
 
-This repository serves as a masterclass in modern Angular development. Engineered from the ground up by a Senior Angular Developer, it demonstrates how to architect a state-of-the-art (SOTA) frontend application using the absolute latest features of Angular 21. It is explicitly designed to serve as a technical reference for enterprise teams and prospective clients.
+This repository serves as a masterclass in modern Angular development. Engineered from the ground up by a Senior Angular Architect, it demonstrates how to architect a state-of-the-art (SOTA) frontend application using the absolute latest features of Angular 21. It is explicitly designed to serve as a technical reference for enterprise teams and prospective clients.
 
 ## 🚀 Why This Architecture is "Senior-Level"
 
