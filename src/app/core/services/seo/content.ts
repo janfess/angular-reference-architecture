@@ -10,17 +10,17 @@ const seoContent: {
 } = {
   '/': {
     de: {
-      title: 'Esser Web Engineering | Senior Angular Architekt',
+      title: 'Esser Web Engineering | Freelance Senior Angular Architekt',
       description:
-        'Senior Angular Architekt & Web Engineering. Spezialisiert auf den Aufbau skalierbarer Enterprise-Anwendungen, die Optimierung von Performance-Engpässen und die Lieferung hochkarätiger Angular-Lösungen.',
+        'Freelance Senior Angular Architekt. Spezialisiert auf High-Performance Architekturen und die Rettung komplexer Legacy-Codebases. ROI-fokussierte technische Exzellenz für Enterprise-Projekte.',
       imageUrl:
         'https://tricalculator-images.s3.eu-central-1.amazonaws.com/website/esser-web-engineering-logo-text-og-moz.jpg',
       type: 'website',
     },
     en: {
-      title: 'Esser Web Engineering | Senior Angular Architect',
+      title: 'Esser Web Engineering | Freelance Senior Angular Architect',
       description:
-        'Senior Angular Architect & Web Engineering. Specialized in building scalable enterprise applications, optimizing performance bottlenecks, and delivering high-quality Angular solutions.',
+        'Freelance Senior Angular Architect. Specialized in high-performance architectures and rescuing complex legacy codebases. ROI-focused technical excellence for enterprise projects.',
       imageUrl:
         'https://tricalculator-images.s3.eu-central-1.amazonaws.com/website/esser-web-engineering-logo-text-og-moz.jpg',
       type: 'website',
