@@ -63,8 +63,8 @@
         <target>60 minutes of intensive consulting for 200€ (excl. VAT). Ideal for deep architecture analysis, code reviews, or urgent troubleshooting.</target>
       </trans-unit>
       <trans-unit id="choice-cancellation-policy" datatype="html">
-        <source>* Stornierung oder Umbuchung bis zu 24 Stunden vor dem Termin kostenlos möglich.</source>
-        <target>* Cancellation or rescheduling possible free of charge up to 24 hours before the appointment.</target>
+        <source>* Stornierung oder Umbuchung bis zu 48 Stunden vor dem Termin kostenlos möglich.</source>
+        <target>* Cancellation or rescheduling possible free of charge up to 48 hours before the appointment.</target>
       </trans-unit>
       <trans-unit id="privacy-google-calendar-title" datatype="html">
         <source>Google Terminbuchung</source>
@@ -91,8 +91,8 @@
         <target>( 1 ) The booking of consulting services (e.g., Expert Deep-Dive) is done via the online appointment booking tool on the website. A contract is only concluded upon confirmation of the appointment and – in the case of paid services – after successful payment via the connected payment service provider.</target>
       </trans-unit>
       <trans-unit id="agb-consulting-2" datatype="html">
-        <source>( 2 ) &lt;strong&gt;Stornierungsregelung:&lt;/strong&gt; Der Kunde kann gebuchte Termine bis zu 24 Stunden vor dem vereinbarten Zeitpunkt kostenlos stornieren oder verschieben. Bei einer Stornierung weniger als 24 Stunden vor dem Termin oder bei Nichterscheinen behalten wir uns vor, die volle Vergütung für den reservierten Zeitraum in Rechnung zu stellen bzw. einzubehalten, da der Termin kurzfristig nicht anderweitig vergeben werden kann.</source>
-        <target>( 2 ) &lt;strong&gt;Cancellation Policy:&lt;/strong&gt; The customer can cancel or reschedule booked appointments free of charge up to 24 hours before the agreed time. In the event of a cancellation less than 24 hours before the appointment or non-appearance, we reserve the right to invoice or retain the full remuneration for the reserved period, as the appointment cannot be reassigned at short notice.</target>
+        <source>( 2 ) &lt;strong&gt;Stornierungsregelung:&lt;/strong&gt; Der Kunde kann gebuchte Termine bis zu 48 Stunden vor dem vereinbarten Zeitpunkt kostenlos stornieren oder verschieben. Bei einer Stornierung weniger als 48 Stunden vor dem Termin oder bei Nichterscheinen behalten wir uns vor, die volle Vergütung für den reservierten Zeitraum in Rechnung zu stellen bzw. einzubehalten, da der Termin kurzfristig nicht anderweitig vergeben werden kann.</source>
+        <target>( 2 ) &lt;strong&gt;Cancellation Policy:&lt;/strong&gt; The customer can cancel or reschedule booked appointments free of charge up to 48 hours before the agreed time. In the event of a cancellation less than 48 hours before the appointment or non-appearance, we reserve the right to invoice or retain the full remuneration for the reserved period, as the appointment cannot be reassigned at short notice.</target>
       </trans-unit>
       <trans-unit id="agb-consulting-3" datatype="html">
         <source>( 3 ) Die Beratungsleistungen werden nach bestem Wissen und Gewissen erbracht. Ein konkreter wirtschaftlicher Erfolg oder die Lösung eines spezifischen technischen Problems innerhalb der gebuchten Zeit kann nicht garantiert werden.</source>
@@ -984,8 +984,8 @@
         <target>§3 Contract Content, Services</target>
       </trans-unit>
       <trans-unit id="agb-11" datatype="html">
-        <source>( 1 ) Wir erstellen die Vertragsleistungen für den Kunden kompatibel zu den jeweils aktuellen Versionen der fünf wesentlichen Browser: Chrome, Firefox, Safari, Microsoft Edge, Internet-Explorer 11 (unter Microsoft Windows 11), Opera. Aufgrund der Vielfalt der unterschiedlichen Darstellungen in den verschiedenen Browsern und Systemen ist eine genaue Übereinstimmung der Darstellung und Funktionstüchtigkeit nur mit unvertretbarem Aufwand zu gewährleisten. Soweit sich daraus keine wesentliche Verschlechterung der Funktionsfähigkeit der Website ergibt, ergibt sich aus solchen Abweichungen kein Mangel. Sofern der Kunde eine Optimierung wünscht, kann diese kostenpflichtig dazu gebucht werden.</source>
-        <target>( 1 ) We create the contractual services for the customer compatible with the current versions of the five major browsers: Chrome, Firefox, Safari, Microsoft Edge, Internet Explorer 11 (under Microsoft Windows 11), and Opera. Due to the variety of different displays in the various browsers and systems, ensuring exact consistency in display and functionality is only possible with unreasonable effort. As long as this does not result in a significant deterioration of the website's functionality, such deviations do not constitute a defect. If the customer desires optimization, this can be booked for an additional fee.</target>
+        <source>( 1 ) Wir erstellen die Vertragsleistungen für den Kunden kompatibel zu den jeweils aktuellen Versionen der wesentlichen "Evergreen"-Browser (Chrome, Firefox, Safari, Edge). Eine Unterstützung veralteter Browser (wie z.B. Internet Explorer 11) ist nicht Gegenstand des Vertrages, sofern nicht ausdrücklich vereinbart. Aufgrund der Vielfalt der unterschiedlichen Darstellungen in den verschiedenen Browsern und Systemen ist eine genaue Übereinstimmung der Darstellung und Funktionstüchtigkeit nur mit unvertretbarem Aufwand zu gewährleisten. Soweit sich daraus keine wesentliche Verschlechterung der Funktionsfähigkeit der Website ergibt, ergibt sich aus solchen Abweichungen kein Mangel. Sofern der Kunde eine Optimierung wünscht, kann diese kostenpflichtig dazu gebucht werden.</source>
+        <target>( 1 ) We create the contractual services for the customer compatible with the current versions of the major "Evergreen" browsers (Chrome, Firefox, Safari, Edge). Support for obsolete browsers (such as Internet Explorer 11) is not part of the contract unless explicitly agreed upon. Due to the variety of different displays in various browsers and systems, ensuring exact consistency in display and functionality is only possible with unreasonable effort. As long as this does not result in a significant deterioration of the website's functionality, such deviations do not constitute a defect. If the customer desires optimization, this can be booked for an additional fee.</target>
       </trans-unit>
       <trans-unit id="agb-12" datatype="html">
         <source>( 2 ) Bei älteren und zukünftigen Browser-Versionen sowie zukünftigen oder sonstigen verwendeten Software-Versionen von Drittanbietern kann die einwandfreie Funktionsfähigkeit nicht garantiert werden. Ist eine Optimierung für diese Versionen gewünscht, kann diese kostenpflichtig dazu gebucht werden.</source>
@@ -1180,21 +1180,29 @@
         <source>( 4 ) Der Kunde wird uns als Urheber nennen und den Urheberhinweis soweit möglich mit einem Link zu unserer Webseite versehen.</source>
         <target>( 4 ) The customer will name us as the author and, where possible, provide the copyright notice with a link to our website.</target>
       </trans-unit>
-      <trans-unit id="agb-60" datatype="html">
-        <source>§11 Mängelrechte, Verjährung</source>
-        <target>§11 Warranty Rights, Limitation Period</target>
+      <trans-unit id="agb-63" datatype="html">
+        <source>§11 Haftungsbeschränkung, Mängelrechte, Verjährung</source>
+        <target>§11 Limitation of Liability, Warranty Rights, Limitation Periods</target>
+      </trans-unit>
+      <trans-unit id="agb-63-1" datatype="html">
+        <source>( 1 ) Unsere Haftung für einfache Fahrlässigkeit ist, gleich aus welchem Rechtsgrund, auf den bei Vertragsschluss vorhersehbaren, vertragstypischen Schaden begrenzt. Soweit der Kunde Unternehmer ist, ist die Haftung für einfache Fahrlässigkeit zudem auf die Höhe der für das jeweilige Projekt vereinbarten Vergütung begrenzt.</source>
+        <target>( 1 ) Our liability for simple negligence is, regardless of the legal grounds, limited to the foreseeable damage typical for the contract at the time of the conclusion of the contract. Insofar as the customer is an entrepreneur, liability for simple negligence is also limited to the amount of the remuneration agreed for the respective project.</target>
+      </trans-unit>
+      <trans-unit id="agb-63-2" datatype="html">
+        <source>( 2 ) Die vorstehenden Haftungsbeschränkungen gelten nicht bei Verletzung von Leben, Körper oder Gesundheit, bei Vorsatz oder grober Fahrlässigkeit sowie bei Ansprüchen nach dem Produkthaftungsgesetz.</source>
+        <target>( 2 ) The above limitations of liability do not apply in the event of injury to life, limb, or health, in the event of intent or gross negligence, or in the case of claims under the Product Liability Act.</target>
       </trans-unit>
       <trans-unit id="agb-61" datatype="html">
-        <source>( 1 ) Werden durch den Kunden Veränderungen an der Leistung vorgenommen, so entfällt die Gewährleistung, wenn der Kunde eine entsprechende substantiierte Behauptung der Auftragnehmerin, dass erst eine solche Veränderung den Mangel herbeigeführt hat, nicht widerlegt.</source>
-        <target>( 1 ) If changes are made to the service by the customer, the warranty becomes void if the customer does not disprove a corresponding substantiated assertion by the contractor that such a change caused the defect.</target>
+        <source>( 3 ) Werden durch den Kunden Veränderungen an der Leistung vorgenommen, so entfällt die Gewährleistung, wenn der Kunde eine entsprechende substantiierte Behauptung der Auftragnehmerin, dass erst eine solche Veränderung den Mangel herbeigeführt hat, nicht widerlegt.</source>
+        <target>( 3 ) If changes to the service are made by the customer, the warranty lapses unless the customer disproves a corresponding substantiated assertion by the contractor that only such a change caused the defect.</target>
       </trans-unit>
       <trans-unit id="agb-62" datatype="html">
-        <source>( 2 ) Werbeangaben Dritter, insbesondere von Herstellern der von uns für die Leistungserbringung verwendeten Software, sind für uns nicht verbindlich.</source>
-        <target>( 2 ) Advertising claims by third parties, in particular by manufacturers of software we use for providing our services, are not binding for us.</target>
+        <source>( 4 ) Werbeangaben Dritter, insbesondere von Herstellern der von uns für die Leistungserbringung verwendeten Software, sind für uns nicht verbindlich.</source>
+        <target>( 4 ) Advertising statements by third parties, in particular by manufacturers of the software used by us to provide the service, are not binding on us.</target>
       </trans-unit>
-      <trans-unit id="agb-63" datatype="html">
-        <source>( 3 ) Soweit der Kunde Kaufmann ist, verjähren die Rechte des Kunden wegen Mängeln der Leistung in einem Jahr ab der Übergabe oder Abnahme der Leistung. Dies gilt auch für die Rechte des Kunden auf Schadensersatz oder Schadensersatz statt der Leistung, auch wegen sämtlicher Schäden an anderen Rechtsgütern des Kunden, die durch den Mangel entstanden sind, es sei denn, es handelt sich um Schäden an Leben, Körper oder Gesundheit des Kunden oder wir haben den Mangel aufgrund Vorsatzes oder grober Fahrlässigkeit zu vertreten.</source>
-        <target>( 3 ) Insofar as the customer is a merchant, the customer's rights due to defects in the service expire one year after the delivery or acceptance of the service. This also applies to the customer's rights to compensation for damages or compensation instead of performance, including for all damages to other legal interests of the customer that were caused by the defect, unless it involves damage to the customer's life, body or health or we are responsible for the defect due to intent or gross negligence.</target>
+      <trans-unit id="agb-63-old" datatype="html">
+        <source>( 5 ) Soweit der Kunde Kaufmann ist, verjähren die Rechte des Kunden wegen Mängeln der Leistung in einem Jahr ab der Übergabe oder Abnahme der Leistung. Dies gilt auch für die Rechte des Kunden auf Schadensersatz oder Schadensersatz statt der Leistung, auch wegen sämtlicher Schäden an anderen Rechtsgütern des Kunden, die durch den Mangel entstanden sind, es sei denn, es handelt sich um Schäden an Leben, Körper oder Gesundheit des Kunden oder wir haben den Mangel aufgrund Vorsatzes oder grober Fahrlässigkeit zu vertreten.</source>
+        <target>( 5 ) Insofar as the customer is a merchant, the customer's rights due to defects in the service expire in one year from the handover or acceptance of the service. This also applies to the customer's rights to compensation for damages or compensation for damages instead of performance, also for all damage to other legal assets of the customer caused by the defect, unless it concerns damage to life, body or health of the customer or we are responsible for the defect due to intent or gross negligence.</target>
       </trans-unit>
       <trans-unit id="agb-64" datatype="html">
         <source>§12 Vertragsunterlagen, Pfandrecht</source>
@@ -1261,8 +1269,8 @@
         <target>become necessary if we are lawfully required to disclose your data by a state or authority in accordance with Art. 6(1)(c) GDPR.</target>
       </trans-unit>
       <trans-unit id="agb-80" datatype="html">
-        <source>Eine Weitergabe der personenbezogenen Daten des Kunden an Dritte erfolgt ausschließlich an die im Rahmen der Vertragsabwicklung beteiligten Dienstleistungspartner, wie z.B. Subunternehmen, Hoster und sonstige Dritte. Soweit erforderlich, haben wir mit den Dritten Verträge geschlossen, die eine Verarbeitung der Daten in unserem Auftrag vorsehen. Soweit Daten außerhalb der EU weitergegeben werden, ist für eine Gleichwertigkeit des Datenschutzes gesorgt, bei einer Weitergabe in die USA erfolgt diese nur an Unternehmen, die bei privacy shield registriert sind. In den Fällen der Weitergabe von personenbezogenen Daten des Kunden an Dritte beschränkt sich der Umfang der übermittelten Daten auf das erforderliche Minimum.</source>
-        <target>The disclosure of the customer's personal data to third parties is limited to the service partners involved in the execution of the contract, such as subcontractors, hosting providers, and other third parties. Where necessary, we have entered into agreements with these third parties that provide for the processing of data on our behalf. If data is transferred outside the EU, we ensure an equivalent level of data protection. In the case of transfers to the USA, this is done only to companies registered with the Privacy Shield. In instances of disclosing the customer's personal data to third parties, the extent of the transmitted data is limited to the necessary minimum.</target>
+        <source>Eine Weitergabe der personenbezogenen Daten des Kunden an Dritte erfolgt ausschließlich an die im Rahmen der Vertragsabwicklung beteiligten Dienstleistungspartner, wie z.B. Subunternehmen, Hoster und sonstige Dritte. Soweit erforderlich, haben wir mit den Dritten Verträge geschlossen, die eine Verarbeitung der Daten in unserem Auftrag vorsehen. Soweit Daten außerhalb der EU weitergegeben werden, ist für eine Gleichwertigkeit des Datenschutzes gesorgt, bei einer Weitergabe in die USA erfolgt diese nur an Unternehmen, die unter dem EU-U.S. Data Privacy Framework zertifiziert sind oder durch Standardvertragsklauseln abgesichert sind. In den Fällen der Weitergabe von personenbezogenen Daten des Kunden an Dritte beschränkt sich der Umfang der übermittelten Daten auf das erforderliche Minimum.</source>
+        <target>The disclosure of the customer's personal data to third parties is limited to the service partners involved in the execution of the contract, such as subcontractors, hosting providers, and other third parties. Where necessary, we have entered into agreements with these third parties that provide for the processing of data on our behalf. If data is transferred outside the EU, we ensure an equivalent level of data protection. In the case of transfers to the USA, this is done only to companies certified under the EU-U.S. Data Privacy Framework or secured by standard contractual clauses. In instances of disclosing the customer's personal data to third parties, the extent of the transmitted data is limited to the necessary minimum.</target>
       </trans-unit>
       <trans-unit id="agb-81" datatype="html">
         <source>( 2 ) Der Kunde kann von uns jederzeit kostenfrei Auskunft über die von dem Programmierer über den Kunden gespeicherten personenbezogenen Daten verlangen. Hierbei wird zur Verhinderung von Missbrauch eine Identifikation des Kunden erforderlich. Der Kunde kann von uns jederzeit Berichtigung unrichtiger Daten verlangen sowie eine Einschränkung ihrer Verarbeitung oder auch ihre Löschung. Wir werden die personenbezogenen Daten des Kunden dann unverzüglich berichtigen, sperren oder gar löschen, sofern dem nicht gesetzliche Gründe entgegenstehen. Der Kunde kann von uns die Übertragung der zu seiner Person gespeicherten Daten in maschinenlesbarer Form verlangen.</source>
@@ -1638,6 +1646,34 @@
       <trans-unit id="form-legal-notice-3" datatype="html">
         <source> einverstanden. Mein Angebot richtet sich ausschließlich an gewerbliche Kunden.</source>
         <target>. My offer is intended exclusively for business customers.</target>
+      </trans-unit>
+      <trans-unit id="agb-59-new" datatype="html">
+        <source>( 5 ) &lt;strong&gt;Background IP:&lt;/strong&gt; Wir behalten uns sämtliche Rechte an vorbestehenden Methoden, Architektur-Patterns, Code-Bibliotheken und Tools vor, die wir in das Projekt einbringen ("Background IP"). Der Kunde erhält an dieser Background IP ein nicht-exklusives, zeitlich unbegrenztes Nutzungsrecht im Rahmen des konkreten Projektergebnisses.</source>
+        <target>( 5 ) &lt;strong&gt;Background IP:&lt;/strong&gt; We reserve all rights to pre-existing methods, architecture patterns, code libraries, and tools that we bring into the project ("Background IP"). The customer receives a non-exclusive, perpetual right of use for this Background IP within the scope of the specific project outcome.</target>
+      </trans-unit>
+      <trans-unit id="agb-ai-title" datatype="html">
+        <source>§16 Einsatz von KI-Technologien</source>
+        <target>§16 Use of AI Technologies</target>
+      </trans-unit>
+      <trans-unit id="agb-ai-1" datatype="html">
+        <source>( 1 ) Wir setzen im Rahmen der Leistungserbringung moderne KI-gestützte Entwicklungswerkzeuge (z. B. Large Language Models) ein, um die Effizienz und Qualität der Ergebnisse zu steigern.</source>
+        <target>( 1 ) We use modern AI-supported development tools (e.g., Large Language Models) in the context of service provision to increase the efficiency and quality of the results.</target>
+      </trans-unit>
+      <trans-unit id="agb-ai-2" datatype="html">
+        <source>( 2 ) Wir stellen sicher, dass durch den Einsatz dieser Werkzeuge keine vertraulichen Daten des Kunden in öffentliche Trainingsdatenbestände gelangen. Es werden ausschließlich Tools mit entsprechenden Datenschutz-Garantien (Enterprise-Lizenzen, Zero-Retention-Policies) oder lokale Instanzen verwendet.</source>
+        <target>( 2 ) We ensure that no confidential data of the customer enters public training data sets through the use of these tools. Only tools with corresponding data protection guarantees (Enterprise licenses, zero-retention policies) or local instances are used.</target>
+      </trans-unit>
+      <trans-unit id="agb-final-title" datatype="html">
+        <source>§17 Schlussbestimmungen, Salvatorische Klausel</source>
+        <target>§17 Final Provisions, Severability Clause</target>
+      </trans-unit>
+      <trans-unit id="agb-final-1" datatype="html">
+        <source>( 1 ) Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts.</source>
+        <target>( 1 ) The law of the Federal Republic of Germany applies, excluding the UN Convention on Contracts for the International Sale of Goods.</target>
+      </trans-unit>
+      <trans-unit id="agb-final-2" datatype="html">
+        <source>( 2 ) Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, so wird die Wirksamkeit der übrigen Bestimmungen hiervon nicht berührt. Anstelle der unwirksamen Bestimmung tritt eine Regelung, die dem wirtschaftlichen Zweck der unwirksamen Bestimmung am nächsten kommt.</source>
+        <target>( 2 ) Should individual provisions of these GTC be or become invalid, the validity of the remaining provisions shall not be affected. In place of the invalid provision, a regulation shall apply that comes closest to the economic purpose of the invalid provision.</target>
       </trans-unit>
     </body>
   </file>
