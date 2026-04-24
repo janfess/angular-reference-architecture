@@ -1363,7 +1363,7 @@
       </trans-unit>
       <trans-unit id="home-hero-description" datatype="html">
         <source>
-        Senior Angular Experte &amp; Solo-Bootstrapper von Triathlon Pace. Spezialisiert auf den Aufbau skalierbarer Enterprise-Anwendungen, 
+        Senior Angular Architekt &amp; Solo-Bootstrapper von Triathlon Pace. Spezialisiert auf den Aufbau skalierbarer Enterprise-Anwendungen, 
         die Optimierung von Performance-Engpässen und die Lieferung hochkarätiger Angular-Lösungen.
       </source>
         <context-group purpose="location">

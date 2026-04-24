@@ -1301,8 +1301,8 @@
         <target>You are currently offline. The form will be submitted once you are online.</target>
       </trans-unit>
       <trans-unit id="about-intro" datatype="html">
-        <source>Senior Angular Experte mit Fokus auf pragmatische Umsetzung. Ich entwickle skalierbare Enterprise-Applikationen, die technische Exzellenz mit nachhaltigen Ergebnissen vereinen.</source>
-        <target>Senior Angular Expert with a focus on pragmatic implementation. I develop scalable enterprise applications that combine technical excellence with sustainable results.</target>
+        <source>Senior Angular Architekt mit Fokus auf pragmatische Umsetzung. Ich entwickle skalierbare Enterprise-Applikationen, die technische Exzellenz mit nachhaltigen Ergebnissen vereinen.</source>
+        <target>Senior Angular Architect with a focus on pragmatic implementation. I develop scalable enterprise applications that combine technical excellence with sustainable results.</target>
       </trans-unit>
       <trans-unit id="home-services-title" datatype="html">
         <source>Expertise &amp; Leistungen</source>
@@ -1550,22 +1550,22 @@
         <target>An initial consultation is non-binding for both sides. My goal is to offer you real value – whether we work together afterward or not.</target>
       </trans-unit>
       <trans-unit id="home-hero-badge" datatype="html">
-        <source>10+ Jahre Enterprise-Erfahrung</source>
+        <source>10+ Jahre Enterprise Erfahrung</source>
         <target>10+ Years of Enterprise Experience</target>
       </trans-unit>
       <trans-unit id="home-hero-title" datatype="html">
         <source>
         Freelance Senior<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
-        Angular Experte
+        Angular Architekt
       </source>
         <target>
         Freelance Senior<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
-        Angular Expert
+        Angular Architect
       </target>
       </trans-unit>
       <trans-unit id="home-hero-description" datatype="html">
-        <source>Senior Angular Experte mit Fokus auf pragmatische Umsetzung. Ich entwickle skalierbare Enterprise-Applikationen, die technische Exzellenz mit nachhaltigen Ergebnissen vereinen.</source>
-        <target>Senior Angular Expert focused on pragmatic engineering. I build scalable enterprise applications that combine technical excellence with sustainable business outcomes.</target>
+        <source>Spezialisiert auf High-Performance Architekturen und die Rettung komplexer Legacy-Codebases. Ich liefere technische Exzellenz mit klarem Fokus auf Ihren ROI.</source>
+        <target>Specialized in high-performance architectures and rescuing complex legacy codebases. I deliver technical excellence with a clear focus on your ROI.</target>
       </trans-unit>
       <trans-unit id="home-hero-btn-1" datatype="html">
         <source>Kostenloses Erstgespräch</source>
