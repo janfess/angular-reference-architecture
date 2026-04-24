@@ -107,8 +107,8 @@
         <target>Activate Appointment Calendar</target>
       </trans-unit>
       <trans-unit id="calendar-consent-text" datatype="html">
-        <source>Ich nutze Google Calendar, um dir eine einfache Terminbuchung zu ermöglichen. Durch das Laden des Kalenders wird eine Verbindung zu Google-Servern hergestellt. Weitere Infos findest du in meiner &lt;a routerLink="/datenschutz" class="text-primary-500 no-underline hover:underline"&gt;Datenschutzerklärung&lt;/a&gt;.</source>
-        <target>I use Google Calendar to provide you with an easy booking experience. Loading the calendar establishes a connection to Google's servers. Further information can be found in my &lt;a routerLink="/datenschutz" class="text-primary-500 no-underline hover:underline"&gt;Privacy Policy&lt;/a&gt;.</target>
+        <source>Um Ihnen eine komfortable Terminbuchung direkt auf der Seite zu ermöglichen, nutze ich Google Calendar. Durch das Laden des Kalenders wird eine Verbindung zu Google-Servern hergestellt. Weitere Infos finden Sie in meiner &lt;a routerLink="/datenschutz" class="text-primary-500 no-underline hover:underline"&gt;Datenschutzerklärung&lt;/a&gt;.</source>
+        <target>I use Google Calendar to provide you with an easy booking experience. Loading the calendar establishes a connection to Google's servers. Further information can be found in my &lt;a routerLink="/privacy-policy" class="text-primary-500 no-underline hover:underline"&gt;Privacy Policy&lt;/a&gt;.</target>
       </trans-unit>
       <trans-unit id="calendar-loading" datatype="html">
         <source>Kalender wird geladen...</source>
